@@ -1,12 +1,14 @@
-# Pickleball Cosmos V1
+# Pickleball Cosmos V2.1
 
-Static launch version for GitHub Pages.
+Minimal premium editorial redesign.
 
-## Deploy
-Upload the contents of this folder to the root of your GitHub repository.
-Then go to Settings → Pages → Deploy from a branch → main → /(root).
+Direction:
+- professional specialist sports publication
+- simple, high-signal homepage
+- one dominant message per section
+- no ticker, fake live-sports chrome, or dashboard clutter
+- strong typography, restrained lime accent
+- source-led article templates and transparent gear methodology
 
+Deploy by replacing the current GitHub Pages site files with the contents of this folder.
 Custom domain: www.pickleballcosmos.com
-
-## Important
-Because this site is designed for a custom root domain, asset links use root-relative paths.
