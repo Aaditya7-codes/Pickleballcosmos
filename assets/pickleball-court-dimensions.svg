@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 1050" role="img" aria-labelledby="title desc">
+  <title id="title">Regulation pickleball court dimensions</title>
+  <desc id="desc">Pickleball Cosmos diagram showing a 20 foot by 44 foot court, 7 foot non-volley zones on each side of the net, 15 foot service areas, and a 10 foot half-width on either side of the centerline.</desc>
+  <rect width="760" height="1050" rx="24" fill="#0c1824"/>
+  <text x="48" y="52" fill="#cfff36" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" letter-spacing="2">PICKLEBALL COSMOS · COURT MAP</text>
+  <text x="48" y="79" fill="#98a6b3" font-family="Arial, Helvetica, sans-serif" font-size="13">Regulation playing lines · singles and doubles</text>
+
+  <!-- Court: 20 ft × 44 ft, drawn proportionally -->
+  <rect x="190" y="110" width="380" height="836" fill="#101f2d" stroke="#f5f7f2" stroke-width="4"/>
+
+  <!-- Non-volley zones: 7 ft each side -->
+  <rect x="190" y="395" width="380" height="133" fill="#172c35"/>
+  <rect x="190" y="528" width="380" height="133" fill="#172c35"/>
+  <line x1="190" y1="395" x2="570" y2="395" stroke="#f5f7f2" stroke-width="4"/>
+  <line x1="190" y1="661" x2="570" y2="661" stroke="#f5f7f2" stroke-width="4"/>
+
+  <!-- Net -->
+  <line x1="174" y1="528" x2="586" y2="528" stroke="#cfff36" stroke-width="6"/>
+  <circle cx="174" cy="528" r="5" fill="#cfff36"/>
+  <circle cx="586" cy="528" r="5" fill="#cfff36"/>
+  <text x="598" y="523" fill="#cfff36" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700">NET</text>
+  <text x="598" y="542" fill="#98a6b3" font-family="Arial, Helvetica, sans-serif" font-size="12">36 in ends</text>
+  <text x="598" y="559" fill="#98a6b3" font-family="Arial, Helvetica, sans-serif" font-size="12">34 in center</text>
+
+  <!-- Centerlines stop at NVZ -->
+  <line x1="380" y1="110" x2="380" y2="395" stroke="#f5f7f2" stroke-width="4"/>
+  <line x1="380" y1="661" x2="380" y2="946" stroke="#f5f7f2" stroke-width="4"/>
+
+  <!-- Zone labels -->
+  <text x="285" y="255" text-anchor="middle" fill="#f5f7f2" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">SERVICE COURT</text>
+  <text x="475" y="255" text-anchor="middle" fill="#f5f7f2" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">SERVICE COURT</text>
+  <text x="285" y="809" text-anchor="middle" fill="#f5f7f2" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">SERVICE COURT</text>
+  <text x="475" y="809" text-anchor="middle" fill="#f5f7f2" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">SERVICE COURT</text>
+  <text x="380" y="472" text-anchor="middle" fill="#cfff36" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">NON-VOLLEY ZONE · 7 FT</text>
+  <text x="380" y="603" text-anchor="middle" fill="#cfff36" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">NON-VOLLEY ZONE · 7 FT</text>
+
+  <!-- Width dimension -->
+  <line x1="190" y1="90" x2="570" y2="90" stroke="#98a6b3" stroke-width="1.5"/>
+  <line x1="190" y1="83" x2="190" y2="97" stroke="#98a6b3" stroke-width="1.5"/>
+  <line x1="570" y1="83" x2="570" y2="97" stroke="#98a6b3" stroke-width="1.5"/>
+  <text x="380" y="83" text-anchor="middle" fill="#f5f7f2" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700">20 FT</text>
+  <text x="285" y="128" text-anchor="middle" fill="#98a6b3" font-family="Arial, Helvetica, sans-serif" font-size="12">10 ft</text>
+  <text x="475" y="128" text-anchor="middle" fill="#98a6b3" font-family="Arial, Helvetica, sans-serif" font-size="12">10 ft</text>
+
+  <!-- Length dimension -->
+  <line x1="604" y1="110" x2="604" y2="946" stroke="#98a6b3" stroke-width="1.5"/>
+  <line x1="597" y1="110" x2="611" y2="110" stroke="#98a6b3" stroke-width="1.5"/>
+  <line x1="597" y1="946" x2="611" y2="946" stroke="#98a6b3" stroke-width="1.5"/>
+  <text x="628" y="340" fill="#f5f7f2" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700">44 FT</text>
+
+  <!-- Service-area depth -->
+  <line x1="145" y1="110" x2="145" y2="395" stroke="#98a6b3" stroke-width="1.5"/>
+  <line x1="138" y1="110" x2="152" y2="110" stroke="#98a6b3" stroke-width="1.5"/>
+  <line x1="138" y1="395" x2="152" y2="395" stroke="#98a6b3" stroke-width="1.5"/>
+  <text x="120" y="248" text-anchor="middle" fill="#98a6b3" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700">15 FT</text>
+  <line x1="145" y1="661" x2="145" y2="946" stroke="#98a6b3" stroke-width="1.5"/>
+  <line x1="138" y1="661" x2="152" y2="661" stroke="#98a6b3" stroke-width="1.5"/>
+  <line x1="138" y1="946" x2="152" y2="946" stroke="#98a6b3" stroke-width="1.5"/>
+  <text x="120" y="804" text-anchor="middle" fill="#98a6b3" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700">15 FT</text>
+
+  <!-- Footer -->
+  <text x="48" y="997" fill="#f5f7f2" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700">20 × 44 ft court · 7 ft kitchen each side · same court for singles and doubles</text>
+  <text x="48" y="1022" fill="#71818d" font-family="Arial, Helvetica, sans-serif" font-size="11">Court proportions are to scale; line widths are schematic. Source: USA Pickleball 2026 rules and court guidance.</text>
+</svg>
