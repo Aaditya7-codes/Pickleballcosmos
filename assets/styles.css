@@ -21,14 +21,14 @@ img,svg{max-width:100%;display:block}
 .container{width:min(var(--max),calc(100% - 40px));margin:auto}
 
 .masthead{background:rgba(7,17,27,.97);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:30;backdrop-filter:blur(10px)}
-.masthead .container{min-height:72px;display:flex;align-items:center;justify-content:space-between;gap:26px}
+.masthead .container{min-height:78px;display:flex;align-items:center;justify-content:space-between;gap:30px}
 .brand{display:inline-flex;align-items:center;gap:11px;font-weight:850;letter-spacing:.015em}
 .brand img{width:31px;height:31px}
 .brand small{display:none}
-.main-nav{display:flex;gap:26px;font-size:.76rem;font-weight:700;letter-spacing:.04em}
-.main-nav a{padding:26px 0;color:#cbd4db;position:relative}
+.main-nav{display:flex;gap:34px;font-size:.9rem;font-weight:750;letter-spacing:.025em}
+.main-nav a{padding:29px 0 27px;color:#dbe3e8;position:relative;transition:color .2s ease}
 .main-nav a:hover,.main-nav a.active{color:#fff}
-.main-nav a:after{content:"";position:absolute;left:0;right:100%;bottom:0;height:2px;background:var(--accent);transition:.2s}
+.main-nav a:after{content:"";position:absolute;left:0;right:100%;bottom:0;height:3px;background:var(--accent);transition:.2s}
 .main-nav a:hover:after,.main-nav a.active:after{right:0}
 .mast-actions{display:none}.menu{display:none;background:none;border:0;color:#fff;font-size:1.35rem}
 
@@ -90,7 +90,7 @@ img,svg{max-width:100%;display:block}
 .newsletter,.mini-stats,.badge,.court-lines,.ghost-number{display:none}
 
 @media(max-width:920px){
-  .main-nav{display:none;position:absolute;left:0;right:0;top:72px;background:#07111b;padding:18px 24px;flex-direction:column;border-bottom:1px solid var(--line)}.main-nav.open{display:flex}.main-nav a{padding:8px 0}.menu{display:block}.hero-grid,.briefing,.data-grid,.gear-lab,.article-shell{grid-template-columns:1fr}.three-grid,.list-grid{grid-template-columns:1fr 1fr}.sidebar{position:static}
+  .masthead .container{min-height:72px}.main-nav{display:none;position:absolute;left:0;right:0;top:72px;background:#07111b;padding:18px 24px;flex-direction:column;border-bottom:1px solid var(--line)}.main-nav.open{display:flex}.main-nav a{padding:9px 0}.menu{display:block}.hero-grid,.briefing,.data-grid,.gear-lab,.article-shell{grid-template-columns:1fr}.three-grid,.list-grid{grid-template-columns:1fr 1fr}.sidebar{position:static}
 }
 @media(max-width:680px){
   .container{width:min(var(--max),calc(100% - 26px))}.masthead .container{min-height:66px}.brand img{width:29px;height:29px}.hero{padding:48px 0}.display{font-size:3.7rem}.section{padding:42px 0}.section-head{align-items:flex-start;flex-direction:column}.three-grid,.list-grid,.gear-list{grid-template-columns:1fr}.index-card{min-height:230px}.article h1{font-size:3.15rem}.list-title{align-items:flex-start;flex-direction:column}.footer-top{grid-template-columns:1fr}.footer-links{grid-template-columns:1fr 1fr}.rule-table{display:block;overflow-x:auto;white-space:normal}.rule-table th,.rule-table td{min-width:150px;padding:12px}
