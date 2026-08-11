@@ -1,0 +1,147 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Pickleball Cosmos Paddle Intelligence Record",
+  "type": "object",
+  "required": ["record_id", "brand", "model", "variant", "sources", "status"],
+  "properties": {
+    "record_id": {"type": "string"},
+    "brand": {"type": "string"},
+    "model": {"type": "string"},
+    "variant": {
+      "type": "object",
+      "properties": {
+        "shape": {"type": ["string", "null"]},
+        "thickness_mm": {"type": ["number", "null"]},
+        "handle_length_in": {"type": ["number", "null"]},
+        "color_or_sku": {"type": ["string", "null"]}
+      }
+    },
+    "status": {
+      "type": "object",
+      "properties": {
+        "active_product": {"type": ["boolean", "null"]},
+        "last_verified": {"type": "string"},
+        "tested_by_cosmos": {"type": "boolean"},
+        "sample_count": {"type": "integer", "minimum": 0}
+      }
+    },
+    "approval": {
+      "type": "object",
+      "properties": {
+        "usap_status": {"type": ["string", "null"]},
+        "usap_added_date": {"type": ["string", "null"]},
+        "usap_record_url": {"type": ["string", "null"]},
+        "upa_a_status": {"type": ["string", "null"]},
+        "approval_checked_date": {"type": ["string", "null"]}
+      }
+    },
+    "manufacturer_specs": {
+      "type": "object",
+      "properties": {
+        "weight_oz_min": {"type": ["number", "null"]},
+        "weight_oz_max": {"type": ["number", "null"]},
+        "weight_oz_nominal": {"type": ["number", "null"]},
+        "length_in": {"type": ["number", "null"]},
+        "width_in": {"type": ["number", "null"]},
+        "thickness_mm": {"type": ["number", "null"]},
+        "handle_length_in": {"type": ["number", "null"]},
+        "grip_circumference_in": {"type": ["number", "null"]},
+        "face_material": {"type": ["string", "null"]},
+        "core_material": {"type": ["string", "null"]},
+        "construction_claim": {"type": ["string", "null"]},
+        "swing_weight_kg_cm2": {"type": ["number", "null"]},
+        "twist_weight_kg_cm2": {"type": ["number", "null"]},
+        "msrp_usd": {"type": ["number", "null"]},
+        "warranty": {"type": ["string", "null"]}
+      }
+    },
+    "independent_measurements": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["source", "date_checked"],
+        "properties": {
+          "source": {"type": "string"},
+          "source_url": {"type": ["string", "null"]},
+          "method_notes": {"type": ["string", "null"]},
+          "static_weight_g": {"type": ["number", "null"]},
+          "balance_cm_from_butt": {"type": ["number", "null"]},
+          "swing_weight_kg_cm2": {"type": ["number", "null"]},
+          "twist_weight_kg_cm2": {"type": ["number", "null"]},
+          "spin_rpm": {"type": ["number", "null"]},
+          "power_metric": {"type": ["number", "string", "null"]},
+          "date_checked": {"type": "string"}
+        }
+      }
+    },
+    "cosmos_measurements": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["sample_id", "method_version", "measurement_date"],
+        "properties": {
+          "sample_id": {"type": "string"},
+          "method_version": {"type": "string"},
+          "measurement_date": {"type": "string"},
+          "condition": {"enum": ["new", "used", "durability-check"]},
+          "stock_state": {"type": "boolean"},
+          "static_weight_g": {"type": ["number", "null"]},
+          "balance_cm_from_butt": {"type": ["number", "null"]},
+          "length_mm": {"type": ["number", "null"]},
+          "width_mm": {"type": ["number", "null"]},
+          "thickness_mm": {"type": ["number", "null"]},
+          "handle_length_mm": {"type": ["number", "null"]},
+          "grip_circumference_mm": {"type": ["number", "null"]},
+          "swing_weight_kg_cm2": {"type": ["number", "null"]},
+          "swing_weight_reference_axis_cm": {"type": ["number", "null"]},
+          "twist_weight_kg_cm2": {"type": ["number", "null"]},
+          "temperature_c": {"type": ["number", "null"]},
+          "relative_humidity_pct": {"type": ["number", "null"]},
+          "raw_data_location": {"type": ["string", "null"]},
+          "qa_notes": {"type": ["string", "null"]}
+        }
+      }
+    },
+    "market": {
+      "type": "object",
+      "properties": {
+        "current_price_usd": {"type": ["number", "null"]},
+        "price_checked_date": {"type": ["string", "null"]},
+        "availability": {"type": ["string", "null"]},
+        "retailers": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {"type": "string"},
+              "url": {"type": ["string", "null"]},
+              "authorized_status": {"type": ["string", "null"]}
+            }
+          }
+        }
+      }
+    },
+    "editorial": {
+      "type": "object",
+      "properties": {
+        "category_tags": {"type": "array", "items": {"type": "string"}},
+        "comparison_set": {"type": "array", "items": {"type": "string"}},
+        "review_url": {"type": ["string", "null"]},
+        "notes": {"type": ["string", "null"]}
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["type", "url", "checked_date"],
+        "properties": {
+          "type": {"enum": ["governing-body", "manufacturer", "retailer", "peer-reviewed", "independent-measurement", "other"]},
+          "url": {"type": "string"},
+          "checked_date": {"type": "string"},
+          "notes": {"type": ["string", "null"]}
+        }
+      }
+    }
+  }
+}
