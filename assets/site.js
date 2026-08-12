@@ -46,6 +46,41 @@
     }
   });
 
+  if (path === '/data/pickleball-courts-by-state-2026/' || path === '/data/pickleball-courts-by-state-2026/index.html') {
+    const article = document.querySelector('.article');
+    if (article && !article.querySelector('[data-cosmos-infrastructure-visual]')) {
+      const makeFigure = (src, alt, caption) => {
+        const figure = document.createElement('figure');
+        figure.dataset.cosmosInfrastructureVisual = 'true';
+        figure.style.margin = '34px 0';
+        figure.innerHTML = `<img src="${src}" alt="${alt}" loading="lazy" style="width:100%;height:auto;display:block;border:1px solid #21303d;border-radius:12px;background:#07111b"><figcaption style="margin-top:10px;color:#92a0aa;font-size:.82rem;line-height:1.5">${caption}</figcaption>`;
+        return figure;
+      };
+
+      const headings = [...article.querySelectorAll('h2')];
+      const perCapita = headings.find((h) => h.textContent.trim() === 'The states with the most courts per 100,000 residents');
+      if (perCapita) {
+        perCapita.insertAdjacentElement('beforebegin', makeFigure(
+          '/assets/us-courts-per-capita-tilemap-2026.svg',
+          'Tile map of all 50 U.S. states showing known pickleball courts per 100,000 residents in the 2026 Pickleball Cosmos infrastructure baseline.',
+          'Pickleball Cosmos 2026 court-density tile map. Court counts come from the dated Pickleheads state-directory snapshot; population denominators are U.S. Census Bureau Vintage 2025 estimates. The colors describe listed infrastructure density, not participation demand.'
+        ));
+      }
+
+      const reversals = headings.find((h) => h.textContent.trim() === 'The biggest rank reversals');
+      if (reversals) {
+        const nextHeading = headings[headings.indexOf(reversals) + 1];
+        const rankFigure = makeFigure(
+          '/assets/us-court-rank-shifts-2026.svg',
+          'Chart comparing total-court rank with courts-per-capita rank for the twelve U.S. states with the largest rank shifts.',
+          'The 12 largest differences between total-court rank and courts-per-capita rank. A higher per-capita position does not imply stronger demand; it means listed court supply is high relative to resident population.'
+        );
+        if (nextHeading) nextHeading.insertAdjacentElement('beforebegin', rankFigure);
+        else article.appendChild(rankFigure);
+      }
+    }
+  }
+
   document.querySelectorAll('.footer').forEach((footer) => {
     footer.innerHTML = `<div class="container">
       <div class="footer-top">
