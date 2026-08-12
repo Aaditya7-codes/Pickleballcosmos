@@ -1,0 +1,123 @@
+{
+  "dataset_name": "Pickleball Cosmos U.S. Court Infrastructure Database — 2026 Baseline",
+  "identifier": "PC-US-COURTS-2026-V1",
+  "version": "2026.1",
+  "published": "2026-08-12",
+  "court_directory_snapshot_date": "2026-08-12",
+  "population_reference_date": "2025-07-01",
+  "geographic_scope": "50 U.S. states; District of Columbia and U.S. territories excluded from rankings",
+  "row_count": 50,
+  "landing_page": "https://www.pickleballcosmos.com/data/pickleball-courts-by-state-2026/",
+  "distribution": {
+    "format": "text/csv",
+    "url": "https://www.pickleballcosmos.com/data/us-state-court-infrastructure-2026.csv"
+  },
+  "sources": [
+    {
+      "name": "Pickleheads — U.S. state court directory",
+      "url": "https://www.pickleheads.com/courts/us",
+      "retrieved": "2026-08-12",
+      "used_for": [
+        "listed court counts",
+        "listed location counts"
+      ]
+    },
+    {
+      "name": "U.S. Census Bureau — Vintage 2025 National and State Population Estimates",
+      "url": "https://www.census.gov/newsroom/press-kits/2026/national-state-population-estimates.html",
+      "reference_date": "2025-07-01",
+      "used_for": [
+        "resident population denominator"
+      ]
+    },
+    {
+      "name": "USA Pickleball — 2025 Annual Growth Report",
+      "url": "https://usapickleball.org/about/annual-growth-report/",
+      "used_for": [
+        "national-source cross-check and context"
+      ]
+    }
+  ],
+  "normalization": {
+    "rule": "Use only canonical full-name rows for the 50 U.S. states.",
+    "excluded_rows": [
+      "CA",
+      "MI",
+      "NC",
+      "District of Columbia",
+      "Puerto Rico",
+      "Virgin Islands",
+      "United States"
+    ],
+    "reason": "Abbreviated rows could not be established as unique rather than duplicate classifications; D.C., territories and aggregate rows are outside the 50-state ranking scope."
+  },
+  "calculations": {
+    "courts_per_100k": "courts / population * 100000",
+    "locations_per_100k": "locations / population * 100000",
+    "courts_per_location": "courts / locations",
+    "ranking": "descending; rank 1 is highest"
+  },
+  "fields": [
+    {
+      "name": "state",
+      "type": "text",
+      "description": "Canonical U.S. state name"
+    },
+    {
+      "name": "population",
+      "type": "integer",
+      "description": "U.S. Census Bureau Vintage 2025 resident population estimate for July 1, 2025"
+    },
+    {
+      "name": "locations",
+      "type": "integer",
+      "description": "Listed pickleball locations in the dated Pickleheads state-directory snapshot"
+    },
+    {
+      "name": "courts",
+      "type": "integer",
+      "description": "Listed pickleball courts in the dated Pickleheads state-directory snapshot"
+    },
+    {
+      "name": "courts_per_100k",
+      "type": "number",
+      "description": "Pickleball Cosmos calculation: courts per 100,000 residents"
+    },
+    {
+      "name": "locations_per_100k",
+      "type": "number",
+      "description": "Pickleball Cosmos calculation: locations per 100,000 residents"
+    },
+    {
+      "name": "courts_per_location",
+      "type": "number",
+      "description": "Pickleball Cosmos calculation: listed courts divided by listed locations"
+    },
+    {
+      "name": "rank_courts",
+      "type": "integer",
+      "description": "Rank by listed court count"
+    },
+    {
+      "name": "rank_courts_per_100k",
+      "type": "integer",
+      "description": "Rank by courts per 100,000 residents"
+    },
+    {
+      "name": "rank_locations_per_100k",
+      "type": "integer",
+      "description": "Rank by locations per 100,000 residents"
+    },
+    {
+      "name": "vs_us_avg_pct",
+      "type": "number",
+      "description": "Percent difference from the 50-state aggregate courts-per-100,000 rate"
+    }
+  ],
+  "rights_note": "Pickleball Cosmos claims authorship of its calculations, normalization decisions, rankings and analysis. Underlying third-party source inputs remain subject to the rights and terms of their respective publishers. No open-data license is asserted for the Pickleheads directory inputs.",
+  "citation": "Pickleball Cosmos Editorial. Pickleball Cosmos U.S. Court Infrastructure Database — 2026 Baseline, version 2026.1. Pickleball Cosmos, August 12, 2026.",
+  "press_assets": [
+    "https://www.pickleballcosmos.com/assets/us-courts-per-capita-tilemap-2026.svg",
+    "https://www.pickleballcosmos.com/assets/us-court-rank-shifts-2026.svg"
+  ]
+}
