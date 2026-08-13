@@ -1,0 +1,53 @@
+name: Paddle Approval Watch
+
+on:
+  schedule:
+    - cron: "17 14 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: paddle-approval-watch
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install monitor dependencies
+        run: python -m pip install --disable-pip-version-check requests beautifulsoup4
+
+      - name: Run parser and diff tests
+        run: python -m unittest tests/test_paddle_watch.py -v
+
+      - name: Check USA Pickleball source state
+        id: watch
+        run: python tools/paddle_watch.py monitor --repo-root .
+
+      - name: Commit preserved observation when source state changed
+        if: steps.watch.outputs.changed == 'true'
+        run: |
+          git config user.name "Pickleball Cosmos Data Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add research/paddle-watch
+          if git diff --cached --quiet; then
+            echo "No files changed after monitor run."
+            exit 0
+          fi
+          git commit -m "Update Paddle Approval Watch observation"
+          git pull --rebase origin main
+          git push origin HEAD:main
