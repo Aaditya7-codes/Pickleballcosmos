@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
 Sitemap: https://www.pickleballcosmos.com/sitemap.xml
+Sitemap: https://www.pickleballcosmos.com/sitemap-rules.xml
