@@ -1,0 +1,77 @@
+{
+  "snapshot_id": "PC-PADDLE-WATCH-2026-08-13-V1",
+  "snapshot_date": "2026-08-13",
+  "publisher": "Pickleball Cosmos Editorial",
+  "scope": "Curated editorial baseline of USA Pickleball paddle approval/compliance state; not a full mirror of the equipment database.",
+  "source_of_record": {
+    "approved_paddle_list": "https://equipment.usapickleball.org/view/paddle-list/",
+    "compliance_report": "https://equipment.usapickleball.org/compliance/",
+    "equipment_faq": "https://equipment.usapickleball.org/equipment-submission-faq/",
+    "certification_updates": "https://usapickleball.org/equipment/paddle-certification-updates/"
+  },
+  "limitations": [
+    "USA Pickleball's live database remains the source of record for sanctioned-play eligibility.",
+    "This snapshot captures a compact recent-approval slice and the public compliance board rather than republishing the full database.",
+    "A status can change after the snapshot date.",
+    "Under Investigation is preserved as a distinct status and is not treated as equivalent to removal.",
+    "Approval status is not a Pickleball Cosmos performance test or product endorsement."
+  ],
+  "compliance_board": [
+    {
+      "brand": "Proton Sports Inc",
+      "models": "Series Three Project Peacock - S3PE15",
+      "status": "Under Investigation",
+      "report_date": "2026-05-28"
+    },
+    {
+      "brand": "Speedup",
+      "models": "Tide 14S",
+      "status": "Under Investigation",
+      "report_date": "2026-05-27"
+    },
+    {
+      "brand": "Facolos",
+      "models": "Pro Series - Elite X",
+      "status": "Removed from USAP Approved List",
+      "report_date": "2026-03-24"
+    },
+    {
+      "brand": "R.A.W. Reign and Win",
+      "models": "Multiple",
+      "status": "Compliance Issue Resolved",
+      "report_date": "2026-03-11"
+    },
+    {
+      "brand": "Six Zero",
+      "models": "Ruby Pro 14MM",
+      "status": "Under Investigation",
+      "report_date": "2025-11-20"
+    }
+  ],
+  "recent_approvals": [
+    {"list_date":"2026-07-23","manufacturer":"2Good","model":"Level up","status":"Pass"},
+    {"list_date":"2026-07-23","manufacturer":"Aireo","model":"Cyclone 509511","status":"Pass"},
+    {"list_date":"2026-07-23","manufacturer":"CPX","model":"HYPER+","status":"Pass"},
+    {"list_date":"2026-07-23","manufacturer":"E6 Pickleball","model":"Ignis","status":"Pass"},
+    {"list_date":"2026-07-23","manufacturer":"Franklin Sports","model":"Gem Carbon","status":"Pass"},
+    {"list_date":"2026-07-22","manufacturer":"Evolv Pickleball","model":"Origin","status":"Pass"},
+    {"list_date":"2026-07-22","manufacturer":"R.A.W. Reign And Win","model":"APIS DORSATA EXCLUDER PRO FOAM CORE 4.0","status":"Pass"},
+    {"list_date":"2026-07-21","manufacturer":"Azgairit","model":"Reactor T700 CARBON FIBER 16mm","status":"Pass"},
+    {"list_date":"2026-07-21","manufacturer":"Branded Pickleball","model":"BP Classic","status":"Pass"},
+    {"list_date":"2026-07-21","manufacturer":"Branded Pickleball","model":"BP Pro","status":"Pass"},
+    {"list_date":"2026-07-21","manufacturer":"DadGum Paddles","model":"Freedom","status":"Pass"},
+    {"list_date":"2026-07-21","manufacturer":"Mark","model":"2026","status":"Pass"},
+    {"list_date":"2026-07-21","manufacturer":"neonic","model":"ember ultra","status":"Pass"},
+    {"list_date":"2026-07-21","manufacturer":"Ramsports","model":"Typhoon Widebody 14mm","status":"Pass"},
+    {"list_date":"2026-07-21","manufacturer":"Vatic Pro","model":"V-Sol Tour Flash SH 16mm","status":"Pass"}
+  ],
+  "derived_baseline": {
+    "compliance_records": 5,
+    "under_investigation": 3,
+    "removed": 1,
+    "resolved": 1,
+    "recent_approval_rows": 15,
+    "unique_manufacturers_in_recent_slice": 14,
+    "latest_list_date_in_recent_slice": "2026-07-23"
+  }
+}
