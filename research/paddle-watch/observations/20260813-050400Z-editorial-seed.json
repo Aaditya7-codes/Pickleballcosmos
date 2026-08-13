@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.0",
+  "observation_id": "PC-PADDLE-WATCH-20260813-050400Z-EDITORIAL-SEED",
+  "observed_at_utc": "2026-08-13T05:04:00Z",
+  "publisher": "Pickleball Cosmos Editorial",
+  "scope": "Newest visible USA Pickleball approval page plus the complete public Paddle Compliance Report; not a full database mirror.",
+  "source_of_record": {
+    "approved_paddle_list": "https://equipment.usapickleball.org/paddle-list/",
+    "compliance_report": "https://equipment.usapickleball.org/compliance/",
+    "equipment_faq": "https://equipment.usapickleball.org/equipment-submission-faq/"
+  },
+  "source_evidence": {
+    "approved_paddle_list": {
+      "url": "https://equipment.usapickleball.org/paddle-list/",
+      "retrieval_mode": "editorial seed from official public page",
+      "sha256_html": null
+    },
+    "compliance_report": {
+      "url": "https://equipment.usapickleball.org/compliance/",
+      "retrieval_mode": "editorial seed from official public page",
+      "sha256_html": null
+    }
+  },
+  "approved_list": {
+    "display_start": 1,
+    "display_end": 25,
+    "approved_list_total": 5304,
+    "recent_approvals": [
+      {"manufacturer": "Ash Pickleball (a brand of Daevia Technologies Inc.)", "model": "Ember", "added_date": "2026-08-07"},
+      {"manufacturer": "dawntiger", "model": "Rising", "added_date": "2026-08-07"},
+      {"manufacturer": "Franklin Sports", "model": "Raw Power RP1 16MM", "added_date": "2026-08-07"},
+      {"manufacturer": "Franklin Sports", "model": "Raw Control RC1 16MM", "added_date": "2026-08-07"},
+      {"manufacturer": "Juciao", "model": "RAPTOR", "added_date": "2026-08-07"},
+      {"manufacturer": "Pikbain", "model": "DAYA-SKYWARD", "added_date": "2026-08-07"},
+      {"manufacturer": "Bosino", "model": "Performer", "added_date": "2026-08-06"},
+      {"manufacturer": "Bosino", "model": "STARTER", "added_date": "2026-08-06"},
+      {"manufacturer": "Engage Pickleball", "model": "Pursuit Pro2", "added_date": "2026-08-06"},
+      {"manufacturer": "Engage Pickleball", "model": "Axiom Widebody 14mm", "added_date": "2026-08-06"},
+      {"manufacturer": "Engage Pickleball", "model": "Axiom Widebody 16mm", "added_date": "2026-08-06"},
+      {"manufacturer": "Hudef Sports", "model": "H-BLITZ", "added_date": "2026-08-06"},
+      {"manufacturer": "Jeonpickleball", "model": "PRODIGY", "added_date": "2026-08-06"},
+      {"manufacturer": "Mission First", "model": "Project Matic", "added_date": "2026-08-06"},
+      {"manufacturer": "Orca Paddle Company", "model": "Ignite", "added_date": "2026-08-06"},
+      {"manufacturer": "Orca Paddle Company", "model": "Drive", "added_date": "2026-08-06"},
+      {"manufacturer": "Orca Paddle Company", "model": "Wave", "added_date": "2026-08-06"},
+      {"manufacturer": "PICKLE POPPERS", "model": "POP N Pink - Petite", "added_date": "2026-08-06"},
+      {"manufacturer": "PROTECH", "model": "STORM", "added_date": "2026-08-06"},
+      {"manufacturer": "SEEKCO", "model": "BI-NUCLEUS", "added_date": "2026-08-06"},
+      {"manufacturer": "SIWPC", "model": "Dante 2.0", "added_date": "2026-08-06"},
+      {"manufacturer": "Vatic Pro", "model": "V-Sol Tour Bloom 16mm", "added_date": "2026-08-06"},
+      {"manufacturer": "Vatic Pro", "model": "V-Sol Tour Flash LH 16mm", "added_date": "2026-08-06"},
+      {"manufacturer": "Vatic Pro", "model": "V-Sol Tour Elongated 16mm", "added_date": "2026-08-06"},
+      {"manufacturer": "YoPals", "model": "Cyclone 007", "added_date": "2026-08-06"}
+    ]
+  },
+  "compliance_report": {
+    "display_start": 1,
+    "display_end": 5,
+    "compliance_total": 5,
+    "compliance_board": [
+      {"brand": "Proton Sports Inc", "models": "Series Three Project Peacock - S3PE15", "report_date": "2026-05-28", "status": "Under Investigation"},
+      {"brand": "Speedup", "models": "Tide 14S", "report_date": "2026-05-27", "status": "Under Investigation"},
+      {"brand": "Facolos", "models": "Pro Series - Elite X", "report_date": "2026-03-24", "status": "Removed from USAP Approved List"},
+      {"brand": "R.A.W. Reign and Win", "models": "Multiple", "report_date": "2026-03-11", "status": "Compliance Issue Resolved"},
+      {"brand": "Six Zero", "models": "Ruby Pro 14MM", "report_date": "2025-11-20", "status": "Under Investigation"}
+    ]
+  },
+  "editorial_guardrails": [
+    "USA Pickleball's live database remains the source of record for sanctioned-play eligibility.",
+    "Rows leaving the recent-approval window are not removals or decertifications.",
+    "A compliance record disappearing from the board is not automatically resolved.",
+    "Under Investigation is not equivalent to Removed from USAP Approved List.",
+    "Approval is a compliance status, not a Pickleball Cosmos performance test or endorsement.",
+    "The monitor detects changes; editorial conclusions require verification before publication."
+  ]
+}
