@@ -7,6 +7,15 @@
     ['/stories/', 'Stories'],
     ['/about/', 'About']
   ];
+  const buttondownEndpoint = 'https://buttondown.com/api/emails/embed-subscribe/pickleballcosmos';
+  const briefingForm = (source, buttonLabel = 'Join the Briefing') => `<form class="newsletter-form" action="${buttondownEndpoint}" method="post" aria-label="Subscribe to Cosmos Briefing">
+    <label class="eyebrow" for="briefing-email-${source}">Email address</label>
+    <input id="briefing-email-${source}" type="email" name="email" placeholder="you@example.com" autocomplete="email" inputmode="email" required>
+    <input type="hidden" name="embed" value="1">
+    <input type="hidden" name="tag" value="cosmos-${source}">
+    <button type="submit">${buttonLabel}</button>
+    <p class="newsletter-note">Free weekly email. Unsubscribe anytime. <a href="/privacy.html">Privacy →</a></p>
+  </form>`;
 
   document.querySelectorAll('.masthead').forEach((header) => {
     const container = header.querySelector('.container');
@@ -46,13 +55,20 @@
     }
   });
 
+  if (path === '/' || path === '/index.html') {
+    const homeNewsletter = [...document.querySelectorAll('.newsletter')].find((node) => !node.dataset.cosmosBriefing);
+    if (homeNewsletter && homeNewsletter.children[1]) {
+      homeNewsletter.children[1].innerHTML = briefingForm('homepage');
+    }
+  }
+
   const article = document.querySelector('.article');
   if (article && !path.startsWith('/about/') && !path.startsWith('/editorial/') && !path.startsWith('/methodology/') && !path.startsWith('/corrections/') && !article.querySelector('[data-cosmos-briefing]')) {
     const briefing = document.createElement('section');
     briefing.className = 'newsletter';
     briefing.dataset.cosmosBriefing = 'true';
     briefing.style.marginTop = '42px';
-    briefing.innerHTML = `<div><div class="eyebrow">Cosmos Briefing</div><h2>One useful pickleball email a week.</h2><p>Rules changes, original data, rankings, equipment developments and the strongest new reporting — without daily churn.</p><div class="newsletter-meta"><span>Weekly</span><span>Free</span><span>Evidence-led</span></div></div><div><a class="newsletter-button" href="/briefing/">See the Briefing →</a><p class="newsletter-note" style="margin-top:10px">Subscriber signups are opening shortly.</p></div>`;
+    briefing.innerHTML = `<div><div class="eyebrow">Cosmos Briefing</div><h2>One useful pickleball email a week.</h2><p>Rules changes, original data, rankings, equipment developments and the strongest new reporting — without daily churn.</p><div class="newsletter-meta"><span>Weekly</span><span>Free</span><span>Evidence-led</span></div></div><div>${briefingForm('article')}</div>`;
     const sourceBox = article.querySelector('.source-box');
     if (sourceBox) sourceBox.insertAdjacentElement('beforebegin', briefing);
     else article.appendChild(briefing);
