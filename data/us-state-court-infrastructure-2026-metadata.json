@@ -12,6 +12,11 @@
     "format": "text/csv",
     "url": "https://www.pickleballcosmos.com/data/us-state-court-infrastructure-2026.csv"
   },
+  "license": {
+    "name": "Pickleball Cosmos Dataset Use Terms",
+    "url": "https://www.pickleballcosmos.com/data/dataset-terms/",
+    "scope_note": "The use terms govern Pickleball Cosmos-created calculations, normalization, metadata and analysis while preserving third-party rights in underlying source inputs. No blanket open-data license is asserted for third-party directory data."
+  },
   "sources": [
     {
       "name": "Pickleheads — U.S. state court directory",
@@ -114,7 +119,7 @@
       "description": "Percent difference from the 50-state aggregate courts-per-100,000 rate"
     }
   ],
-  "rights_note": "Pickleball Cosmos claims authorship of its calculations, normalization decisions, rankings and analysis. Underlying third-party source inputs remain subject to the rights and terms of their respective publishers. No open-data license is asserted for the Pickleheads directory inputs.",
+  "rights_note": "Pickleball Cosmos claims authorship of its calculations, normalization decisions, rankings, metadata and analysis. Underlying third-party source inputs remain subject to the rights and terms of their respective publishers. No open-data license is asserted for the Pickleheads directory inputs.",
   "citation": "Pickleball Cosmos Editorial. Pickleball Cosmos U.S. Court Infrastructure Database — 2026 Baseline, version 2026.1. Pickleball Cosmos, August 12, 2026.",
   "press_assets": [
     "https://www.pickleballcosmos.com/assets/us-courts-per-capita-tilemap-2026.svg",
