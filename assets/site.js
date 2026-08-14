@@ -91,6 +91,14 @@
         else article.appendChild(rankFigure);
       }
     }
+
+    const datasetRecord = document.querySelector('#dataset-record tbody');
+    if (datasetRecord && !datasetRecord.querySelector('[data-dataset-terms-row]')) {
+      const row = document.createElement('tr');
+      row.dataset.datasetTermsRow = 'true';
+      row.innerHTML = '<td><strong>Use terms</strong></td><td><a class="source-link" href="/data/dataset-terms/">Dataset Use Terms — third-party source rights preserved</a></td>';
+      datasetRecord.appendChild(row);
+    }
   }
 
   document.querySelectorAll('.footer').forEach((footer) => {
@@ -146,6 +154,19 @@
             '@type': 'ImageObject',
             url: 'https://www.pickleballcosmos.com/assets/logo.svg'
           }
+        };
+        script.textContent = JSON.stringify(data);
+      }
+      if (data['@type'] === 'Dataset') {
+        data.publisher = {
+          '@type': 'Organization',
+          name: 'Pickleball Cosmos',
+          url: 'https://www.pickleballcosmos.com/'
+        };
+        data.license = {
+          '@type': 'CreativeWork',
+          name: 'Pickleball Cosmos Dataset Use Terms',
+          url: 'https://www.pickleballcosmos.com/data/dataset-terms/'
         };
         script.textContent = JSON.stringify(data);
       }
