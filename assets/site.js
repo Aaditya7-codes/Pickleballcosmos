@@ -48,13 +48,6 @@
     });
   }
 
-  document.querySelectorAll('.byline span:first-child').forEach((node) => {
-    if (node.querySelector('a')) return;
-    if (node.textContent.trim() === 'By Pickleball Cosmos Editorial') {
-      node.innerHTML = 'By <a class="source-link" href="/editorial/">Pickleball Cosmos Editorial</a>';
-    }
-  });
-
   if (path === '/' || path === '/index.html') {
     const homeNewsletter = [...document.querySelectorAll('.newsletter')].find((node) => !node.dataset.cosmosBriefing);
     if (homeNewsletter && homeNewsletter.children[1] && !homeNewsletter.querySelector('form.newsletter-form')) {
@@ -136,64 +129,5 @@
 
   document.querySelectorAll('[data-current-year]').forEach((node) => {
     node.textContent = new Date().getFullYear();
-  });
-
-  const socialImage = 'https://www.pickleballcosmos.com/assets/social-card.svg';
-  const ensureMeta = (selector, attr, value) => {
-    let node = document.querySelector(selector);
-    if (!node) {
-      node = document.createElement('meta');
-      const [key, name] = selector.includes('property=') ? ['property', selector.match(/property="([^"]+)/)[1]] : ['name', selector.match(/name="([^"]+)/)[1]];
-      node.setAttribute(key, name);
-      document.head.appendChild(node);
-    }
-    node.setAttribute(attr, value);
-  };
-  ensureMeta('meta[property="og:image"]', 'content', socialImage);
-  ensureMeta('meta[name="twitter:image"]', 'content', socialImage);
-
-  document.querySelectorAll('script[type="application/ld+json"]').forEach((script) => {
-    try {
-      const data = JSON.parse(script.textContent);
-      if (data['@type'] === 'Article' || data['@type'] === 'NewsArticle') {
-        data.author = {
-          '@type': 'Organization',
-          name: 'Pickleball Cosmos Editorial',
-          url: 'https://www.pickleballcosmos.com/editorial/'
-        };
-        data.image = data.image || socialImage;
-        data.publisher = {
-          '@type': 'NewsMediaOrganization',
-          name: 'Pickleball Cosmos',
-          url: 'https://www.pickleballcosmos.com/',
-          logo: {
-            '@type': 'ImageObject',
-            url: 'https://www.pickleballcosmos.com/assets/logo.svg'
-          }
-        };
-        script.textContent = JSON.stringify(data);
-      }
-      if (data['@type'] === 'Dataset') {
-        data.publisher = {
-          '@type': 'Organization',
-          name: 'Pickleball Cosmos',
-          url: 'https://www.pickleballcosmos.com/'
-        };
-        data.license = {
-          '@type': 'CreativeWork',
-          name: 'Pickleball Cosmos Dataset Use Terms',
-          url: 'https://www.pickleballcosmos.com/data/dataset-terms/'
-        };
-        script.textContent = JSON.stringify(data);
-      }
-      if (data['@type'] === 'NewsMediaOrganization') {
-        data.url = 'https://www.pickleballcosmos.com/';
-        data.publishingPrinciples = 'https://www.pickleballcosmos.com/methodology/';
-        data.correctionsPolicy = 'https://www.pickleballcosmos.com/corrections/';
-        script.textContent = JSON.stringify(data);
-      }
-    } catch (_) {
-      // Leave valid page content untouched if a structured-data block cannot be parsed.
-    }
   });
 })();
