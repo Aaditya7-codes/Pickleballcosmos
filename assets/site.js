@@ -57,8 +57,8 @@
 
   if (path === '/' || path === '/index.html') {
     const homeNewsletter = [...document.querySelectorAll('.newsletter')].find((node) => !node.dataset.cosmosBriefing);
-    if (homeNewsletter && homeNewsletter.children[1]) {
-      homeNewsletter.children[1].innerHTML = briefingForm('homepage');
+    if (homeNewsletter && homeNewsletter.children[1] && !homeNewsletter.querySelector('form.newsletter-form')) {
+      homeNewsletter.children[1].innerHTML = `${briefingForm('homepage')}<div class="newsletter-launch">A compact weekly read from Pickleball Cosmos. Want more context first? <a href="/briefing/">See what the briefing covers →</a></div>`;
     }
   }
 
