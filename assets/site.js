@@ -46,6 +46,18 @@
     }
   });
 
+  const article = document.querySelector('.article');
+  if (article && !path.startsWith('/about/') && !path.startsWith('/editorial/') && !path.startsWith('/methodology/') && !path.startsWith('/corrections/') && !article.querySelector('[data-cosmos-briefing]')) {
+    const briefing = document.createElement('section');
+    briefing.className = 'newsletter';
+    briefing.dataset.cosmosBriefing = 'true';
+    briefing.style.marginTop = '42px';
+    briefing.innerHTML = `<div><div class="eyebrow">Cosmos Briefing</div><h2>One useful pickleball email a week.</h2><p>Rules changes, original data, rankings, equipment developments and the strongest new reporting — without daily churn.</p><div class="newsletter-meta"><span>Weekly</span><span>Free</span><span>Evidence-led</span></div></div><div><a class="newsletter-button" href="/briefing/">See the Briefing →</a><p class="newsletter-note" style="margin-top:10px">Subscriber signups are opening shortly.</p></div>`;
+    const sourceBox = article.querySelector('.source-box');
+    if (sourceBox) sourceBox.insertAdjacentElement('beforebegin', briefing);
+    else article.appendChild(briefing);
+  }
+
   if (path === '/data/pickleball-courts-by-state-2026/' || path === '/data/pickleball-courts-by-state-2026/index.html') {
     const article = document.querySelector('.article');
     if (article && !article.querySelector('[data-cosmos-infrastructure-visual]')) {
@@ -90,7 +102,7 @@
         </div>
         <div class="footer-links">
           <div><h4>Explore</h4><a href="/learn/">Learn</a><a href="/gear/">Gear</a><a href="/data/">Data</a><a href="/stories/">Stories</a></div>
-          <div><h4>Publication</h4><a href="/about/">About</a><a href="/editorial/">Editorial</a><a href="/methodology/">Methodology</a></div>
+          <div><h4>Publication</h4><a href="/briefing/">Cosmos Briefing</a><a href="/about/">About</a><a href="/editorial/">Editorial</a><a href="/methodology/">Methodology</a></div>
           <div><h4>Standards</h4><a href="/corrections/">Corrections</a><a href="/disclosure.html">Disclosure</a><a href="/privacy.html">Privacy</a></div>
         </div>
       </div>
