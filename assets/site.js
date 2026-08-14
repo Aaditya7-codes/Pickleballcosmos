@@ -56,7 +56,15 @@
   }
 
   const article = document.querySelector('.article');
-  if (article && !path.startsWith('/about/') && !path.startsWith('/editorial/') && !path.startsWith('/methodology/') && !path.startsWith('/corrections/') && !article.querySelector('[data-cosmos-briefing]')) {
+  const skipArticleBriefing = [
+    '/about/',
+    '/editorial/',
+    '/methodology/',
+    '/corrections/',
+    '/privacy.html',
+    '/disclosure.html'
+  ].some((prefix) => path.startsWith(prefix));
+  if (article && !skipArticleBriefing && !article.querySelector('[data-cosmos-briefing]')) {
     const briefing = document.createElement('section');
     briefing.className = 'newsletter';
     briefing.dataset.cosmosBriefing = 'true';
