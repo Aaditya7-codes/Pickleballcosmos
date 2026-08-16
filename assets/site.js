@@ -118,6 +118,93 @@
     }
   }
 
+  if (path === '/data/' || path === '/data/index.html') {
+    const finder = document.querySelector('#data-finder-form');
+    if (finder) {
+      const query = finder.querySelector('#data-finder-query');
+      const topic = finder.querySelector('#data-finder-topic');
+      const geography = finder.querySelector('#data-finder-geo');
+      const metric = finder.querySelector('#data-finder-metric');
+      const state = finder.querySelector('#data-finder-state');
+      const results = document.querySelector('#data-finder-results');
+      const summary = document.querySelector('#data-finder-summary');
+      const reset = document.querySelector('#data-finder-reset');
+      const params = new URLSearchParams(window.location.search);
+      const resources = [
+        { title: 'The State of Pickleball in the U.S. 2026', url: '/data/state-of-pickleball-us-2026/', label: 'Flagship report', description: 'Participation, core players, demographics, courts and professional economics—with definitions and limits.', topics: ['participation', 'courts'], geographies: ['us'], metrics: ['headline', 'trend', 'courts', 'download'], terms: '24.3 million 7.5 million players age demographics membership market report csv sources' },
+        { title: 'Pickleball Courts by State', url: '/data/pickleball-courts-by-state-2026/', label: '50-state dataset', description: 'Listed courts, locations, density and ranks for all 50 states.', topics: ['courts'], geographies: ['states', 'state', 'us'], metrics: ['courts', 'download'], terms: 'state florida california texas vermont courts locations per capita density census csv infrastructure' },
+        { title: 'Court Supply Gap', url: '/data/pickleball-court-supply-gap-2026/', label: 'Original analysis', description: 'States above and below the 50-state court-per-capita benchmark. Not a demand forecast.', topics: ['courts'], geographies: ['states', 'state', 'us'], metrics: ['gap', 'courts'], terms: 'supply gap benchmark california texas new york court shortage density infrastructure' },
+        { title: 'Facility Scale by State', url: '/data/pickleball-facility-scale-by-state-2026/', label: '50-state comparison', description: 'Courts per listed location: a concentration measure, not a facility-quality score.', topics: ['courts'], geographies: ['states', 'state', 'us'], metrics: ['facility', 'courts', 'download'], terms: 'facility locations concentration arizona courts per location venues state csv' },
+        { title: 'Pickleball vs Tennis Participation', url: '/data/pickleball-vs-tennis-participation/', label: 'Participation series', description: 'The 2020–2025 comparison, growth rates and the shrinking participation gap.', topics: ['participation'], geographies: ['us'], metrics: ['trend', 'headline'], terms: 'tennis comparison growth trend series players 2020 2025' },
+        { title: 'The Rise of Pickleball', url: '/data/rise-of-pickleball/', label: 'Participation series', description: 'The reported U.S. participation series from 2020 to 2025, with context and limits.', topics: ['participation'], geographies: ['us'], metrics: ['trend', 'headline'], terms: 'participation growth history 4.2 24.3 million players sfia trend' },
+        { title: 'Pickleball World Rankings', url: '/data/pickleball-world-rankings/', label: 'Dated rankings record', description: 'PPA and GPA rankings, definitions and preserved August 2026 source snapshots.', topics: ['rankings'], geographies: ['global'], metrics: ['ranking', 'download'], terms: 'ben johns anna leigh waters ppa gpa pro player ranking points archive' },
+        { title: 'State of the Game: Media & Citation Guide', url: '/data/state-of-pickleball-us-2026/media/', label: 'Sources & downloads', description: 'Key figures, definitions, citation guidance and downloadable data for the flagship report.', topics: ['participation', 'courts'], geographies: ['us'], metrics: ['download', 'headline'], terms: 'citation methodology source notes press media download csv definitions' }
+      ];
+      let stateRows = [];
+      const format = new Intl.NumberFormat('en-US');
+      const escapeHtml = (value) => String(value).replace(/[&<>'"]/g, (char) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' }[char]));
+      const matchValue = (value, allowed) => value === 'all' || allowed.includes(value);
+      const normalize = (value) => value.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+
+      ['q', 'topic', 'geography', 'metric', 'state'].forEach((name) => {
+        const field = finder.elements[name];
+        if (field && params.has(name)) field.value = params.get(name);
+      });
+
+      const render = () => {
+        const selected = { q: normalize(query.value), topic: topic.value, geography: geography.value, metric: metric.value, state: state.value };
+        const filtered = resources.filter((resource) => {
+          const searchable = normalize(`${resource.title} ${resource.label} ${resource.description} ${resource.terms}`);
+          return matchValue(selected.topic, resource.topics)
+            && matchValue(selected.geography, resource.geographies)
+            && matchValue(selected.metric, resource.metrics)
+            && (!selected.q || searchable.includes(selected.q) || selected.q.split(' ').every((word) => searchable.includes(word)));
+        });
+        const stateRow = stateRows.find((row) => row.state === selected.state);
+        const cards = [];
+        if (stateRow) {
+          const aboveBelow = Number(stateRow.vs_us_avg_pct) >= 0 ? 'above' : 'below';
+          cards.push(`<a class="data-finder-result state-result" href="/data/pickleball-courts-by-state-2026/"><div class="eyebrow">State lookup · 2026 baseline</div><h3>${escapeHtml(stateRow.state)}</h3><p><strong>${format.format(Number(stateRow.courts))}</strong> listed courts across <strong>${format.format(Number(stateRow.locations))}</strong> listed locations · <strong>${Number(stateRow.courts_per_100k).toFixed(1)}</strong> courts per 100,000 residents · No. <strong>${stateRow.rank_courts}</strong> by total courts and No. <strong>${stateRow.rank_courts_per_100k}</strong> per capita. That is ${Math.abs(Number(stateRow.vs_us_avg_pct)).toFixed(1)}% ${aboveBelow} the 50-state rate.</p><div class="foot">Open the full 50-state dataset →</div></a>`);
+        }
+        cards.push(...filtered.slice(0, 6).map((resource) => `<a class="data-finder-result" href="${resource.url}"><div class="eyebrow">${resource.label}</div><h3>${resource.title}</h3><p>${resource.description}</p><div class="foot">Open data →</div></a>`));
+        results.innerHTML = cards.length ? cards.join('') : '<div class="data-finder-empty">No published Cosmos data page exactly matches that combination yet. Try a broader topic or browse the 50-state court index and the State of the Game report.</div>';
+        const filters = [selected.topic !== 'all', selected.geography !== 'all', selected.metric !== 'all', Boolean(selected.q), Boolean(selected.state)].filter(Boolean).length;
+        summary.textContent = filters ? `${cards.length} relevant result${cards.length === 1 ? '' : 's'} shown.` : 'Showing the current data library.';
+        const updated = new URLSearchParams();
+        if (query.value.trim()) updated.set('q', query.value.trim());
+        if (topic.value !== 'all') updated.set('topic', topic.value);
+        if (geography.value !== 'all') updated.set('geography', geography.value);
+        if (metric.value !== 'all') updated.set('metric', metric.value);
+        if (state.value) updated.set('state', state.value);
+        const search = updated.toString();
+        window.history.replaceState({}, '', `${window.location.pathname}${search ? `?${search}` : ''}`);
+      };
+
+      const loadStates = fetch('/data/us-state-court-infrastructure-2026.csv')
+        .then((response) => response.ok ? response.text() : Promise.reject(new Error('Dataset unavailable')))
+        .then((csv) => {
+          const [header, ...lines] = csv.trim().split(/\r?\n/);
+          const keys = header.split(',');
+          stateRows = lines.map((line) => Object.fromEntries(line.split(',').map((value, index) => [keys[index], value])));
+          stateRows.forEach((row) => state.insertAdjacentHTML('beforeend', `<option value="${escapeHtml(row.state)}">${escapeHtml(row.state)}</option>`));
+          if (params.has('state')) state.value = params.get('state');
+          render();
+        })
+        .catch(() => render());
+
+      finder.addEventListener('submit', (event) => { event.preventDefault(); render(); });
+      [query, topic, geography, metric].forEach((field) => field.addEventListener('change', render));
+      state.addEventListener('change', () => {
+        if (state.value) geography.value = 'state';
+        render();
+      });
+      query.addEventListener('input', () => window.clearTimeout(query._finderTimer) || (query._finderTimer = window.setTimeout(render, 180)));
+      reset.addEventListener('click', () => { finder.reset(); render(); query.focus(); });
+      render();
+      void loadStates;
+    }
+  }
+
   document.querySelectorAll('.footer').forEach((footer) => {
     footer.innerHTML = `<div class="container">
       <div class="footer-top">
