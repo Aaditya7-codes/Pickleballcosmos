@@ -64,7 +64,9 @@
     '/privacy.html',
     '/disclosure.html'
   ].some((prefix) => path.startsWith(prefix));
-  if (article && !skipArticleBriefing && !article.querySelector('[data-cosmos-briefing]')) {
+  const briefingPaths = ['/data/', '/stories/', '/gear/best-pickleball-paddles-under-100/', '/gear/paddle-approval-watch/', '/gear/pickleball-paddle-warranties/'];
+  const showArticleBriefing = briefingPaths.some((prefix) => path.startsWith(prefix));
+  if (article && showArticleBriefing && !skipArticleBriefing && !article.querySelector('[data-cosmos-briefing]')) {
     const briefing = document.createElement('section');
     briefing.className = 'newsletter';
     briefing.dataset.cosmosBriefing = 'true';
