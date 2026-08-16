@@ -1,8 +1,17 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Pickleball Cosmos Paddle Intelligence Record",
+  "description": "Record schema for Cosmos Gear Intelligence. Manufacturer and third-party measurements retain source provenance; Cosmos measurement fields are reserved for physical first-party testing.",
   "type": "object",
-  "required": ["record_id", "brand", "model", "variant", "sources", "status"],
+  "required": [
+    "record_id",
+    "brand",
+    "model",
+    "variant",
+    "sources",
+    "status",
+    "evidence_confidence"
+  ],
   "properties": {
     "record_id": {"type": "string"},
     "brand": {"type": "string"},
@@ -130,6 +139,8 @@
         "notes": {"type": ["string", "null"]}
       }
     },
+    "evidence_confidence": {"enum": ["High", "Medium", "Limited"]},
+    "verification_notes": {"type": ["string", "null"]},
     "sources": {
       "type": "array",
       "items": {
