@@ -1,0 +1,113 @@
+{
+  "schema_version": "1.0",
+  "previous_observation_id": "PC-PADDLE-WATCH-20260813-050400Z-EDITORIAL-SEED",
+  "current_observation_id": "PC-PADDLE-WATCH-20260816-143931Z",
+  "detected_at_utc": "2026-08-16T14:39:31Z",
+  "has_substantive_change": true,
+  "new_rows_in_recent_approval_window": [
+    {
+      "manufacturer": "Zoul",
+      "model": "Control",
+      "added_date": "2026-08-15"
+    },
+    {
+      "manufacturer": "TROPCKL",
+      "model": "APEX PRO Hybrid 16MM",
+      "added_date": "2026-08-15"
+    },
+    {
+      "manufacturer": "TIMPARC",
+      "model": "T-ACE",
+      "added_date": "2026-08-15"
+    },
+    {
+      "manufacturer": "PRO-SPIN",
+      "model": "Boost",
+      "added_date": "2026-08-15"
+    },
+    {
+      "manufacturer": "Palakol",
+      "model": "LANCETA",
+      "added_date": "2026-08-15"
+    },
+    {
+      "manufacturer": "Mint",
+      "model": "Ghost X",
+      "added_date": "2026-08-15"
+    },
+    {
+      "manufacturer": "McKEAL",
+      "model": "MAJESTY",
+      "added_date": "2026-08-15"
+    },
+    {
+      "manufacturer": "Combat Paddles Company",
+      "model": "TITAN",
+      "added_date": "2026-08-15"
+    },
+    {
+      "manufacturer": "Allwake",
+      "model": "AW-C7-CE",
+      "added_date": "2026-08-15"
+    }
+  ],
+  "rows_rolled_off_recent_approval_window": [
+    {
+      "manufacturer": "YoPals",
+      "model": "Cyclone 007",
+      "added_date": "2026-08-06"
+    },
+    {
+      "manufacturer": "Vatic Pro",
+      "model": "V-Sol Tour Flash LH 16mm",
+      "added_date": "2026-08-06"
+    },
+    {
+      "manufacturer": "Vatic Pro",
+      "model": "V-Sol Tour Elongated 16mm",
+      "added_date": "2026-08-06"
+    },
+    {
+      "manufacturer": "Vatic Pro",
+      "model": "V-Sol Tour Bloom 16mm",
+      "added_date": "2026-08-06"
+    },
+    {
+      "manufacturer": "SIWPC",
+      "model": "Dante 2.0",
+      "added_date": "2026-08-06"
+    },
+    {
+      "manufacturer": "SEEKCO",
+      "model": "BI-NUCLEUS",
+      "added_date": "2026-08-06"
+    },
+    {
+      "manufacturer": "PROTECH",
+      "model": "STORM",
+      "added_date": "2026-08-06"
+    },
+    {
+      "manufacturer": "PICKLE POPPERS",
+      "model": "POP N Pink - Petite",
+      "added_date": "2026-08-06"
+    },
+    {
+      "manufacturer": "Orca Paddle Company",
+      "model": "Drive",
+      "added_date": "2026-08-06"
+    }
+  ],
+  "approved_list_total_before": 5304,
+  "approved_list_total_after": 5316,
+  "approved_list_total_delta": 12,
+  "compliance_records_added": [],
+  "compliance_records_no_longer_listed": [],
+  "compliance_record_status_or_date_changes": [],
+  "interpretation_guardrails": [
+    "A recent approval row rolling off the first page is not evidence of decertification.",
+    "A decrease in the total approved-list count does not identify which model changed status.",
+    "A compliance record no longer appearing is not automatically classified as resolved.",
+    "Only USA Pickleball's published status wording is carried into editorial review."
+  ]
+}
