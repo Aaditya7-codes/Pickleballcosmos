@@ -127,7 +127,7 @@
         </div>
         <div class="footer-links">
           <div><h4>Explore</h4><a href="/learn/">Learn</a><a href="/gear/">Gear</a><a href="/data/">Data</a><a href="/stories/">Stories</a></div>
-          <div><h4>Publication</h4><a href="/briefing/">Cosmos Briefing</a><a href="/about/">About</a><a href="/editorial/">Editorial</a><a href="/methodology/">Methodology</a></div>
+          <div><h4>Publication</h4><a href="/briefing/">Cosmos Briefing</a><a href="/about/">About</a><a href="/editorial/">Editorial</a><a href="/methodology/">Methodology</a><a href="/contact/">Contact</a></div>
           <div><h4>Standards</h4><a href="/corrections/">Corrections</a><a href="/disclosure.html">Disclosure</a><a href="/privacy.html">Privacy</a></div>
         </div>
       </div>
