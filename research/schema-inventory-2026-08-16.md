@@ -7,9 +7,9 @@ The site used a mixture of Article and NewsMediaOrganization records. Several ol
 ## Normalization applied
 
 - Replaced legacy SVG social-card references on 0 non-India HTML pages with `/assets/social-card.png`.
-- Standardized Article / NewsArticle fields on 55 records: organizational author, raster image, article section, publisher identity and publisher logo.
-- Added BreadcrumbList records to 0 content articles.
-- Added Dataset records to 1 data pages that expose a CSV download.
+- Standardized Article / NewsArticle fields on 56 records: organizational author, raster image, article section, publisher identity and publisher logo.
+- Added BreadcrumbList records to 1 content articles.
+- Added Dataset records to 0 data pages that expose a CSV download.
 
 ## Deliberate exclusions
 

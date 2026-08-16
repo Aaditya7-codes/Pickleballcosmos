@@ -44,7 +44,7 @@ def main() -> int:
                         issues.append(f"Article missing {key}: {page.relative_to(ROOT)}")
     coverage = ROOT / "research" / "internal-link-coverage-2026-08-16.csv"
     with coverage.open("w", newline="", encoding="utf-8") as handle:
-        writer = csv.writer(handle)
+        writer = csv.writer(handle, lineterminator="\n")
         writer.writerow(["sitemap_url", "source_level_inbound_links", "sample_source_pages"])
         for url in sorted(sitemap):
             refs = sorted(set(inbound[url]))
