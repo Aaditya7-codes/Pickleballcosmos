@@ -19,11 +19,10 @@ import sys
 import time
 import unicodedata
 from datetime import datetime, timezone
+from html.parser import HTMLParser
 from pathlib import Path
 from typing import Any
-
-import requests
-from bs4 import BeautifulSoup
+from urllib.request import Request, urlopen
 
 APPROVED_URL = "https://equipment.usapickleball.org/paddle-list/"
 COMPLIANCE_URL = "https://equipment.usapickleball.org/compliance/"
@@ -34,6 +33,19 @@ SCHEMA_VERSION = "1.0"
 
 class PaddleWatchError(RuntimeError):
     pass
+
+
+class TextCollector(HTMLParser):
+    """Minimal standard-library HTML-to-text collector for public source pages."""
+
+    def __init__(self) -> None:
+        super().__init__()
+        self.values: list[str] = []
+
+    def handle_data(self, data: str) -> None:
+        value = norm(data)
+        if value:
+            self.values.append(value)
 
 
 def norm(value: str) -> str:
@@ -72,15 +84,19 @@ def fetch_html(url: str, attempts: int = 3, timeout: int = 35) -> dict[str, Any]
     last_error: Exception | None = None
     for attempt in range(1, attempts + 1):
         try:
-            response = requests.get(url, headers=headers, timeout=timeout)
-            response.raise_for_status()
-            if len(response.text) < 1000:
+            request = Request(url, headers=headers)
+            with urlopen(request, timeout=timeout) as response:  # nosec B310: public URLs are constants above
+                body = response.read()
+                status = response.status
+                charset = response.headers.get_content_charset() or "utf-8"
+            html = body.decode(charset, errors="replace")
+            if len(html) < 1000:
                 raise PaddleWatchError(f"Suspiciously short response from {url}")
             return {
                 "url": url,
-                "html": response.text,
-                "http_status": response.status_code,
-                "sha256_html": hashlib.sha256(response.content).hexdigest(),
+                "html": html,
+                "http_status": status,
+                "sha256_html": hashlib.sha256(body).hexdigest(),
             }
         except Exception as exc:
             last_error = exc
@@ -90,13 +106,13 @@ def fetch_html(url: str, attempts: int = 3, timeout: int = 35) -> dict[str, Any]
 
 
 def text_lines(html: str) -> list[str]:
-    soup = BeautifulSoup(html, "html.parser")
-    return [norm(x) for x in soup.get_text("\n", strip=True).splitlines() if norm(x)]
+    parser = TextCollector()
+    parser.feed(html)
+    return parser.values
 
 
 def display_counts(html: str) -> tuple[int, int, int]:
-    soup = BeautifulSoup(html, "html.parser")
-    text = norm(soup.get_text(" ", strip=True))
+    text = " ".join(text_lines(html))
     match = re.search(r"Displaying\s+([\d,]+)\s*-\s*([\d,]+)\s+of\s+([\d,]+)", text, flags=re.I)
     if not match:
         raise PaddleWatchError("Could not find 'Displaying X - Y of Z' on source page")

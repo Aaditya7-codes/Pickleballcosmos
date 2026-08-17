@@ -7,10 +7,12 @@ import json
 import re
 import sys
 from pathlib import Path
+from urllib.parse import unquote, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE = "https://www.pickleballcosmos.com"
 SCRIPT_RE = re.compile(r'<script type="application/ld\+json">(.*?)</script>', re.DOTALL)
+URL_RE = re.compile(r'(?:href|src)=["\']([^"\']+)["\']')
 
 
 def normalize(path: str) -> str:
@@ -18,15 +20,53 @@ def normalize(path: str) -> str:
     return path if path.endswith(("/", ".html")) else path + "/"
 
 
+def route_for(page: Path) -> str:
+    """Return the published URL path for a local HTML page."""
+    relative = page.relative_to(ROOT)
+    if relative.name == "index.html":
+        return "/" if relative.parent == Path(".") else f"/{relative.parent.as_posix()}/"
+    return f"/{relative.as_posix()}"
+
+
+def local_target_exists(page: Path, reference: str) -> bool:
+    """Check a same-site href/src against the static GitHub Pages output."""
+    parts = urlsplit(reference)
+    if parts.scheme or parts.netloc or reference.startswith(("#", "mailto:", "tel:", "data:", "javascript:")):
+        return True
+    target = unquote(parts.path)
+    if not target:
+        return True
+    candidate = ROOT / target.lstrip("/") if target.startswith("/") else page.parent / target
+    candidates = [candidate]
+    if target.endswith("/"):
+        candidates.append(candidate / "index.html")
+    elif not candidate.suffix:
+        candidates.extend((candidate / "index.html", candidate.with_suffix(".html")))
+    return any(item.is_file() for item in candidates)
+
+
 def main() -> int:
     urls = re.findall(rf"<loc>{re.escape(SITE)}([^<]*)</loc>", (ROOT / "sitemap.xml").read_text())
     sitemap = {normalize(url) for url in urls}
+    expected_sitemap = {route_for(page) for page in ROOT.rglob("*.html") if page.name != "404.html"}
     inbound = {url: [] for url in sitemap}
     issues = []
     article_records = 0
     for page in ROOT.rglob("*.html"):
         text = page.read_text(encoding="utf-8")
-        for href in re.findall(r'(?:href|src)=["\']([^"\']+)["\']', text):
+        if not re.search(r"<!doctype html>", text, re.IGNORECASE):
+            issues.append(f"missing doctype: {page.relative_to(ROOT)}")
+        if not re.search(r'<meta name="description" content="[^\"]+">', text):
+            issues.append(f"missing meta description: {page.relative_to(ROOT)}")
+        canonical = re.search(r'<link rel="canonical" href="([^\"]+)">', text)
+        expected_canonical = SITE + route_for(page)
+        if not canonical:
+            issues.append(f"missing canonical: {page.relative_to(ROOT)}")
+        elif canonical.group(1) != expected_canonical:
+            issues.append(f"canonical mismatch: {page.relative_to(ROOT)} ({canonical.group(1)})")
+        for href in URL_RE.findall(text):
+            if not local_target_exists(page, href):
+                issues.append(f"missing local target: {page.relative_to(ROOT)} -> {href}")
             if href.startswith("/"):
                 target = normalize(href)
                 if target in inbound:
@@ -42,6 +82,13 @@ def main() -> int:
                 for key in ("author", "image", "articleSection", "publisher"):
                     if key not in data:
                         issues.append(f"Article missing {key}: {page.relative_to(ROOT)}")
+    if sitemap != expected_sitemap:
+        missing = sorted(expected_sitemap - sitemap)
+        extra = sorted(sitemap - expected_sitemap)
+        if missing:
+            issues.append("pages missing from sitemap: " + ", ".join(missing))
+        if extra:
+            issues.append("sitemap routes without local page: " + ", ".join(extra))
     coverage = ROOT / "research" / "internal-link-coverage-2026-08-16.csv"
     with coverage.open("w", newline="", encoding="utf-8") as handle:
         writer = csv.writer(handle, lineterminator="\n")
