@@ -207,6 +207,51 @@
     }
   }
 
+  if (path === '/learn/pickleball-court-dimensions/' || path === '/learn/pickleball-court-dimensions/index.html') {
+    const checker = document.querySelector('#court-space-check');
+    if (checker) {
+      const widthInput = checker.querySelector('#court-space-width');
+      const lengthInput = checker.querySelector('#court-space-length');
+      const result = checker.querySelector('#court-space-result');
+      const formatFeet = (value) => Number.isInteger(value) ? String(value) : value.toFixed(1).replace(/\.0$/, '');
+      const detail = (width, length) => `<div class="court-space-detail"><div>Side clearance if centered<strong>${formatFeet((width - 20) / 2)} ft each side</strong></div><div>Baseline clearance if centered<strong>${formatFeet((length - 44) / 2)} ft each end</strong></div></div>`;
+      const render = () => {
+        const width = Number(widthInput.value);
+        const length = Number(lengthInput.value);
+        if (!widthInput.value && !lengthInput.value) {
+          result.innerHTML = '<p><strong>Start with your available space.</strong> A regulation court measures 20 × 44 ft; USA Pickleball identifies 30 × 60 ft as the recommended minimum total playing surface and 34 × 64 ft as preferred.</p>';
+          return;
+        }
+        if (!Number.isFinite(width) || !Number.isFinite(length) || width <= 0 || length <= 0) {
+          result.innerHTML = '<p><strong>Enter two positive measurements.</strong> Use usable width first (sideline to sideline), then usable length (baseline to baseline).</p>';
+          return;
+        }
+        if (width < 20 || length < 44) {
+          const widthShort = Math.max(0, 20 - width);
+          const lengthShort = Math.max(0, 44 - length);
+          const shortages = [widthShort ? `${formatFeet(widthShort)} ft of width` : '', lengthShort ? `${formatFeet(lengthShort)} ft of length` : ''].filter(Boolean).join(' and ');
+          result.innerHTML = `<p><strong>A regulation court does not fit in that rectangle.</strong> You need at least ${shortages} for the 20 × 44 ft playing lines alone.</p>`;
+          return;
+        }
+        if (width >= 34 && length >= 64) {
+          result.innerHTML = `<p><strong>It meets USA Pickleball’s preferred 34 × 64 ft footprint.</strong> That is the strongest of the three footprint checks here.</p>${detail(width, length)}`;
+          return;
+        }
+        if (width >= 30 && length >= 60) {
+          result.innerHTML = `<p><strong>It meets USA Pickleball’s 30 × 60 ft recommended minimum total playing surface.</strong> It does not reach the 34 × 64 ft preferred footprint.</p>${detail(width, length)}`;
+          return;
+        }
+        result.innerHTML = `<p><strong>The 20 × 44 ft playing lines fit, but the space is below USA Pickleball’s 30 × 60 ft recommended minimum total playing surface.</strong> You can see the simple centered clearances below; assess safety and site constraints separately.</p>${detail(width, length)}`;
+      };
+      [widthInput, lengthInput].forEach((input) => input.addEventListener('input', render));
+      checker.querySelectorAll('[data-court-width]').forEach((button) => button.addEventListener('click', () => {
+        widthInput.value = button.dataset.courtWidth;
+        lengthInput.value = button.dataset.courtLength;
+        render();
+      }));
+    }
+  }
+
   document.querySelectorAll('.footer').forEach((footer) => {
     footer.innerHTML = `<div class="container">
       <div class="footer-top">
