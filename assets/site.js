@@ -65,13 +65,29 @@
     '/disclosure.html'
   ].some((prefix) => path.startsWith(prefix));
   const briefingPaths = ['/data/', '/stories/', '/gear/best-pickleball-paddles-under-100/', '/gear/paddle-approval-watch/', '/gear/pickleball-paddle-warranties/'];
-  const showArticleBriefing = briefingPaths.some((prefix) => path.startsWith(prefix));
+  const isLearnArticle = path.startsWith('/learn/');
+  const showArticleBriefing = isLearnArticle || briefingPaths.some((prefix) => path.startsWith(prefix));
   if (article && showArticleBriefing && !skipArticleBriefing && !article.querySelector('[data-cosmos-briefing]')) {
+    const briefingCopy = isLearnArticle
+      ? {
+        eyebrow: 'Rules Desk',
+        heading: 'Keep the rulings straight.',
+        text: 'One useful pickleball email a week: material rule changes, clear rulings and the reporting worth your time.',
+        tag: 'learn',
+        label: 'Get the Rules Briefing'
+      }
+      : {
+        eyebrow: 'Cosmos Briefing',
+        heading: 'One useful pickleball email a week.',
+        text: 'Rules changes, original data, rankings, equipment developments and the strongest new reporting — without daily churn.',
+        tag: 'article',
+        label: 'Join the Briefing'
+      };
     const briefing = document.createElement('section');
     briefing.className = 'newsletter';
     briefing.dataset.cosmosBriefing = 'true';
     briefing.style.marginTop = '42px';
-    briefing.innerHTML = `<div><div class="eyebrow">Cosmos Briefing</div><h2>One useful pickleball email a week.</h2><p>Rules changes, original data, rankings, equipment developments and the strongest new reporting — without daily churn.</p><div class="newsletter-meta"><span>Weekly</span><span>Free</span><span>Evidence-led</span></div></div><div>${briefingForm('article')}</div>`;
+    briefing.innerHTML = `<div><div class="eyebrow">${briefingCopy.eyebrow}</div><h2>${briefingCopy.heading}</h2><p>${briefingCopy.text}</p><div class="newsletter-meta"><span>Weekly</span><span>Free</span><span>Evidence-led</span></div></div><div>${briefingForm(briefingCopy.tag, briefingCopy.label)}</div>`;
     const sourceBox = article.querySelector('.source-box');
     if (sourceBox) sourceBox.insertAdjacentElement('beforebegin', briefing);
     else article.appendChild(briefing);
