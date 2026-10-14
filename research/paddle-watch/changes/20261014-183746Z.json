@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.0",
+  "previous_observation_id": "PC-PADDLE-WATCH-20261009-193226Z",
+  "current_observation_id": "PC-PADDLE-WATCH-20261014-183746Z",
+  "detected_at_utc": "2026-10-14T18:37:46Z",
+  "has_substantive_change": true,
+  "new_rows_in_recent_approval_window": [
+    {
+      "manufacturer": "PICKLE POPPERS",
+      "model": "POP N RUSH ELONGATED",
+      "added_date": "2026-10-13"
+    },
+    {
+      "manufacturer": "PICKBLITZ",
+      "model": "STORM",
+      "added_date": "2026-10-13"
+    },
+    {
+      "manufacturer": "Gopher Rally",
+      "model": "COURTE PRO",
+      "added_date": "2026-10-13"
+    },
+    {
+      "manufacturer": "Franklin Sports",
+      "model": "Grove",
+      "added_date": "2026-10-13"
+    },
+    {
+      "manufacturer": "CPX",
+      "model": "HYPER+ 14mm",
+      "added_date": "2026-10-13"
+    },
+    {
+      "manufacturer": "Booma",
+      "model": "QUATTRO CORE HYBRID",
+      "added_date": "2026-10-13"
+    },
+    {
+      "manufacturer": "Aniviia",
+      "model": "Nano TI",
+      "added_date": "2026-10-13"
+    },
+    {
+      "manufacturer": "Luzz",
+      "model": "INFERNO2 M1",
+      "added_date": "2026-10-12"
+    }
+  ],
+  "rows_rolled_off_recent_approval_window": [
+    {
+      "manufacturer": "Six Zero",
+      "model": "Coral Pro",
+      "added_date": "2026-10-01"
+    },
+    {
+      "manufacturer": "Thunder",
+      "model": "TYPHOON 3",
+      "added_date": "2026-09-29"
+    },
+    {
+      "manufacturer": "PB Pro",
+      "model": "Infinity Gen-X5",
+      "added_date": "2026-09-29"
+    },
+    {
+      "manufacturer": "MFO",
+      "model": "Zen-Infinity II",
+      "added_date": "2026-09-29"
+    },
+    {
+      "manufacturer": "Juciao",
+      "model": "ULTRA Ⅱ",
+      "added_date": "2026-09-29"
+    },
+    {
+      "manufacturer": "DYSSC",
+      "model": "ProFoam 16 mm",
+      "added_date": "2026-09-29"
+    },
+    {
+      "manufacturer": "2nd Serve Pickleball",
+      "model": "Momentum",
+      "added_date": "2026-09-29"
+    },
+    {
+      "manufacturer": "Evolv Pickleball",
+      "model": "Origin Hybrid",
+      "added_date": "2026-09-21"
+    }
+  ],
+  "approved_list_total_before": 5375,
+  "approved_list_total_after": 5383,
+  "approved_list_total_delta": 8,
+  "compliance_records_added": [],
+  "compliance_records_no_longer_listed": [],
+  "compliance_record_status_or_date_changes": [],
+  "interpretation_guardrails": [
+    "A recent approval row rolling off the first page is not evidence of decertification.",
+    "A decrease in the total approved-list count does not identify which model changed status.",
+    "A compliance record no longer appearing is not automatically classified as resolved.",
+    "Only USA Pickleball's published status wording is carried into editorial review."
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "observation_id": "PC-PADDLE-WATCH-20261009-193226Z",
-  "observed_at_utc": "2026-10-09T19:32:26Z",
+  "observation_id": "PC-PADDLE-WATCH-20261014-183746Z",
+  "observed_at_utc": "2026-10-14T18:37:46Z",
   "publisher": "Pickleball Cosmos Editorial",
   "scope": "Newest visible USA Pickleball approval page plus the complete public Paddle Compliance Report; not a full database mirror.",
   "source_of_record": {
@@ -13,19 +13,59 @@
     "approved_paddle_list": {
       "url": "https://equipment.usapickleball.org/paddle-list/",
       "http_status": 200,
-      "sha256_html": "2164b6b3c12c817af857efa8771527b848eb5bbdbb68c6ee816f81cfe83d8921"
+      "sha256_html": "dcd628f6cc7629c7ed9847ef7857793708b3e4f4ed716f0b4fea753800036023"
     },
     "compliance_report": {
       "url": "https://equipment.usapickleball.org/compliance/",
       "http_status": 200,
-      "sha256_html": "7e04dca475389371a40e99918dd03b4fcccf8fb47000ee84403be74eca4d99af"
+      "sha256_html": "0783f84645e7ddb98751d61ca489705c9d4d5ab993d47efddddfa6301692db47"
     }
   },
   "approved_list": {
     "display_start": 1,
     "display_end": 25,
-    "approved_list_total": 5375,
+    "approved_list_total": 5383,
     "recent_approvals": [
+      {
+        "manufacturer": "Aniviia",
+        "model": "Nano TI",
+        "added_date": "2026-10-13"
+      },
+      {
+        "manufacturer": "Booma",
+        "model": "QUATTRO CORE HYBRID",
+        "added_date": "2026-10-13"
+      },
+      {
+        "manufacturer": "CPX",
+        "model": "HYPER+ 14mm",
+        "added_date": "2026-10-13"
+      },
+      {
+        "manufacturer": "Franklin Sports",
+        "model": "Grove",
+        "added_date": "2026-10-13"
+      },
+      {
+        "manufacturer": "Gopher Rally",
+        "model": "COURTE PRO",
+        "added_date": "2026-10-13"
+      },
+      {
+        "manufacturer": "PICKBLITZ",
+        "model": "STORM",
+        "added_date": "2026-10-13"
+      },
+      {
+        "manufacturer": "PICKLE POPPERS",
+        "model": "POP N RUSH ELONGATED",
+        "added_date": "2026-10-13"
+      },
+      {
+        "manufacturer": "Luzz",
+        "model": "INFERNO2 M1",
+        "added_date": "2026-10-12"
+      },
       {
         "manufacturer": "NXTgen Sports Inc.",
         "model": "Hydra2 Elongated",
@@ -43,12 +83,12 @@
       },
       {
         "manufacturer": "RPM Pickleball",
-        "model": "Diesel 1 14mm Elongated",
+        "model": "Diesel 1 16mm Elongated",
         "added_date": "2026-10-05"
       },
       {
         "manufacturer": "RPM Pickleball",
-        "model": "Diesel 1 16mm Elongated",
+        "model": "Diesel 1 14mm Elongated",
         "added_date": "2026-10-05"
       },
       {
@@ -63,6 +103,11 @@
       },
       {
         "manufacturer": "Gearbox",
+        "model": "Pressure X 8E Hybrid",
+        "added_date": "2026-10-01"
+      },
+      {
+        "manufacturer": "Gearbox",
         "model": "Pressure X 8M Hybrid",
         "added_date": "2026-10-01"
       },
@@ -73,22 +118,17 @@
       },
       {
         "manufacturer": "Gearbox",
-        "model": "Pressure X 8E Hybrid",
-        "added_date": "2026-10-01"
-      },
-      {
-        "manufacturer": "Gearbox",
         "model": "Pressure X 8M",
         "added_date": "2026-10-01"
       },
       {
         "manufacturer": "GRÜVN",
-        "model": "BRUZN-16X",
+        "model": "MUVN-16HD Pro",
         "added_date": "2026-10-01"
       },
       {
         "manufacturer": "GRÜVN",
-        "model": "MUVN-16HD Pro",
+        "model": "BRUZN-16X",
         "added_date": "2026-10-01"
       },
       {
@@ -110,46 +150,6 @@
         "manufacturer": "Proton Sports Inc",
         "model": "Series One V2",
         "added_date": "2026-10-01"
-      },
-      {
-        "manufacturer": "Six Zero",
-        "model": "Coral Pro",
-        "added_date": "2026-10-01"
-      },
-      {
-        "manufacturer": "2nd Serve Pickleball",
-        "model": "Momentum",
-        "added_date": "2026-09-29"
-      },
-      {
-        "manufacturer": "DYSSC",
-        "model": "ProFoam 16 mm",
-        "added_date": "2026-09-29"
-      },
-      {
-        "manufacturer": "Juciao",
-        "model": "ULTRA Ⅱ",
-        "added_date": "2026-09-29"
-      },
-      {
-        "manufacturer": "MFO",
-        "model": "Zen-Infinity II",
-        "added_date": "2026-09-29"
-      },
-      {
-        "manufacturer": "PB Pro",
-        "model": "Infinity Gen-X5",
-        "added_date": "2026-09-29"
-      },
-      {
-        "manufacturer": "Thunder",
-        "model": "TYPHOON 3",
-        "added_date": "2026-09-29"
-      },
-      {
-        "manufacturer": "Evolv Pickleball",
-        "model": "Origin Hybrid",
-        "added_date": "2026-09-21"
       }
     ]
   },
