@@ -1,0 +1,201 @@
+{
+  "schema_version": "1.0",
+  "observation_id": "PC-PADDLE-WATCH-20261016-180333Z",
+  "observed_at_utc": "2026-10-16T18:03:33Z",
+  "publisher": "Pickleball Cosmos Editorial",
+  "scope": "Newest visible USA Pickleball approval page plus the complete public Paddle Compliance Report; not a full database mirror.",
+  "source_of_record": {
+    "approved_paddle_list": "https://equipment.usapickleball.org/paddle-list/",
+    "compliance_report": "https://equipment.usapickleball.org/compliance/",
+    "equipment_faq": "https://equipment.usapickleball.org/equipment-submission-faq/"
+  },
+  "source_evidence": {
+    "approved_paddle_list": {
+      "url": "https://equipment.usapickleball.org/paddle-list/",
+      "http_status": 200,
+      "sha256_html": "c36d58adb0be3ed0a7ced9c0ada5803f9be56319e186db793cc1efa7e4a5bc10"
+    },
+    "compliance_report": {
+      "url": "https://equipment.usapickleball.org/compliance/",
+      "http_status": 200,
+      "sha256_html": "901abd96a17097619b6b9cd47d97a7ba2faf96a2beee96a100389febbf3aef3e"
+    }
+  },
+  "approved_list": {
+    "display_start": 1,
+    "display_end": 25,
+    "approved_list_total": 5386,
+    "recent_approvals": [
+      {
+        "manufacturer": "Airavat",
+        "model": "Astra 2.0 16mm",
+        "added_date": "2026-10-15"
+      },
+      {
+        "manufacturer": "Paddletek",
+        "model": "Phoenix Firestorm 16mm",
+        "added_date": "2026-10-15"
+      },
+      {
+        "manufacturer": "PRO-SPIN",
+        "model": "Boost GFS 14MM",
+        "added_date": "2026-10-15"
+      },
+      {
+        "manufacturer": "Aniviia",
+        "model": "Nano TI",
+        "added_date": "2026-10-13"
+      },
+      {
+        "manufacturer": "Booma",
+        "model": "QUATTRO CORE HYBRID",
+        "added_date": "2026-10-13"
+      },
+      {
+        "manufacturer": "CPX",
+        "model": "HYPER+ 14mm",
+        "added_date": "2026-10-13"
+      },
+      {
+        "manufacturer": "Franklin Sports",
+        "model": "Grove",
+        "added_date": "2026-10-13"
+      },
+      {
+        "manufacturer": "Gopher Rally",
+        "model": "COURTE PRO",
+        "added_date": "2026-10-13"
+      },
+      {
+        "manufacturer": "PICKBLITZ",
+        "model": "STORM",
+        "added_date": "2026-10-13"
+      },
+      {
+        "manufacturer": "PICKLE POPPERS",
+        "model": "POP N RUSH ELONGATED",
+        "added_date": "2026-10-13"
+      },
+      {
+        "manufacturer": "Luzz",
+        "model": "INFERNO2 M1",
+        "added_date": "2026-10-12"
+      },
+      {
+        "manufacturer": "NXTgen Sports Inc.",
+        "model": "Hydra2 Elongated",
+        "added_date": "2026-10-08"
+      },
+      {
+        "manufacturer": "Witness",
+        "model": "Rival",
+        "added_date": "2026-10-08"
+      },
+      {
+        "manufacturer": "Astes",
+        "model": "Architect Ultra",
+        "added_date": "2026-10-05"
+      },
+      {
+        "manufacturer": "RPM Pickleball",
+        "model": "Diesel 1 16mm Elongated",
+        "added_date": "2026-10-05"
+      },
+      {
+        "manufacturer": "RPM Pickleball",
+        "model": "Diesel 1 14mm Elongated",
+        "added_date": "2026-10-05"
+      },
+      {
+        "manufacturer": "Mint",
+        "model": "Mon Ami 2",
+        "added_date": "2026-10-02"
+      },
+      {
+        "manufacturer": "Bread and Butter Pickleball Company",
+        "model": "Loco 2 Elongated",
+        "added_date": "2026-10-01"
+      },
+      {
+        "manufacturer": "Gearbox",
+        "model": "Pressure X 8E Hybrid",
+        "added_date": "2026-10-01"
+      },
+      {
+        "manufacturer": "Gearbox",
+        "model": "Pressure X 8M Hybrid",
+        "added_date": "2026-10-01"
+      },
+      {
+        "manufacturer": "Gearbox",
+        "model": "Pressure X 8E",
+        "added_date": "2026-10-01"
+      },
+      {
+        "manufacturer": "Gearbox",
+        "model": "Pressure X 8M",
+        "added_date": "2026-10-01"
+      },
+      {
+        "manufacturer": "GRÜVN",
+        "model": "MUVN-16HD Pro",
+        "added_date": "2026-10-01"
+      },
+      {
+        "manufacturer": "GRÜVN",
+        "model": "BRUZN-16X",
+        "added_date": "2026-10-01"
+      },
+      {
+        "manufacturer": "HEROES",
+        "model": "FEBE",
+        "added_date": "2026-10-01"
+      }
+    ]
+  },
+  "compliance_report": {
+    "display_start": 1,
+    "display_end": 5,
+    "compliance_total": 5,
+    "compliance_board": [
+      {
+        "brand": "Proton Sports Inc",
+        "models": "Series Three Project Peacock - S3PE15",
+        "report_date": "2026-05-28",
+        "status": "Under Investigation"
+      },
+      {
+        "brand": "Speedup",
+        "models": "Tide 14S",
+        "report_date": "2026-05-27",
+        "status": "Under Investigation"
+      },
+      {
+        "brand": "Facolos",
+        "models": "Pro Series - Elite X",
+        "report_date": "2026-03-24",
+        "status": "Removed from USAP Approved List"
+      },
+      {
+        "brand": "R.A.W. Reign and Win",
+        "models": "Multiple",
+        "report_date": "2026-03-11",
+        "status": "Compliance Issue Resolved"
+      },
+      {
+        "brand": "Six Zero",
+        "models": "Ruby Pro 14MM",
+        "report_date": "2025-11-20",
+        "status": "Under Investigation"
+      }
+    ]
+  },
+  "editorial_guardrails": [
+    "USA Pickleball's live database remains the source of record for sanctioned-play eligibility.",
+    "Rows leaving the recent-approval window are not removals or decertifications.",
+    "A compliance record disappearing from the board is not automatically resolved.",
+    "Under Investigation is not equivalent to Removed from USAP Approved List.",
+    "Approval is a compliance status, not a Pickleball Cosmos performance test or endorsement.",
+    "The monitor detects changes; editorial conclusions require verification before publication."
+  ]
+}

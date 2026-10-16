@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "previous_observation_id": "PC-PADDLE-WATCH-20261014-183746Z",
+  "current_observation_id": "PC-PADDLE-WATCH-20261016-180333Z",
+  "detected_at_utc": "2026-10-16T18:03:33Z",
+  "has_substantive_change": true,
+  "new_rows_in_recent_approval_window": [
+    {
+      "manufacturer": "PRO-SPIN",
+      "model": "Boost GFS 14MM",
+      "added_date": "2026-10-15"
+    },
+    {
+      "manufacturer": "Paddletek",
+      "model": "Phoenix Firestorm 16mm",
+      "added_date": "2026-10-15"
+    },
+    {
+      "manufacturer": "Airavat",
+      "model": "Astra 2.0 16mm",
+      "added_date": "2026-10-15"
+    }
+  ],
+  "rows_rolled_off_recent_approval_window": [
+    {
+      "manufacturer": "Proton Sports Inc",
+      "model": "Series One V2",
+      "added_date": "2026-10-01"
+    },
+    {
+      "manufacturer": "Luzz",
+      "model": "CANNON XPP",
+      "added_date": "2026-10-01"
+    },
+    {
+      "manufacturer": "JOOLA",
+      "model": "Perseus POWER FX 16mm",
+      "added_date": "2026-10-01"
+    }
+  ],
+  "approved_list_total_before": 5383,
+  "approved_list_total_after": 5386,
+  "approved_list_total_delta": 3,
+  "compliance_records_added": [],
+  "compliance_records_no_longer_listed": [],
+  "compliance_record_status_or_date_changes": [],
+  "interpretation_guardrails": [
+    "A recent approval row rolling off the first page is not evidence of decertification.",
+    "A decrease in the total approved-list count does not identify which model changed status.",
+    "A compliance record no longer appearing is not automatically classified as resolved.",
+    "Only USA Pickleball's published status wording is carried into editorial review."
+  ]
+}

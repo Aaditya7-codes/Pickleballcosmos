@@ -1,96 +1,46 @@
 {
   "schema_version": "1.0",
-  "previous_observation_id": "PC-PADDLE-WATCH-20261009-193226Z",
-  "current_observation_id": "PC-PADDLE-WATCH-20261014-183746Z",
-  "detected_at_utc": "2026-10-14T18:37:46Z",
+  "previous_observation_id": "PC-PADDLE-WATCH-20261014-183746Z",
+  "current_observation_id": "PC-PADDLE-WATCH-20261016-180333Z",
+  "detected_at_utc": "2026-10-16T18:03:33Z",
   "has_substantive_change": true,
   "new_rows_in_recent_approval_window": [
     {
-      "manufacturer": "PICKLE POPPERS",
-      "model": "POP N RUSH ELONGATED",
-      "added_date": "2026-10-13"
+      "manufacturer": "PRO-SPIN",
+      "model": "Boost GFS 14MM",
+      "added_date": "2026-10-15"
     },
     {
-      "manufacturer": "PICKBLITZ",
-      "model": "STORM",
-      "added_date": "2026-10-13"
+      "manufacturer": "Paddletek",
+      "model": "Phoenix Firestorm 16mm",
+      "added_date": "2026-10-15"
     },
     {
-      "manufacturer": "Gopher Rally",
-      "model": "COURTE PRO",
-      "added_date": "2026-10-13"
-    },
-    {
-      "manufacturer": "Franklin Sports",
-      "model": "Grove",
-      "added_date": "2026-10-13"
-    },
-    {
-      "manufacturer": "CPX",
-      "model": "HYPER+ 14mm",
-      "added_date": "2026-10-13"
-    },
-    {
-      "manufacturer": "Booma",
-      "model": "QUATTRO CORE HYBRID",
-      "added_date": "2026-10-13"
-    },
-    {
-      "manufacturer": "Aniviia",
-      "model": "Nano TI",
-      "added_date": "2026-10-13"
-    },
-    {
-      "manufacturer": "Luzz",
-      "model": "INFERNO2 M1",
-      "added_date": "2026-10-12"
+      "manufacturer": "Airavat",
+      "model": "Astra 2.0 16mm",
+      "added_date": "2026-10-15"
     }
   ],
   "rows_rolled_off_recent_approval_window": [
     {
-      "manufacturer": "Six Zero",
-      "model": "Coral Pro",
+      "manufacturer": "Proton Sports Inc",
+      "model": "Series One V2",
       "added_date": "2026-10-01"
     },
     {
-      "manufacturer": "Thunder",
-      "model": "TYPHOON 3",
-      "added_date": "2026-09-29"
+      "manufacturer": "Luzz",
+      "model": "CANNON XPP",
+      "added_date": "2026-10-01"
     },
     {
-      "manufacturer": "PB Pro",
-      "model": "Infinity Gen-X5",
-      "added_date": "2026-09-29"
-    },
-    {
-      "manufacturer": "MFO",
-      "model": "Zen-Infinity II",
-      "added_date": "2026-09-29"
-    },
-    {
-      "manufacturer": "Juciao",
-      "model": "ULTRA Ⅱ",
-      "added_date": "2026-09-29"
-    },
-    {
-      "manufacturer": "DYSSC",
-      "model": "ProFoam 16 mm",
-      "added_date": "2026-09-29"
-    },
-    {
-      "manufacturer": "2nd Serve Pickleball",
-      "model": "Momentum",
-      "added_date": "2026-09-29"
-    },
-    {
-      "manufacturer": "Evolv Pickleball",
-      "model": "Origin Hybrid",
-      "added_date": "2026-09-21"
+      "manufacturer": "JOOLA",
+      "model": "Perseus POWER FX 16mm",
+      "added_date": "2026-10-01"
     }
   ],
-  "approved_list_total_before": 5375,
-  "approved_list_total_after": 5383,
-  "approved_list_total_delta": 8,
+  "approved_list_total_before": 5383,
+  "approved_list_total_after": 5386,
+  "approved_list_total_delta": 3,
   "compliance_records_added": [],
   "compliance_records_no_longer_listed": [],
   "compliance_record_status_or_date_changes": [],
