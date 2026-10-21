@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "previous_observation_id": "PC-PADDLE-WATCH-20261016-180333Z",
+  "current_observation_id": "PC-PADDLE-WATCH-20261021-183915Z",
+  "detected_at_utc": "2026-10-21T18:39:15Z",
+  "has_substantive_change": true,
+  "new_rows_in_recent_approval_window": [
+    {
+      "manufacturer": "W CLE",
+      "model": "C CORE",
+      "added_date": "2026-10-19"
+    },
+    {
+      "manufacturer": "Taishan",
+      "model": "RAVEN",
+      "added_date": "2026-10-19"
+    },
+    {
+      "manufacturer": "Monarch Pickleball (Dick’s Sporting Goods)",
+      "model": "Dragon Slayer Carbon",
+      "added_date": "2026-10-19"
+    },
+    {
+      "manufacturer": "Duole",
+      "model": "kairos gen2",
+      "added_date": "2026-10-19"
+    },
+    {
+      "manufacturer": "Bread and Butter Pickleball Company",
+      "model": "Loco 2 Hybrid",
+      "added_date": "2026-10-19"
+    }
+  ],
+  "rows_rolled_off_recent_approval_window": [
+    {
+      "manufacturer": "HEROES",
+      "model": "FEBE",
+      "added_date": "2026-10-01"
+    },
+    {
+      "manufacturer": "GRÜVN",
+      "model": "MUVN-16HD Pro",
+      "added_date": "2026-10-01"
+    },
+    {
+      "manufacturer": "GRÜVN",
+      "model": "BRUZN-16X",
+      "added_date": "2026-10-01"
+    },
+    {
+      "manufacturer": "Gearbox",
+      "model": "Pressure X 8M",
+      "added_date": "2026-10-01"
+    },
+    {
+      "manufacturer": "Gearbox",
+      "model": "Pressure X 8E",
+      "added_date": "2026-10-01"
+    }
+  ],
+  "approved_list_total_before": 5386,
+  "approved_list_total_after": 5391,
+  "approved_list_total_delta": 5,
+  "compliance_records_added": [],
+  "compliance_records_no_longer_listed": [],
+  "compliance_record_status_or_date_changes": [],
+  "interpretation_guardrails": [
+    "A recent approval row rolling off the first page is not evidence of decertification.",
+    "A decrease in the total approved-list count does not identify which model changed status.",
+    "A compliance record no longer appearing is not automatically classified as resolved.",
+    "Only USA Pickleball's published status wording is carried into editorial review."
+  ]
+}

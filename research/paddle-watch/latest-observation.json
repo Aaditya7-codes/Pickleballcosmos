@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "observation_id": "PC-PADDLE-WATCH-20261016-180333Z",
-  "observed_at_utc": "2026-10-16T18:03:33Z",
+  "observation_id": "PC-PADDLE-WATCH-20261021-183915Z",
+  "observed_at_utc": "2026-10-21T18:39:15Z",
   "publisher": "Pickleball Cosmos Editorial",
   "scope": "Newest visible USA Pickleball approval page plus the complete public Paddle Compliance Report; not a full database mirror.",
   "source_of_record": {
@@ -13,19 +13,44 @@
     "approved_paddle_list": {
       "url": "https://equipment.usapickleball.org/paddle-list/",
       "http_status": 200,
-      "sha256_html": "c36d58adb0be3ed0a7ced9c0ada5803f9be56319e186db793cc1efa7e4a5bc10"
+      "sha256_html": "3959caf0c4f975e6eb66b4dddb5fb445da924fa370fe99d4a7d59029d4c04aeb"
     },
     "compliance_report": {
       "url": "https://equipment.usapickleball.org/compliance/",
       "http_status": 200,
-      "sha256_html": "901abd96a17097619b6b9cd47d97a7ba2faf96a2beee96a100389febbf3aef3e"
+      "sha256_html": "3d32d98275ef6f12ea2cc57f49b62387fd4bd5d67fee1e689f7b5ec0017d2ed5"
     }
   },
   "approved_list": {
     "display_start": 1,
     "display_end": 25,
-    "approved_list_total": 5386,
+    "approved_list_total": 5391,
     "recent_approvals": [
+      {
+        "manufacturer": "Bread and Butter Pickleball Company",
+        "model": "Loco 2 Hybrid",
+        "added_date": "2026-10-19"
+      },
+      {
+        "manufacturer": "Duole",
+        "model": "kairos gen2",
+        "added_date": "2026-10-19"
+      },
+      {
+        "manufacturer": "Monarch Pickleball (Dick’s Sporting Goods)",
+        "model": "Dragon Slayer Carbon",
+        "added_date": "2026-10-19"
+      },
+      {
+        "manufacturer": "Taishan",
+        "model": "RAVEN",
+        "added_date": "2026-10-19"
+      },
+      {
+        "manufacturer": "W CLE",
+        "model": "C CORE",
+        "added_date": "2026-10-19"
+      },
       {
         "manufacturer": "Airavat",
         "model": "Astra 2.0 16mm",
@@ -124,31 +149,6 @@
       {
         "manufacturer": "Gearbox",
         "model": "Pressure X 8M Hybrid",
-        "added_date": "2026-10-01"
-      },
-      {
-        "manufacturer": "Gearbox",
-        "model": "Pressure X 8E",
-        "added_date": "2026-10-01"
-      },
-      {
-        "manufacturer": "Gearbox",
-        "model": "Pressure X 8M",
-        "added_date": "2026-10-01"
-      },
-      {
-        "manufacturer": "GRÜVN",
-        "model": "MUVN-16HD Pro",
-        "added_date": "2026-10-01"
-      },
-      {
-        "manufacturer": "GRÜVN",
-        "model": "BRUZN-16X",
-        "added_date": "2026-10-01"
-      },
-      {
-        "manufacturer": "HEROES",
-        "model": "FEBE",
         "added_date": "2026-10-01"
       }
     ]

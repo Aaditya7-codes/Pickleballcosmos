@@ -1,14 +1,16 @@
 # Paddle Approval Watch — detected source change
 
-- Previous observation: `PC-PADDLE-WATCH-20261014-183746Z`
-- Current observation: `PC-PADDLE-WATCH-20261016-180333Z`
-- Detected: `2026-10-16T18:03:33Z`
-- Approved-list total: `5383` → `5386` (+3)
+- Previous observation: `PC-PADDLE-WATCH-20261016-180333Z`
+- Current observation: `PC-PADDLE-WATCH-20261021-183915Z`
+- Detected: `2026-10-21T18:39:15Z`
+- Approved-list total: `5386` → `5391` (+5)
 
 ## New rows in monitored recent-approval window
-- 2026-10-15 — **PRO-SPIN** — Boost GFS 14MM
-- 2026-10-15 — **Paddletek** — Phoenix Firestorm 16mm
-- 2026-10-15 — **Airavat** — Astra 2.0 16mm
+- 2026-10-19 — **W CLE** — C CORE
+- 2026-10-19 — **Taishan** — RAVEN
+- 2026-10-19 — **Monarch Pickleball (Dick’s Sporting Goods)** — Dragon Slayer Carbon
+- 2026-10-19 — **Duole** — kairos gen2
+- 2026-10-19 — **Bread and Butter Pickleball Company** — Loco 2 Hybrid
 
 ## Compliance records added
 - None
