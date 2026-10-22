@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "observation_id": "PC-PADDLE-WATCH-20261021-183915Z",
-  "observed_at_utc": "2026-10-21T18:39:15Z",
+  "observation_id": "PC-PADDLE-WATCH-20261022-183255Z",
+  "observed_at_utc": "2026-10-22T18:32:55Z",
   "publisher": "Pickleball Cosmos Editorial",
   "scope": "Newest visible USA Pickleball approval page plus the complete public Paddle Compliance Report; not a full database mirror.",
   "source_of_record": {
@@ -13,19 +13,29 @@
     "approved_paddle_list": {
       "url": "https://equipment.usapickleball.org/paddle-list/",
       "http_status": 200,
-      "sha256_html": "3959caf0c4f975e6eb66b4dddb5fb445da924fa370fe99d4a7d59029d4c04aeb"
+      "sha256_html": "65c3b175a455e44bf51c58630ecae37bf6113f33ea594095e638ea69a4a883df"
     },
     "compliance_report": {
       "url": "https://equipment.usapickleball.org/compliance/",
       "http_status": 200,
-      "sha256_html": "3d32d98275ef6f12ea2cc57f49b62387fd4bd5d67fee1e689f7b5ec0017d2ed5"
+      "sha256_html": "d9120ac5bcacad756683b26de5cecf4c2beb2bfda3efd4facaea734d67edb569"
     }
   },
   "approved_list": {
     "display_start": 1,
     "display_end": 25,
-    "approved_list_total": 5391,
+    "approved_list_total": 5393,
     "recent_approvals": [
+      {
+        "manufacturer": "Success",
+        "model": "S2911",
+        "added_date": "2026-10-21"
+      },
+      {
+        "manufacturer": "Vatic Pro",
+        "model": "V-Sol Tour Flash FT 16mm",
+        "added_date": "2026-10-21"
+      },
       {
         "manufacturer": "Bread and Butter Pickleball Company",
         "model": "Loco 2 Hybrid",
@@ -139,16 +149,6 @@
       {
         "manufacturer": "Bread and Butter Pickleball Company",
         "model": "Loco 2 Elongated",
-        "added_date": "2026-10-01"
-      },
-      {
-        "manufacturer": "Gearbox",
-        "model": "Pressure X 8E Hybrid",
-        "added_date": "2026-10-01"
-      },
-      {
-        "manufacturer": "Gearbox",
-        "model": "Pressure X 8M Hybrid",
         "added_date": "2026-10-01"
       }
     ]

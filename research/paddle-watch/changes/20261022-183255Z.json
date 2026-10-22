@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "previous_observation_id": "PC-PADDLE-WATCH-20261021-183915Z",
+  "current_observation_id": "PC-PADDLE-WATCH-20261022-183255Z",
+  "detected_at_utc": "2026-10-22T18:32:55Z",
+  "has_substantive_change": true,
+  "new_rows_in_recent_approval_window": [
+    {
+      "manufacturer": "Vatic Pro",
+      "model": "V-Sol Tour Flash FT 16mm",
+      "added_date": "2026-10-21"
+    },
+    {
+      "manufacturer": "Success",
+      "model": "S2911",
+      "added_date": "2026-10-21"
+    }
+  ],
+  "rows_rolled_off_recent_approval_window": [
+    {
+      "manufacturer": "Gearbox",
+      "model": "Pressure X 8M Hybrid",
+      "added_date": "2026-10-01"
+    },
+    {
+      "manufacturer": "Gearbox",
+      "model": "Pressure X 8E Hybrid",
+      "added_date": "2026-10-01"
+    }
+  ],
+  "approved_list_total_before": 5391,
+  "approved_list_total_after": 5393,
+  "approved_list_total_delta": 2,
+  "compliance_records_added": [],
+  "compliance_records_no_longer_listed": [],
+  "compliance_record_status_or_date_changes": [],
+  "interpretation_guardrails": [
+    "A recent approval row rolling off the first page is not evidence of decertification.",
+    "A decrease in the total approved-list count does not identify which model changed status.",
+    "A compliance record no longer appearing is not automatically classified as resolved.",
+    "Only USA Pickleball's published status wording is carried into editorial review."
+  ]
+}
