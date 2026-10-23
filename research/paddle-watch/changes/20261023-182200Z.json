@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "previous_observation_id": "PC-PADDLE-WATCH-20261022-183255Z",
+  "current_observation_id": "PC-PADDLE-WATCH-20261023-182200Z",
+  "detected_at_utc": "2026-10-23T18:22:00Z",
+  "has_substantive_change": true,
+  "new_rows_in_recent_approval_window": [
+    {
+      "manufacturer": "Soxter",
+      "model": "Impact Pro 5.0 Ultra",
+      "added_date": "2026-10-22"
+    },
+    {
+      "manufacturer": "Arkon",
+      "model": "Enka",
+      "added_date": "2026-10-22"
+    }
+  ],
+  "rows_rolled_off_recent_approval_window": [
+    {
+      "manufacturer": "Mint",
+      "model": "Mon Ami 2",
+      "added_date": "2026-10-02"
+    },
+    {
+      "manufacturer": "Bread and Butter Pickleball Company",
+      "model": "Loco 2 Elongated",
+      "added_date": "2026-10-01"
+    }
+  ],
+  "approved_list_total_before": 5393,
+  "approved_list_total_after": 5397,
+  "approved_list_total_delta": 4,
+  "compliance_records_added": [],
+  "compliance_records_no_longer_listed": [],
+  "compliance_record_status_or_date_changes": [],
+  "interpretation_guardrails": [
+    "A recent approval row rolling off the first page is not evidence of decertification.",
+    "A decrease in the total approved-list count does not identify which model changed status.",
+    "A compliance record no longer appearing is not automatically classified as resolved.",
+    "Only USA Pickleball's published status wording is carried into editorial review."
+  ]
+}

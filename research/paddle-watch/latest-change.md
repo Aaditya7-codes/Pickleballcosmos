@@ -1,13 +1,13 @@
 # Paddle Approval Watch — detected source change
 
-- Previous observation: `PC-PADDLE-WATCH-20261021-183915Z`
-- Current observation: `PC-PADDLE-WATCH-20261022-183255Z`
-- Detected: `2026-10-22T18:32:55Z`
-- Approved-list total: `5391` → `5393` (+2)
+- Previous observation: `PC-PADDLE-WATCH-20261022-183255Z`
+- Current observation: `PC-PADDLE-WATCH-20261023-182200Z`
+- Detected: `2026-10-23T18:22:00Z`
+- Approved-list total: `5393` → `5397` (+4)
 
 ## New rows in monitored recent-approval window
-- 2026-10-21 — **Vatic Pro** — V-Sol Tour Flash FT 16mm
-- 2026-10-21 — **Success** — S2911
+- 2026-10-22 — **Soxter** — Impact Pro 5.0 Ultra
+- 2026-10-22 — **Arkon** — Enka
 
 ## Compliance records added
 - None

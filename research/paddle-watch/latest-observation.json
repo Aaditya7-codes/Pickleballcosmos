@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "observation_id": "PC-PADDLE-WATCH-20261022-183255Z",
-  "observed_at_utc": "2026-10-22T18:32:55Z",
+  "observation_id": "PC-PADDLE-WATCH-20261023-182200Z",
+  "observed_at_utc": "2026-10-23T18:22:00Z",
   "publisher": "Pickleball Cosmos Editorial",
   "scope": "Newest visible USA Pickleball approval page plus the complete public Paddle Compliance Report; not a full database mirror.",
   "source_of_record": {
@@ -13,19 +13,29 @@
     "approved_paddle_list": {
       "url": "https://equipment.usapickleball.org/paddle-list/",
       "http_status": 200,
-      "sha256_html": "65c3b175a455e44bf51c58630ecae37bf6113f33ea594095e638ea69a4a883df"
+      "sha256_html": "762ef9906f7367e504c61551bfdcd77a84c49ae98a30df41c7b506e3709ee382"
     },
     "compliance_report": {
       "url": "https://equipment.usapickleball.org/compliance/",
       "http_status": 200,
-      "sha256_html": "d9120ac5bcacad756683b26de5cecf4c2beb2bfda3efd4facaea734d67edb569"
+      "sha256_html": "6d5c93088b4827a63ecc85dd207bedff57f392e03b581790db23fe8a5e28fb5e"
     }
   },
   "approved_list": {
     "display_start": 1,
     "display_end": 25,
-    "approved_list_total": 5393,
+    "approved_list_total": 5397,
     "recent_approvals": [
+      {
+        "manufacturer": "Arkon",
+        "model": "Enka",
+        "added_date": "2026-10-22"
+      },
+      {
+        "manufacturer": "Soxter",
+        "model": "Impact Pro 5.0 Ultra",
+        "added_date": "2026-10-22"
+      },
       {
         "manufacturer": "Success",
         "model": "S2911",
@@ -133,23 +143,13 @@
       },
       {
         "manufacturer": "RPM Pickleball",
-        "model": "Diesel 1 16mm Elongated",
-        "added_date": "2026-10-05"
-      },
-      {
-        "manufacturer": "RPM Pickleball",
         "model": "Diesel 1 14mm Elongated",
         "added_date": "2026-10-05"
       },
       {
-        "manufacturer": "Mint",
-        "model": "Mon Ami 2",
-        "added_date": "2026-10-02"
-      },
-      {
-        "manufacturer": "Bread and Butter Pickleball Company",
-        "model": "Loco 2 Elongated",
-        "added_date": "2026-10-01"
+        "manufacturer": "RPM Pickleball",
+        "model": "Diesel 1 16mm Elongated",
+        "added_date": "2026-10-05"
       }
     ]
   },

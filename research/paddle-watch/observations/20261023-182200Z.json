@@ -1,0 +1,201 @@
+{
+  "schema_version": "1.0",
+  "observation_id": "PC-PADDLE-WATCH-20261023-182200Z",
+  "observed_at_utc": "2026-10-23T18:22:00Z",
+  "publisher": "Pickleball Cosmos Editorial",
+  "scope": "Newest visible USA Pickleball approval page plus the complete public Paddle Compliance Report; not a full database mirror.",
+  "source_of_record": {
+    "approved_paddle_list": "https://equipment.usapickleball.org/paddle-list/",
+    "compliance_report": "https://equipment.usapickleball.org/compliance/",
+    "equipment_faq": "https://equipment.usapickleball.org/equipment-submission-faq/"
+  },
+  "source_evidence": {
+    "approved_paddle_list": {
+      "url": "https://equipment.usapickleball.org/paddle-list/",
+      "http_status": 200,
+      "sha256_html": "762ef9906f7367e504c61551bfdcd77a84c49ae98a30df41c7b506e3709ee382"
+    },
+    "compliance_report": {
+      "url": "https://equipment.usapickleball.org/compliance/",
+      "http_status": 200,
+      "sha256_html": "6d5c93088b4827a63ecc85dd207bedff57f392e03b581790db23fe8a5e28fb5e"
+    }
+  },
+  "approved_list": {
+    "display_start": 1,
+    "display_end": 25,
+    "approved_list_total": 5397,
+    "recent_approvals": [
+      {
+        "manufacturer": "Arkon",
+        "model": "Enka",
+        "added_date": "2026-10-22"
+      },
+      {
+        "manufacturer": "Soxter",
+        "model": "Impact Pro 5.0 Ultra",
+        "added_date": "2026-10-22"
+      },
+      {
+        "manufacturer": "Success",
+        "model": "S2911",
+        "added_date": "2026-10-21"
+      },
+      {
+        "manufacturer": "Vatic Pro",
+        "model": "V-Sol Tour Flash FT 16mm",
+        "added_date": "2026-10-21"
+      },
+      {
+        "manufacturer": "Bread and Butter Pickleball Company",
+        "model": "Loco 2 Hybrid",
+        "added_date": "2026-10-19"
+      },
+      {
+        "manufacturer": "Duole",
+        "model": "kairos gen2",
+        "added_date": "2026-10-19"
+      },
+      {
+        "manufacturer": "Monarch Pickleball (Dick’s Sporting Goods)",
+        "model": "Dragon Slayer Carbon",
+        "added_date": "2026-10-19"
+      },
+      {
+        "manufacturer": "Taishan",
+        "model": "RAVEN",
+        "added_date": "2026-10-19"
+      },
+      {
+        "manufacturer": "W CLE",
+        "model": "C CORE",
+        "added_date": "2026-10-19"
+      },
+      {
+        "manufacturer": "Airavat",
+        "model": "Astra 2.0 16mm",
+        "added_date": "2026-10-15"
+      },
+      {
+        "manufacturer": "Paddletek",
+        "model": "Phoenix Firestorm 16mm",
+        "added_date": "2026-10-15"
+      },
+      {
+        "manufacturer": "PRO-SPIN",
+        "model": "Boost GFS 14MM",
+        "added_date": "2026-10-15"
+      },
+      {
+        "manufacturer": "Aniviia",
+        "model": "Nano TI",
+        "added_date": "2026-10-13"
+      },
+      {
+        "manufacturer": "Booma",
+        "model": "QUATTRO CORE HYBRID",
+        "added_date": "2026-10-13"
+      },
+      {
+        "manufacturer": "CPX",
+        "model": "HYPER+ 14mm",
+        "added_date": "2026-10-13"
+      },
+      {
+        "manufacturer": "Franklin Sports",
+        "model": "Grove",
+        "added_date": "2026-10-13"
+      },
+      {
+        "manufacturer": "Gopher Rally",
+        "model": "COURTE PRO",
+        "added_date": "2026-10-13"
+      },
+      {
+        "manufacturer": "PICKBLITZ",
+        "model": "STORM",
+        "added_date": "2026-10-13"
+      },
+      {
+        "manufacturer": "PICKLE POPPERS",
+        "model": "POP N RUSH ELONGATED",
+        "added_date": "2026-10-13"
+      },
+      {
+        "manufacturer": "Luzz",
+        "model": "INFERNO2 M1",
+        "added_date": "2026-10-12"
+      },
+      {
+        "manufacturer": "NXTgen Sports Inc.",
+        "model": "Hydra2 Elongated",
+        "added_date": "2026-10-08"
+      },
+      {
+        "manufacturer": "Witness",
+        "model": "Rival",
+        "added_date": "2026-10-08"
+      },
+      {
+        "manufacturer": "Astes",
+        "model": "Architect Ultra",
+        "added_date": "2026-10-05"
+      },
+      {
+        "manufacturer": "RPM Pickleball",
+        "model": "Diesel 1 14mm Elongated",
+        "added_date": "2026-10-05"
+      },
+      {
+        "manufacturer": "RPM Pickleball",
+        "model": "Diesel 1 16mm Elongated",
+        "added_date": "2026-10-05"
+      }
+    ]
+  },
+  "compliance_report": {
+    "display_start": 1,
+    "display_end": 5,
+    "compliance_total": 5,
+    "compliance_board": [
+      {
+        "brand": "Proton Sports Inc",
+        "models": "Series Three Project Peacock - S3PE15",
+        "report_date": "2026-05-28",
+        "status": "Under Investigation"
+      },
+      {
+        "brand": "Speedup",
+        "models": "Tide 14S",
+        "report_date": "2026-05-27",
+        "status": "Under Investigation"
+      },
+      {
+        "brand": "Facolos",
+        "models": "Pro Series - Elite X",
+        "report_date": "2026-03-24",
+        "status": "Removed from USAP Approved List"
+      },
+      {
+        "brand": "R.A.W. Reign and Win",
+        "models": "Multiple",
+        "report_date": "2026-03-11",
+        "status": "Compliance Issue Resolved"
+      },
+      {
+        "brand": "Six Zero",
+        "models": "Ruby Pro 14MM",
+        "report_date": "2025-11-20",
+        "status": "Under Investigation"
+      }
+    ]
+  },
+  "editorial_guardrails": [
+    "USA Pickleball's live database remains the source of record for sanctioned-play eligibility.",
+    "Rows leaving the recent-approval window are not removals or decertifications.",
+    "A compliance record disappearing from the board is not automatically resolved.",
+    "Under Investigation is not equivalent to Removed from USAP Approved List.",
+    "Approval is a compliance status, not a Pickleball Cosmos performance test or endorsement.",
+    "The monitor detects changes; editorial conclusions require verification before publication."
+  ]
+}

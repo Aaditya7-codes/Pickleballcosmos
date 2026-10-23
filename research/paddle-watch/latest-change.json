@@ -1,36 +1,36 @@
 {
   "schema_version": "1.0",
-  "previous_observation_id": "PC-PADDLE-WATCH-20261021-183915Z",
-  "current_observation_id": "PC-PADDLE-WATCH-20261022-183255Z",
-  "detected_at_utc": "2026-10-22T18:32:55Z",
+  "previous_observation_id": "PC-PADDLE-WATCH-20261022-183255Z",
+  "current_observation_id": "PC-PADDLE-WATCH-20261023-182200Z",
+  "detected_at_utc": "2026-10-23T18:22:00Z",
   "has_substantive_change": true,
   "new_rows_in_recent_approval_window": [
     {
-      "manufacturer": "Vatic Pro",
-      "model": "V-Sol Tour Flash FT 16mm",
-      "added_date": "2026-10-21"
+      "manufacturer": "Soxter",
+      "model": "Impact Pro 5.0 Ultra",
+      "added_date": "2026-10-22"
     },
     {
-      "manufacturer": "Success",
-      "model": "S2911",
-      "added_date": "2026-10-21"
+      "manufacturer": "Arkon",
+      "model": "Enka",
+      "added_date": "2026-10-22"
     }
   ],
   "rows_rolled_off_recent_approval_window": [
     {
-      "manufacturer": "Gearbox",
-      "model": "Pressure X 8M Hybrid",
-      "added_date": "2026-10-01"
+      "manufacturer": "Mint",
+      "model": "Mon Ami 2",
+      "added_date": "2026-10-02"
     },
     {
-      "manufacturer": "Gearbox",
-      "model": "Pressure X 8E Hybrid",
+      "manufacturer": "Bread and Butter Pickleball Company",
+      "model": "Loco 2 Elongated",
       "added_date": "2026-10-01"
     }
   ],
-  "approved_list_total_before": 5391,
-  "approved_list_total_after": 5393,
-  "approved_list_total_delta": 2,
+  "approved_list_total_before": 5393,
+  "approved_list_total_after": 5397,
+  "approved_list_total_delta": 4,
   "compliance_records_added": [],
   "compliance_records_no_longer_listed": [],
   "compliance_record_status_or_date_changes": [],
