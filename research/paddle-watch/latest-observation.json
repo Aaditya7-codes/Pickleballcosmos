@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "observation_id": "PC-PADDLE-WATCH-20261023-182200Z",
-  "observed_at_utc": "2026-10-23T18:22:00Z",
+  "observation_id": "PC-PADDLE-WATCH-20261024-172714Z",
+  "observed_at_utc": "2026-10-24T17:27:14Z",
   "publisher": "Pickleball Cosmos Editorial",
   "scope": "Newest visible USA Pickleball approval page plus the complete public Paddle Compliance Report; not a full database mirror.",
   "source_of_record": {
@@ -13,22 +13,27 @@
     "approved_paddle_list": {
       "url": "https://equipment.usapickleball.org/paddle-list/",
       "http_status": 200,
-      "sha256_html": "762ef9906f7367e504c61551bfdcd77a84c49ae98a30df41c7b506e3709ee382"
+      "sha256_html": "703c5e1336cb7ab6ab4bb725e04ee6a7655a8c4dba21a28c1b8a89c04978a1a4"
     },
     "compliance_report": {
       "url": "https://equipment.usapickleball.org/compliance/",
       "http_status": 200,
-      "sha256_html": "6d5c93088b4827a63ecc85dd207bedff57f392e03b581790db23fe8a5e28fb5e"
+      "sha256_html": "24c38d2b1f129e957b0fcdbdd42b8815c7f0076203371a67261f5f34ca30e27c"
     }
   },
   "approved_list": {
     "display_start": 1,
     "display_end": 25,
-    "approved_list_total": 5397,
+    "approved_list_total": 5404,
     "recent_approvals": [
       {
         "manufacturer": "Arkon",
         "model": "Enka",
+        "added_date": "2026-10-22"
+      },
+      {
+        "manufacturer": "Ascend Pickleball",
+        "model": "Sonic Widebody",
         "added_date": "2026-10-22"
       },
       {
@@ -144,11 +149,6 @@
       {
         "manufacturer": "RPM Pickleball",
         "model": "Diesel 1 14mm Elongated",
-        "added_date": "2026-10-05"
-      },
-      {
-        "manufacturer": "RPM Pickleball",
-        "model": "Diesel 1 16mm Elongated",
         "added_date": "2026-10-05"
       }
     ]

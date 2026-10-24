@@ -1,13 +1,12 @@
 # Paddle Approval Watch — detected source change
 
-- Previous observation: `PC-PADDLE-WATCH-20261022-183255Z`
-- Current observation: `PC-PADDLE-WATCH-20261023-182200Z`
-- Detected: `2026-10-23T18:22:00Z`
-- Approved-list total: `5393` → `5397` (+4)
+- Previous observation: `PC-PADDLE-WATCH-20261023-182200Z`
+- Current observation: `PC-PADDLE-WATCH-20261024-172714Z`
+- Detected: `2026-10-24T17:27:14Z`
+- Approved-list total: `5397` → `5404` (+7)
 
 ## New rows in monitored recent-approval window
-- 2026-10-22 — **Soxter** — Impact Pro 5.0 Ultra
-- 2026-10-22 — **Arkon** — Enka
+- 2026-10-22 — **Ascend Pickleball** — Sonic Widebody
 
 ## Compliance records added
 - None
