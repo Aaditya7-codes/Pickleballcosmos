@@ -1,12 +1,15 @@
 # Paddle Approval Watch — detected source change
 
-- Previous observation: `PC-PADDLE-WATCH-20261023-182200Z`
-- Current observation: `PC-PADDLE-WATCH-20261024-172714Z`
-- Detected: `2026-10-24T17:27:14Z`
-- Approved-list total: `5397` → `5404` (+7)
+- Previous observation: `PC-PADDLE-WATCH-20261024-172714Z`
+- Current observation: `PC-PADDLE-WATCH-20261026-195654Z`
+- Detected: `2026-10-26T19:56:54Z`
+- Approved-list total: `5404` → `5408` (+4)
 
 ## New rows in monitored recent-approval window
-- 2026-10-22 — **Ascend Pickleball** — Sonic Widebody
+- 2026-10-25 — **ZO** — Concept-01-ZO
+- 2026-10-25 — **KDV** — D1
+- 2026-10-25 — **Juciao** — BLACK MAMBA
+- 2026-10-25 — **DPRADIX** — INVICTA V
 
 ## Compliance records added
 - None

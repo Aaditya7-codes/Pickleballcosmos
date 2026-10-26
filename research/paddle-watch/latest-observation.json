@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "observation_id": "PC-PADDLE-WATCH-20261024-172714Z",
-  "observed_at_utc": "2026-10-24T17:27:14Z",
+  "observation_id": "PC-PADDLE-WATCH-20261026-195654Z",
+  "observed_at_utc": "2026-10-26T19:56:54Z",
   "publisher": "Pickleball Cosmos Editorial",
   "scope": "Newest visible USA Pickleball approval page plus the complete public Paddle Compliance Report; not a full database mirror.",
   "source_of_record": {
@@ -13,19 +13,39 @@
     "approved_paddle_list": {
       "url": "https://equipment.usapickleball.org/paddle-list/",
       "http_status": 200,
-      "sha256_html": "703c5e1336cb7ab6ab4bb725e04ee6a7655a8c4dba21a28c1b8a89c04978a1a4"
+      "sha256_html": "f88a1ed4a7dcb9ec52c31a39b9f1e4fbde641737d51ed81f68f7b35ad9cd4a27"
     },
     "compliance_report": {
       "url": "https://equipment.usapickleball.org/compliance/",
       "http_status": 200,
-      "sha256_html": "24c38d2b1f129e957b0fcdbdd42b8815c7f0076203371a67261f5f34ca30e27c"
+      "sha256_html": "eda5b1044f571d118bdd6a6b2f712a97563c413adbaf7a71e87f9796eb4101ab"
     }
   },
   "approved_list": {
     "display_start": 1,
     "display_end": 25,
-    "approved_list_total": 5404,
+    "approved_list_total": 5408,
     "recent_approvals": [
+      {
+        "manufacturer": "DPRADIX",
+        "model": "INVICTA V",
+        "added_date": "2026-10-25"
+      },
+      {
+        "manufacturer": "Juciao",
+        "model": "BLACK MAMBA",
+        "added_date": "2026-10-25"
+      },
+      {
+        "manufacturer": "KDV",
+        "model": "D1",
+        "added_date": "2026-10-25"
+      },
+      {
+        "manufacturer": "ZO",
+        "model": "Concept-01-ZO",
+        "added_date": "2026-10-25"
+      },
       {
         "manufacturer": "Arkon",
         "model": "Enka",
@@ -130,26 +150,6 @@
         "manufacturer": "Luzz",
         "model": "INFERNO2 M1",
         "added_date": "2026-10-12"
-      },
-      {
-        "manufacturer": "NXTgen Sports Inc.",
-        "model": "Hydra2 Elongated",
-        "added_date": "2026-10-08"
-      },
-      {
-        "manufacturer": "Witness",
-        "model": "Rival",
-        "added_date": "2026-10-08"
-      },
-      {
-        "manufacturer": "Astes",
-        "model": "Architect Ultra",
-        "added_date": "2026-10-05"
-      },
-      {
-        "manufacturer": "RPM Pickleball",
-        "model": "Diesel 1 14mm Elongated",
-        "added_date": "2026-10-05"
       }
     ]
   },

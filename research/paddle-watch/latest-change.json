@@ -1,26 +1,56 @@
 {
   "schema_version": "1.0",
-  "previous_observation_id": "PC-PADDLE-WATCH-20261023-182200Z",
-  "current_observation_id": "PC-PADDLE-WATCH-20261024-172714Z",
-  "detected_at_utc": "2026-10-24T17:27:14Z",
+  "previous_observation_id": "PC-PADDLE-WATCH-20261024-172714Z",
+  "current_observation_id": "PC-PADDLE-WATCH-20261026-195654Z",
+  "detected_at_utc": "2026-10-26T19:56:54Z",
   "has_substantive_change": true,
   "new_rows_in_recent_approval_window": [
     {
-      "manufacturer": "Ascend Pickleball",
-      "model": "Sonic Widebody",
-      "added_date": "2026-10-22"
+      "manufacturer": "ZO",
+      "model": "Concept-01-ZO",
+      "added_date": "2026-10-25"
+    },
+    {
+      "manufacturer": "KDV",
+      "model": "D1",
+      "added_date": "2026-10-25"
+    },
+    {
+      "manufacturer": "Juciao",
+      "model": "BLACK MAMBA",
+      "added_date": "2026-10-25"
+    },
+    {
+      "manufacturer": "DPRADIX",
+      "model": "INVICTA V",
+      "added_date": "2026-10-25"
     }
   ],
   "rows_rolled_off_recent_approval_window": [
     {
+      "manufacturer": "Witness",
+      "model": "Rival",
+      "added_date": "2026-10-08"
+    },
+    {
+      "manufacturer": "NXTgen Sports Inc.",
+      "model": "Hydra2 Elongated",
+      "added_date": "2026-10-08"
+    },
+    {
       "manufacturer": "RPM Pickleball",
-      "model": "Diesel 1 16mm Elongated",
+      "model": "Diesel 1 14mm Elongated",
+      "added_date": "2026-10-05"
+    },
+    {
+      "manufacturer": "Astes",
+      "model": "Architect Ultra",
       "added_date": "2026-10-05"
     }
   ],
-  "approved_list_total_before": 5397,
-  "approved_list_total_after": 5404,
-  "approved_list_total_delta": 7,
+  "approved_list_total_before": 5404,
+  "approved_list_total_after": 5408,
+  "approved_list_total_delta": 4,
   "compliance_records_added": [],
   "compliance_records_no_longer_listed": [],
   "compliance_record_status_or_date_changes": [],
