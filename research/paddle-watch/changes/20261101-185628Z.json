@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "previous_observation_id": "PC-PADDLE-WATCH-20261026-195654Z",
+  "current_observation_id": "PC-PADDLE-WATCH-20261101-185628Z",
+  "detected_at_utc": "2026-11-01T18:56:28Z",
+  "has_substantive_change": true,
+  "new_rows_in_recent_approval_window": [
+    {
+      "manufacturer": "VANTA",
+      "model": "VELOCITY",
+      "added_date": "2026-10-30"
+    },
+    {
+      "manufacturer": "VANTA",
+      "model": "STRIKE",
+      "added_date": "2026-10-30"
+    },
+    {
+      "manufacturer": "VANTA",
+      "model": "APEX",
+      "added_date": "2026-10-30"
+    },
+    {
+      "manufacturer": "Onix Sports",
+      "model": "Aeris",
+      "added_date": "2026-10-30"
+    },
+    {
+      "manufacturer": "Nord Paddle",
+      "model": "Nord",
+      "added_date": "2026-10-30"
+    }
+  ],
+  "rows_rolled_off_recent_approval_window": [
+    {
+      "manufacturer": "PICKLE POPPERS",
+      "model": "POP N RUSH ELONGATED",
+      "added_date": "2026-10-13"
+    },
+    {
+      "manufacturer": "PICKBLITZ",
+      "model": "STORM",
+      "added_date": "2026-10-13"
+    },
+    {
+      "manufacturer": "Gopher Rally",
+      "model": "COURTE PRO",
+      "added_date": "2026-10-13"
+    },
+    {
+      "manufacturer": "Franklin Sports",
+      "model": "Grove",
+      "added_date": "2026-10-13"
+    },
+    {
+      "manufacturer": "Luzz",
+      "model": "INFERNO2 M1",
+      "added_date": "2026-10-12"
+    }
+  ],
+  "approved_list_total_before": 5408,
+  "approved_list_total_after": 5389,
+  "approved_list_total_delta": -19,
+  "compliance_records_added": [],
+  "compliance_records_no_longer_listed": [],
+  "compliance_record_status_or_date_changes": [],
+  "interpretation_guardrails": [
+    "A recent approval row rolling off the first page is not evidence of decertification.",
+    "A decrease in the total approved-list count does not identify which model changed status.",
+    "A compliance record no longer appearing is not automatically classified as resolved.",
+    "Only USA Pickleball's published status wording is carried into editorial review."
+  ]
+}
