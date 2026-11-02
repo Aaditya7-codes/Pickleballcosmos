@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "observation_id": "PC-PADDLE-WATCH-20261101-185628Z",
-  "observed_at_utc": "2026-11-01T18:56:28Z",
+  "observation_id": "PC-PADDLE-WATCH-20261102-224642Z",
+  "observed_at_utc": "2026-11-02T22:46:42Z",
   "publisher": "Pickleball Cosmos Editorial",
   "scope": "Newest visible USA Pickleball approval page plus the complete public Paddle Compliance Report; not a full database mirror.",
   "source_of_record": {
@@ -13,19 +13,24 @@
     "approved_paddle_list": {
       "url": "https://equipment.usapickleball.org/paddle-list/",
       "http_status": 200,
-      "sha256_html": "f470a0f738feb9e576887bd6d71151a8872276802b72ee4d99db5bb6d2b4ae39"
+      "sha256_html": "3680e93f45c10c62a1a09498bd90e411d16d3954e03ad466768eb65e4a5f8daa"
     },
     "compliance_report": {
       "url": "https://equipment.usapickleball.org/compliance/",
       "http_status": 200,
-      "sha256_html": "f9688476c103abdb574bd2d6464a1b1d74831476ca3ad6d3336e06cd98eecee0"
+      "sha256_html": "8cebb1c40ee485fc74d7d84e20c65a2f0afacd9eed5e2be85edaf6423d899cdd"
     }
   },
   "approved_list": {
     "display_start": 1,
     "display_end": 25,
-    "approved_list_total": 5389,
+    "approved_list_total": 5391,
     "recent_approvals": [
+      {
+        "manufacturer": "TENFESSO",
+        "model": "HZ2026-01",
+        "added_date": "2026-11-01"
+      },
       {
         "manufacturer": "Nord Paddle",
         "model": "Nord",
@@ -38,12 +43,12 @@
       },
       {
         "manufacturer": "VANTA",
-        "model": "STRIKE",
+        "model": "APEX",
         "added_date": "2026-10-30"
       },
       {
         "manufacturer": "VANTA",
-        "model": "APEX",
+        "model": "STRIKE",
         "added_date": "2026-10-30"
       },
       {
@@ -144,11 +149,6 @@
       {
         "manufacturer": "Booma",
         "model": "QUATTRO CORE HYBRID",
-        "added_date": "2026-10-13"
-      },
-      {
-        "manufacturer": "CPX",
-        "model": "HYPER+ 14mm",
         "added_date": "2026-10-13"
       }
     ]
