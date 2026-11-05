@@ -1,18 +1,12 @@
 # Paddle Approval Watch — detected source change
 
-- Previous observation: `PC-PADDLE-WATCH-20261102-224642Z`
-- Current observation: `PC-PADDLE-WATCH-20261104-204919Z`
-- Detected: `2026-11-04T20:49:19Z`
-- Approved-list total: `5391` → `5398` (+7)
+- Previous observation: `PC-PADDLE-WATCH-20261104-204919Z`
+- Current observation: `PC-PADDLE-WATCH-20261105-210528Z`
+- Detected: `2026-11-05T21:05:28Z`
+- Approved-list total: `5398` → `5402` (+4)
 
 ## New rows in monitored recent-approval window
-- 2026-11-03 — **DECATHLON** — POWER PRO
-- 2026-11-03 — **DECATHLON** — POWER DYN
-- 2026-11-03 — **DECATHLON** — HYBRID PRO
-- 2026-11-03 — **DECATHLON** — HYBRID DYN
-- 2026-11-03 — **DECATHLON** — CONTROL PRO
-- 2026-11-03 — **DECATHLON** — CONTROL DYN
-- 2026-10-29 — **Spartus** — Spitfire Hybrid
+- None
 
 ## Compliance records added
 - None

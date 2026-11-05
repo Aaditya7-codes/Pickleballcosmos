@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "previous_observation_id": "PC-PADDLE-WATCH-20261104-204919Z",
+  "current_observation_id": "PC-PADDLE-WATCH-20261105-210528Z",
+  "detected_at_utc": "2026-11-05T21:05:28Z",
+  "has_substantive_change": true,
+  "new_rows_in_recent_approval_window": [],
+  "rows_rolled_off_recent_approval_window": [],
+  "approved_list_total_before": 5398,
+  "approved_list_total_after": 5402,
+  "approved_list_total_delta": 4,
+  "compliance_records_added": [],
+  "compliance_records_no_longer_listed": [],
+  "compliance_record_status_or_date_changes": [],
+  "interpretation_guardrails": [
+    "A recent approval row rolling off the first page is not evidence of decertification.",
+    "A decrease in the total approved-list count does not identify which model changed status.",
+    "A compliance record no longer appearing is not automatically classified as resolved.",
+    "Only USA Pickleball's published status wording is carried into editorial review."
+  ]
+}

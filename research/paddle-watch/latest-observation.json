@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "observation_id": "PC-PADDLE-WATCH-20261104-204919Z",
-  "observed_at_utc": "2026-11-04T20:49:19Z",
+  "observation_id": "PC-PADDLE-WATCH-20261105-210528Z",
+  "observed_at_utc": "2026-11-05T21:05:28Z",
   "publisher": "Pickleball Cosmos Editorial",
   "scope": "Newest visible USA Pickleball approval page plus the complete public Paddle Compliance Report; not a full database mirror.",
   "source_of_record": {
@@ -13,29 +13,19 @@
     "approved_paddle_list": {
       "url": "https://equipment.usapickleball.org/paddle-list/",
       "http_status": 200,
-      "sha256_html": "c2e12f3ef8d7174671223616919e6b605d15a873c0448b57d5d1680f96d4acda"
+      "sha256_html": "ef7765a257b396210d894589c2659e126e8747fe337271c5a63e947f43fba187"
     },
     "compliance_report": {
       "url": "https://equipment.usapickleball.org/compliance/",
       "http_status": 200,
-      "sha256_html": "3436b1e839621ba3d6ee17a0211312e21323270a85f465956f0359aa8c86d786"
+      "sha256_html": "9a6cfee5dfc80670f6ee8f3208f671cffedc605b310c561cd9ffa446dceb6ad1"
     }
   },
   "approved_list": {
     "display_start": 1,
     "display_end": 25,
-    "approved_list_total": 5398,
+    "approved_list_total": 5402,
     "recent_approvals": [
-      {
-        "manufacturer": "DECATHLON",
-        "model": "CONTROL DYN",
-        "added_date": "2026-11-03"
-      },
-      {
-        "manufacturer": "DECATHLON",
-        "model": "POWER PRO",
-        "added_date": "2026-11-03"
-      },
       {
         "manufacturer": "DECATHLON",
         "model": "HYBRID DYN",
@@ -43,7 +33,12 @@
       },
       {
         "manufacturer": "DECATHLON",
-        "model": "POWER DYN",
+        "model": "HYBRID PRO",
+        "added_date": "2026-11-03"
+      },
+      {
+        "manufacturer": "DECATHLON",
+        "model": "CONTROL DYN",
         "added_date": "2026-11-03"
       },
       {
@@ -53,7 +48,12 @@
       },
       {
         "manufacturer": "DECATHLON",
-        "model": "HYBRID PRO",
+        "model": "POWER DYN",
+        "added_date": "2026-11-03"
+      },
+      {
+        "manufacturer": "DECATHLON",
+        "model": "POWER PRO",
         "added_date": "2026-11-03"
       },
       {
@@ -78,12 +78,12 @@
       },
       {
         "manufacturer": "VANTA",
-        "model": "APEX",
+        "model": "VELOCITY",
         "added_date": "2026-10-30"
       },
       {
         "manufacturer": "VANTA",
-        "model": "VELOCITY",
+        "model": "APEX",
         "added_date": "2026-10-30"
       },
       {
