@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "observation_id": "PC-PADDLE-WATCH-20261105-210528Z",
-  "observed_at_utc": "2026-11-05T21:05:28Z",
+  "observation_id": "PC-PADDLE-WATCH-20261107-184807Z",
+  "observed_at_utc": "2026-11-07T18:48:07Z",
   "publisher": "Pickleball Cosmos Editorial",
   "scope": "Newest visible USA Pickleball approval page plus the complete public Paddle Compliance Report; not a full database mirror.",
   "source_of_record": {
@@ -13,19 +13,34 @@
     "approved_paddle_list": {
       "url": "https://equipment.usapickleball.org/paddle-list/",
       "http_status": 200,
-      "sha256_html": "ef7765a257b396210d894589c2659e126e8747fe337271c5a63e947f43fba187"
+      "sha256_html": "0db7fc4499b25bf4cc3c17a12f92832b0038c6c4fa42d66c770c2bc0b3d416dd"
     },
     "compliance_report": {
       "url": "https://equipment.usapickleball.org/compliance/",
       "http_status": 200,
-      "sha256_html": "9a6cfee5dfc80670f6ee8f3208f671cffedc605b310c561cd9ffa446dceb6ad1"
+      "sha256_html": "0ffb9bc64a336c94d49e159a1052da7699551de3643cae3a4ff614209d7e0407"
     }
   },
   "approved_list": {
     "display_start": 1,
     "display_end": 25,
-    "approved_list_total": 5402,
+    "approved_list_total": 5405,
     "recent_approvals": [
+      {
+        "manufacturer": "Six Zero",
+        "model": "Coral Pro RCD-EFT 16mm",
+        "added_date": "2026-11-06"
+      },
+      {
+        "manufacturer": "Six Zero",
+        "model": "Coral Pro RCD-W 16mm",
+        "added_date": "2026-11-06"
+      },
+      {
+        "manufacturer": "Six Zero",
+        "model": "Coral Pro RCD-E 16MM",
+        "added_date": "2026-11-06"
+      },
       {
         "manufacturer": "DECATHLON",
         "model": "HYBRID DYN",
@@ -73,12 +88,12 @@
       },
       {
         "manufacturer": "VANTA",
-        "model": "STRIKE",
+        "model": "VELOCITY",
         "added_date": "2026-10-30"
       },
       {
         "manufacturer": "VANTA",
-        "model": "VELOCITY",
+        "model": "STRIKE",
         "added_date": "2026-10-30"
       },
       {
@@ -135,21 +150,6 @@
         "manufacturer": "Vatic Pro",
         "model": "V-Sol Tour Flash FT 16mm",
         "added_date": "2026-10-21"
-      },
-      {
-        "manufacturer": "Bread and Butter Pickleball Company",
-        "model": "Loco 2 Hybrid",
-        "added_date": "2026-10-19"
-      },
-      {
-        "manufacturer": "Duole",
-        "model": "kairos gen2",
-        "added_date": "2026-10-19"
-      },
-      {
-        "manufacturer": "Monarch Pickleball (Dick’s Sporting Goods)",
-        "model": "Dragon Slayer Carbon",
-        "added_date": "2026-10-19"
       }
     ]
   },

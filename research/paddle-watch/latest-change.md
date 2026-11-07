@@ -1,12 +1,14 @@
 # Paddle Approval Watch — detected source change
 
-- Previous observation: `PC-PADDLE-WATCH-20261104-204919Z`
-- Current observation: `PC-PADDLE-WATCH-20261105-210528Z`
-- Detected: `2026-11-05T21:05:28Z`
-- Approved-list total: `5398` → `5402` (+4)
+- Previous observation: `PC-PADDLE-WATCH-20261105-210528Z`
+- Current observation: `PC-PADDLE-WATCH-20261107-184807Z`
+- Detected: `2026-11-07T18:48:07Z`
+- Approved-list total: `5402` → `5405` (+3)
 
 ## New rows in monitored recent-approval window
-- None
+- 2026-11-06 — **Six Zero** — Coral Pro RCD-W 16mm
+- 2026-11-06 — **Six Zero** — Coral Pro RCD-EFT 16mm
+- 2026-11-06 — **Six Zero** — Coral Pro RCD-E 16MM
 
 ## Compliance records added
 - None
