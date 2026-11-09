@@ -1,46 +1,46 @@
 {
   "schema_version": "1.0",
-  "previous_observation_id": "PC-PADDLE-WATCH-20261105-210528Z",
-  "current_observation_id": "PC-PADDLE-WATCH-20261107-184807Z",
-  "detected_at_utc": "2026-11-07T18:48:07Z",
+  "previous_observation_id": "PC-PADDLE-WATCH-20261107-184807Z",
+  "current_observation_id": "PC-PADDLE-WATCH-20261109-232641Z",
+  "detected_at_utc": "2026-11-09T23:26:41Z",
   "has_substantive_change": true,
   "new_rows_in_recent_approval_window": [
     {
-      "manufacturer": "Six Zero",
-      "model": "Coral Pro RCD-W 16mm",
-      "added_date": "2026-11-06"
+      "manufacturer": "Paddletek",
+      "model": "Tempest Veyra Widebody",
+      "added_date": "2026-10-29"
     },
     {
-      "manufacturer": "Six Zero",
-      "model": "Coral Pro RCD-EFT 16mm",
-      "added_date": "2026-11-06"
+      "manufacturer": "Paddletek",
+      "model": "Bantam Jolt Elongated",
+      "added_date": "2026-10-29"
     },
     {
-      "manufacturer": "Six Zero",
-      "model": "Coral Pro RCD-E 16MM",
-      "added_date": "2026-11-06"
+      "manufacturer": "Paddletek",
+      "model": "Tempest Veyra Elongated",
+      "added_date": "2026-10-22"
     }
   ],
   "rows_rolled_off_recent_approval_window": [
     {
-      "manufacturer": "Monarch Pickleball (Dick’s Sporting Goods)",
-      "model": "Dragon Slayer Carbon",
-      "added_date": "2026-10-19"
+      "manufacturer": "Soxter",
+      "model": "Impact Pro 5.0 Ultra",
+      "added_date": "2026-10-22"
     },
     {
-      "manufacturer": "Duole",
-      "model": "kairos gen2",
-      "added_date": "2026-10-19"
+      "manufacturer": "Vatic Pro",
+      "model": "V-Sol Tour Flash FT 16mm",
+      "added_date": "2026-10-21"
     },
     {
-      "manufacturer": "Bread and Butter Pickleball Company",
-      "model": "Loco 2 Hybrid",
-      "added_date": "2026-10-19"
+      "manufacturer": "Success",
+      "model": "S2911",
+      "added_date": "2026-10-21"
     }
   ],
-  "approved_list_total_before": 5402,
-  "approved_list_total_after": 5405,
-  "approved_list_total_delta": 3,
+  "approved_list_total_before": 5405,
+  "approved_list_total_after": 5409,
+  "approved_list_total_delta": 4,
   "compliance_records_added": [],
   "compliance_records_no_longer_listed": [],
   "compliance_record_status_or_date_changes": [],

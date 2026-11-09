@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "observation_id": "PC-PADDLE-WATCH-20261107-184807Z",
-  "observed_at_utc": "2026-11-07T18:48:07Z",
+  "observation_id": "PC-PADDLE-WATCH-20261109-232641Z",
+  "observed_at_utc": "2026-11-09T23:26:41Z",
   "publisher": "Pickleball Cosmos Editorial",
   "scope": "Newest visible USA Pickleball approval page plus the complete public Paddle Compliance Report; not a full database mirror.",
   "source_of_record": {
@@ -13,18 +13,18 @@
     "approved_paddle_list": {
       "url": "https://equipment.usapickleball.org/paddle-list/",
       "http_status": 200,
-      "sha256_html": "0db7fc4499b25bf4cc3c17a12f92832b0038c6c4fa42d66c770c2bc0b3d416dd"
+      "sha256_html": "fe650d400ad41f3423b676161ff9bd256f986c5bc485ec6d1c5af654e271d621"
     },
     "compliance_report": {
       "url": "https://equipment.usapickleball.org/compliance/",
       "http_status": 200,
-      "sha256_html": "0ffb9bc64a336c94d49e159a1052da7699551de3643cae3a4ff614209d7e0407"
+      "sha256_html": "86ed00c3b89158d2dc52cab680d72bccc6ac41db553271c231f8a62ff3e5262e"
     }
   },
   "approved_list": {
     "display_start": 1,
     "display_end": 25,
-    "approved_list_total": 5405,
+    "approved_list_total": 5409,
     "recent_approvals": [
       {
         "manufacturer": "Six Zero",
@@ -102,6 +102,16 @@
         "added_date": "2026-10-30"
       },
       {
+        "manufacturer": "Paddletek",
+        "model": "Bantam Jolt Elongated",
+        "added_date": "2026-10-29"
+      },
+      {
+        "manufacturer": "Paddletek",
+        "model": "Tempest Veyra Widebody",
+        "added_date": "2026-10-29"
+      },
+      {
         "manufacturer": "Spartus",
         "model": "Spitfire Hybrid",
         "added_date": "2026-10-29"
@@ -137,19 +147,9 @@
         "added_date": "2026-10-22"
       },
       {
-        "manufacturer": "Soxter",
-        "model": "Impact Pro 5.0 Ultra",
+        "manufacturer": "Paddletek",
+        "model": "Tempest Veyra Elongated",
         "added_date": "2026-10-22"
-      },
-      {
-        "manufacturer": "Success",
-        "model": "S2911",
-        "added_date": "2026-10-21"
-      },
-      {
-        "manufacturer": "Vatic Pro",
-        "model": "V-Sol Tour Flash FT 16mm",
-        "added_date": "2026-10-21"
       }
     ]
   },

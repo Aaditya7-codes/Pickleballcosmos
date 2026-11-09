@@ -1,14 +1,14 @@
 # Paddle Approval Watch — detected source change
 
-- Previous observation: `PC-PADDLE-WATCH-20261105-210528Z`
-- Current observation: `PC-PADDLE-WATCH-20261107-184807Z`
-- Detected: `2026-11-07T18:48:07Z`
-- Approved-list total: `5402` → `5405` (+3)
+- Previous observation: `PC-PADDLE-WATCH-20261107-184807Z`
+- Current observation: `PC-PADDLE-WATCH-20261109-232641Z`
+- Detected: `2026-11-09T23:26:41Z`
+- Approved-list total: `5405` → `5409` (+4)
 
 ## New rows in monitored recent-approval window
-- 2026-11-06 — **Six Zero** — Coral Pro RCD-W 16mm
-- 2026-11-06 — **Six Zero** — Coral Pro RCD-EFT 16mm
-- 2026-11-06 — **Six Zero** — Coral Pro RCD-E 16MM
+- 2026-10-29 — **Paddletek** — Tempest Veyra Widebody
+- 2026-10-29 — **Paddletek** — Bantam Jolt Elongated
+- 2026-10-22 — **Paddletek** — Tempest Veyra Elongated
 
 ## Compliance records added
 - None
