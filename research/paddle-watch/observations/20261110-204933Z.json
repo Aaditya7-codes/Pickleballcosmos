@@ -1,0 +1,201 @@
+{
+  "schema_version": "1.0",
+  "observation_id": "PC-PADDLE-WATCH-20261110-204933Z",
+  "observed_at_utc": "2026-11-10T20:49:33Z",
+  "publisher": "Pickleball Cosmos Editorial",
+  "scope": "Newest visible USA Pickleball approval page plus the complete public Paddle Compliance Report; not a full database mirror.",
+  "source_of_record": {
+    "approved_paddle_list": "https://equipment.usapickleball.org/paddle-list/",
+    "compliance_report": "https://equipment.usapickleball.org/compliance/",
+    "equipment_faq": "https://equipment.usapickleball.org/equipment-submission-faq/"
+  },
+  "source_evidence": {
+    "approved_paddle_list": {
+      "url": "https://equipment.usapickleball.org/paddle-list/",
+      "http_status": 200,
+      "sha256_html": "d4045675e254dafd41068cadb7a73150e6ddefa00a2a15d31d9b2bc8cf7b7851"
+    },
+    "compliance_report": {
+      "url": "https://equipment.usapickleball.org/compliance/",
+      "http_status": 200,
+      "sha256_html": "e3f028e7c004e0353b0b4cd893a906896cc0ec3b97f23e57a85ca82424329f2d"
+    }
+  },
+  "approved_list": {
+    "display_start": 1,
+    "display_end": 25,
+    "approved_list_total": 5411,
+    "recent_approvals": [
+      {
+        "manufacturer": "Selectra",
+        "model": "Essence: Water",
+        "added_date": "2026-11-09"
+      },
+      {
+        "manufacturer": "Selectra",
+        "model": "Essence: Air",
+        "added_date": "2026-11-09"
+      },
+      {
+        "manufacturer": "Six Zero",
+        "model": "Coral Pro RCD-EFT 16mm",
+        "added_date": "2026-11-06"
+      },
+      {
+        "manufacturer": "Six Zero",
+        "model": "Coral Pro RCD-W 16mm",
+        "added_date": "2026-11-06"
+      },
+      {
+        "manufacturer": "Six Zero",
+        "model": "Coral Pro RCD-E 16MM",
+        "added_date": "2026-11-06"
+      },
+      {
+        "manufacturer": "DECATHLON",
+        "model": "HYBRID PRO",
+        "added_date": "2026-11-03"
+      },
+      {
+        "manufacturer": "DECATHLON",
+        "model": "POWER PRO",
+        "added_date": "2026-11-03"
+      },
+      {
+        "manufacturer": "DECATHLON",
+        "model": "HYBRID DYN",
+        "added_date": "2026-11-03"
+      },
+      {
+        "manufacturer": "DECATHLON",
+        "model": "CONTROL PRO",
+        "added_date": "2026-11-03"
+      },
+      {
+        "manufacturer": "DECATHLON",
+        "model": "POWER DYN",
+        "added_date": "2026-11-03"
+      },
+      {
+        "manufacturer": "DECATHLON",
+        "model": "CONTROL DYN",
+        "added_date": "2026-11-03"
+      },
+      {
+        "manufacturer": "TENFESSO",
+        "model": "HZ2026-01",
+        "added_date": "2026-11-01"
+      },
+      {
+        "manufacturer": "Nord Paddle",
+        "model": "Nord",
+        "added_date": "2026-10-30"
+      },
+      {
+        "manufacturer": "Onix Sports",
+        "model": "Aeris",
+        "added_date": "2026-10-30"
+      },
+      {
+        "manufacturer": "VANTA",
+        "model": "APEX",
+        "added_date": "2026-10-30"
+      },
+      {
+        "manufacturer": "VANTA",
+        "model": "VELOCITY",
+        "added_date": "2026-10-30"
+      },
+      {
+        "manufacturer": "VANTA",
+        "model": "STRIKE",
+        "added_date": "2026-10-30"
+      },
+      {
+        "manufacturer": "Paddletek",
+        "model": "Tempest Veyra Widebody",
+        "added_date": "2026-10-29"
+      },
+      {
+        "manufacturer": "Paddletek",
+        "model": "Bantam Jolt Elongated",
+        "added_date": "2026-10-29"
+      },
+      {
+        "manufacturer": "Spartus",
+        "model": "Spitfire Hybrid",
+        "added_date": "2026-10-29"
+      },
+      {
+        "manufacturer": "DPRADIX",
+        "model": "INVICTA V",
+        "added_date": "2026-10-25"
+      },
+      {
+        "manufacturer": "Juciao",
+        "model": "BLACK MAMBA",
+        "added_date": "2026-10-25"
+      },
+      {
+        "manufacturer": "KDV",
+        "model": "D1",
+        "added_date": "2026-10-25"
+      },
+      {
+        "manufacturer": "ZO",
+        "model": "Concept-01-ZO",
+        "added_date": "2026-10-25"
+      },
+      {
+        "manufacturer": "Arkon",
+        "model": "Enka",
+        "added_date": "2026-10-22"
+      }
+    ]
+  },
+  "compliance_report": {
+    "display_start": 1,
+    "display_end": 5,
+    "compliance_total": 5,
+    "compliance_board": [
+      {
+        "brand": "Proton Sports Inc",
+        "models": "Series Three Project Peacock - S3PE15",
+        "report_date": "2026-05-28",
+        "status": "Under Investigation"
+      },
+      {
+        "brand": "Speedup",
+        "models": "Tide 14S",
+        "report_date": "2026-05-27",
+        "status": "Under Investigation"
+      },
+      {
+        "brand": "Facolos",
+        "models": "Pro Series - Elite X",
+        "report_date": "2026-03-24",
+        "status": "Removed from USAP Approved List"
+      },
+      {
+        "brand": "R.A.W. Reign and Win",
+        "models": "Multiple",
+        "report_date": "2026-03-11",
+        "status": "Compliance Issue Resolved"
+      },
+      {
+        "brand": "Six Zero",
+        "models": "Ruby Pro 14MM",
+        "report_date": "2025-11-20",
+        "status": "Under Investigation"
+      }
+    ]
+  },
+  "editorial_guardrails": [
+    "USA Pickleball's live database remains the source of record for sanctioned-play eligibility.",
+    "Rows leaving the recent-approval window are not removals or decertifications.",
+    "A compliance record disappearing from the board is not automatically resolved.",
+    "Under Investigation is not equivalent to Removed from USAP Approved List.",
+    "Approval is a compliance status, not a Pickleball Cosmos performance test or endorsement.",
+    "The monitor detects changes; editorial conclusions require verification before publication."
+  ]
+}
