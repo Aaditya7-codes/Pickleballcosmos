@@ -1,0 +1,93 @@
+{
+  "schema_version": "1.0",
+  "previous_observation_id": "PC-PADDLE-WATCH-20261110-204933Z",
+  "current_observation_id": "PC-PADDLE-WATCH-20261111-212543Z",
+  "detected_at_utc": "2026-11-11T21:25:43Z",
+  "has_substantive_change": true,
+  "new_rows_in_recent_approval_window": [
+    {
+      "manufacturer": "Tier 1 Pickleball",
+      "model": "Firepower",
+      "added_date": "2026-11-10"
+    },
+    {
+      "manufacturer": "SXY",
+      "model": "Crazy Horse",
+      "added_date": "2026-11-10"
+    },
+    {
+      "manufacturer": "SXY",
+      "model": "Carbonator",
+      "added_date": "2026-11-10"
+    },
+    {
+      "manufacturer": "SXY",
+      "model": "Bamboo Pro",
+      "added_date": "2026-11-10"
+    },
+    {
+      "manufacturer": "SHREDD",
+      "model": "CHARGE PRO",
+      "added_date": "2026-11-10"
+    },
+    {
+      "manufacturer": "SEPOIQ",
+      "model": "PULSE SERIES",
+      "added_date": "2026-11-10"
+    },
+    {
+      "manufacturer": "HAMR",
+      "model": "Claw",
+      "added_date": "2026-11-10"
+    }
+  ],
+  "rows_rolled_off_recent_approval_window": [
+    {
+      "manufacturer": "Spartus",
+      "model": "Spitfire Hybrid",
+      "added_date": "2026-10-29"
+    },
+    {
+      "manufacturer": "Paddletek",
+      "model": "Bantam Jolt Elongated",
+      "added_date": "2026-10-29"
+    },
+    {
+      "manufacturer": "ZO",
+      "model": "Concept-01-ZO",
+      "added_date": "2026-10-25"
+    },
+    {
+      "manufacturer": "KDV",
+      "model": "D1",
+      "added_date": "2026-10-25"
+    },
+    {
+      "manufacturer": "Juciao",
+      "model": "BLACK MAMBA",
+      "added_date": "2026-10-25"
+    },
+    {
+      "manufacturer": "DPRADIX",
+      "model": "INVICTA V",
+      "added_date": "2026-10-25"
+    },
+    {
+      "manufacturer": "Arkon",
+      "model": "Enka",
+      "added_date": "2026-10-22"
+    }
+  ],
+  "approved_list_total_before": 5411,
+  "approved_list_total_after": 5418,
+  "approved_list_total_delta": 7,
+  "compliance_records_added": [],
+  "compliance_records_no_longer_listed": [],
+  "compliance_record_status_or_date_changes": [],
+  "interpretation_guardrails": [
+    "A recent approval row rolling off the first page is not evidence of decertification.",
+    "A decrease in the total approved-list count does not identify which model changed status.",
+    "A compliance record no longer appearing is not automatically classified as resolved.",
+    "Only USA Pickleball's published status wording is carried into editorial review."
+  ]
+}

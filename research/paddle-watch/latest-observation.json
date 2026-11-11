@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "observation_id": "PC-PADDLE-WATCH-20261110-204933Z",
-  "observed_at_utc": "2026-11-10T20:49:33Z",
+  "observation_id": "PC-PADDLE-WATCH-20261111-212543Z",
+  "observed_at_utc": "2026-11-11T21:25:43Z",
   "publisher": "Pickleball Cosmos Editorial",
   "scope": "Newest visible USA Pickleball approval page plus the complete public Paddle Compliance Report; not a full database mirror.",
   "source_of_record": {
@@ -13,19 +13,54 @@
     "approved_paddle_list": {
       "url": "https://equipment.usapickleball.org/paddle-list/",
       "http_status": 200,
-      "sha256_html": "d4045675e254dafd41068cadb7a73150e6ddefa00a2a15d31d9b2bc8cf7b7851"
+      "sha256_html": "a4f0019a7aead5ddde4fe0b0a6cfc8e5efacd138ebf61c7b6354b65c1c532d3a"
     },
     "compliance_report": {
       "url": "https://equipment.usapickleball.org/compliance/",
       "http_status": 200,
-      "sha256_html": "e3f028e7c004e0353b0b4cd893a906896cc0ec3b97f23e57a85ca82424329f2d"
+      "sha256_html": "0525e6c387cdf7c4f96517a473c598be335ed16bf6041d8660d330ff67d8f6f4"
     }
   },
   "approved_list": {
     "display_start": 1,
     "display_end": 25,
-    "approved_list_total": 5411,
+    "approved_list_total": 5418,
     "recent_approvals": [
+      {
+        "manufacturer": "HAMR",
+        "model": "Claw",
+        "added_date": "2026-11-10"
+      },
+      {
+        "manufacturer": "SEPOIQ",
+        "model": "PULSE SERIES",
+        "added_date": "2026-11-10"
+      },
+      {
+        "manufacturer": "SHREDD",
+        "model": "CHARGE PRO",
+        "added_date": "2026-11-10"
+      },
+      {
+        "manufacturer": "SXY",
+        "model": "Carbonator",
+        "added_date": "2026-11-10"
+      },
+      {
+        "manufacturer": "SXY",
+        "model": "Crazy Horse",
+        "added_date": "2026-11-10"
+      },
+      {
+        "manufacturer": "SXY",
+        "model": "Bamboo Pro",
+        "added_date": "2026-11-10"
+      },
+      {
+        "manufacturer": "Tier 1 Pickleball",
+        "model": "Firepower",
+        "added_date": "2026-11-10"
+      },
       {
         "manufacturer": "Selectra",
         "model": "Essence: Water",
@@ -38,6 +73,11 @@
       },
       {
         "manufacturer": "Six Zero",
+        "model": "Coral Pro RCD-E 16MM",
+        "added_date": "2026-11-06"
+      },
+      {
+        "manufacturer": "Six Zero",
         "model": "Coral Pro RCD-EFT 16mm",
         "added_date": "2026-11-06"
       },
@@ -47,13 +87,13 @@
         "added_date": "2026-11-06"
       },
       {
-        "manufacturer": "Six Zero",
-        "model": "Coral Pro RCD-E 16MM",
-        "added_date": "2026-11-06"
+        "manufacturer": "DECATHLON",
+        "model": "HYBRID DYN",
+        "added_date": "2026-11-03"
       },
       {
         "manufacturer": "DECATHLON",
-        "model": "HYBRID PRO",
+        "model": "POWER DYN",
         "added_date": "2026-11-03"
       },
       {
@@ -63,17 +103,12 @@
       },
       {
         "manufacturer": "DECATHLON",
-        "model": "HYBRID DYN",
-        "added_date": "2026-11-03"
-      },
-      {
-        "manufacturer": "DECATHLON",
         "model": "CONTROL PRO",
         "added_date": "2026-11-03"
       },
       {
         "manufacturer": "DECATHLON",
-        "model": "POWER DYN",
+        "model": "HYBRID PRO",
         "added_date": "2026-11-03"
       },
       {
@@ -98,12 +133,12 @@
       },
       {
         "manufacturer": "VANTA",
-        "model": "APEX",
+        "model": "VELOCITY",
         "added_date": "2026-10-30"
       },
       {
         "manufacturer": "VANTA",
-        "model": "VELOCITY",
+        "model": "APEX",
         "added_date": "2026-10-30"
       },
       {
@@ -115,41 +150,6 @@
         "manufacturer": "Paddletek",
         "model": "Tempest Veyra Widebody",
         "added_date": "2026-10-29"
-      },
-      {
-        "manufacturer": "Paddletek",
-        "model": "Bantam Jolt Elongated",
-        "added_date": "2026-10-29"
-      },
-      {
-        "manufacturer": "Spartus",
-        "model": "Spitfire Hybrid",
-        "added_date": "2026-10-29"
-      },
-      {
-        "manufacturer": "DPRADIX",
-        "model": "INVICTA V",
-        "added_date": "2026-10-25"
-      },
-      {
-        "manufacturer": "Juciao",
-        "model": "BLACK MAMBA",
-        "added_date": "2026-10-25"
-      },
-      {
-        "manufacturer": "KDV",
-        "model": "D1",
-        "added_date": "2026-10-25"
-      },
-      {
-        "manufacturer": "ZO",
-        "model": "Concept-01-ZO",
-        "added_date": "2026-10-25"
-      },
-      {
-        "manufacturer": "Arkon",
-        "model": "Enka",
-        "added_date": "2026-10-22"
       }
     ]
   },

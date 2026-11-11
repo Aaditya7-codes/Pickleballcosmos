@@ -1,0 +1,201 @@
+{
+  "schema_version": "1.0",
+  "observation_id": "PC-PADDLE-WATCH-20261111-212543Z",
+  "observed_at_utc": "2026-11-11T21:25:43Z",
+  "publisher": "Pickleball Cosmos Editorial",
+  "scope": "Newest visible USA Pickleball approval page plus the complete public Paddle Compliance Report; not a full database mirror.",
+  "source_of_record": {
+    "approved_paddle_list": "https://equipment.usapickleball.org/paddle-list/",
+    "compliance_report": "https://equipment.usapickleball.org/compliance/",
+    "equipment_faq": "https://equipment.usapickleball.org/equipment-submission-faq/"
+  },
+  "source_evidence": {
+    "approved_paddle_list": {
+      "url": "https://equipment.usapickleball.org/paddle-list/",
+      "http_status": 200,
+      "sha256_html": "a4f0019a7aead5ddde4fe0b0a6cfc8e5efacd138ebf61c7b6354b65c1c532d3a"
+    },
+    "compliance_report": {
+      "url": "https://equipment.usapickleball.org/compliance/",
+      "http_status": 200,
+      "sha256_html": "0525e6c387cdf7c4f96517a473c598be335ed16bf6041d8660d330ff67d8f6f4"
+    }
+  },
+  "approved_list": {
+    "display_start": 1,
+    "display_end": 25,
+    "approved_list_total": 5418,
+    "recent_approvals": [
+      {
+        "manufacturer": "HAMR",
+        "model": "Claw",
+        "added_date": "2026-11-10"
+      },
+      {
+        "manufacturer": "SEPOIQ",
+        "model": "PULSE SERIES",
+        "added_date": "2026-11-10"
+      },
+      {
+        "manufacturer": "SHREDD",
+        "model": "CHARGE PRO",
+        "added_date": "2026-11-10"
+      },
+      {
+        "manufacturer": "SXY",
+        "model": "Carbonator",
+        "added_date": "2026-11-10"
+      },
+      {
+        "manufacturer": "SXY",
+        "model": "Crazy Horse",
+        "added_date": "2026-11-10"
+      },
+      {
+        "manufacturer": "SXY",
+        "model": "Bamboo Pro",
+        "added_date": "2026-11-10"
+      },
+      {
+        "manufacturer": "Tier 1 Pickleball",
+        "model": "Firepower",
+        "added_date": "2026-11-10"
+      },
+      {
+        "manufacturer": "Selectra",
+        "model": "Essence: Water",
+        "added_date": "2026-11-09"
+      },
+      {
+        "manufacturer": "Selectra",
+        "model": "Essence: Air",
+        "added_date": "2026-11-09"
+      },
+      {
+        "manufacturer": "Six Zero",
+        "model": "Coral Pro RCD-E 16MM",
+        "added_date": "2026-11-06"
+      },
+      {
+        "manufacturer": "Six Zero",
+        "model": "Coral Pro RCD-EFT 16mm",
+        "added_date": "2026-11-06"
+      },
+      {
+        "manufacturer": "Six Zero",
+        "model": "Coral Pro RCD-W 16mm",
+        "added_date": "2026-11-06"
+      },
+      {
+        "manufacturer": "DECATHLON",
+        "model": "HYBRID DYN",
+        "added_date": "2026-11-03"
+      },
+      {
+        "manufacturer": "DECATHLON",
+        "model": "POWER DYN",
+        "added_date": "2026-11-03"
+      },
+      {
+        "manufacturer": "DECATHLON",
+        "model": "POWER PRO",
+        "added_date": "2026-11-03"
+      },
+      {
+        "manufacturer": "DECATHLON",
+        "model": "CONTROL PRO",
+        "added_date": "2026-11-03"
+      },
+      {
+        "manufacturer": "DECATHLON",
+        "model": "HYBRID PRO",
+        "added_date": "2026-11-03"
+      },
+      {
+        "manufacturer": "DECATHLON",
+        "model": "CONTROL DYN",
+        "added_date": "2026-11-03"
+      },
+      {
+        "manufacturer": "TENFESSO",
+        "model": "HZ2026-01",
+        "added_date": "2026-11-01"
+      },
+      {
+        "manufacturer": "Nord Paddle",
+        "model": "Nord",
+        "added_date": "2026-10-30"
+      },
+      {
+        "manufacturer": "Onix Sports",
+        "model": "Aeris",
+        "added_date": "2026-10-30"
+      },
+      {
+        "manufacturer": "VANTA",
+        "model": "VELOCITY",
+        "added_date": "2026-10-30"
+      },
+      {
+        "manufacturer": "VANTA",
+        "model": "APEX",
+        "added_date": "2026-10-30"
+      },
+      {
+        "manufacturer": "VANTA",
+        "model": "STRIKE",
+        "added_date": "2026-10-30"
+      },
+      {
+        "manufacturer": "Paddletek",
+        "model": "Tempest Veyra Widebody",
+        "added_date": "2026-10-29"
+      }
+    ]
+  },
+  "compliance_report": {
+    "display_start": 1,
+    "display_end": 5,
+    "compliance_total": 5,
+    "compliance_board": [
+      {
+        "brand": "Proton Sports Inc",
+        "models": "Series Three Project Peacock - S3PE15",
+        "report_date": "2026-05-28",
+        "status": "Under Investigation"
+      },
+      {
+        "brand": "Speedup",
+        "models": "Tide 14S",
+        "report_date": "2026-05-27",
+        "status": "Under Investigation"
+      },
+      {
+        "brand": "Facolos",
+        "models": "Pro Series - Elite X",
+        "report_date": "2026-03-24",
+        "status": "Removed from USAP Approved List"
+      },
+      {
+        "brand": "R.A.W. Reign and Win",
+        "models": "Multiple",
+        "report_date": "2026-03-11",
+        "status": "Compliance Issue Resolved"
+      },
+      {
+        "brand": "Six Zero",
+        "models": "Ruby Pro 14MM",
+        "report_date": "2025-11-20",
+        "status": "Under Investigation"
+      }
+    ]
+  },
+  "editorial_guardrails": [
+    "USA Pickleball's live database remains the source of record for sanctioned-play eligibility.",
+    "Rows leaving the recent-approval window are not removals or decertifications.",
+    "A compliance record disappearing from the board is not automatically resolved.",
+    "Under Investigation is not equivalent to Removed from USAP Approved List.",
+    "Approval is a compliance status, not a Pickleball Cosmos performance test or endorsement.",
+    "The monitor detects changes; editorial conclusions require verification before publication."
+  ]
+}
