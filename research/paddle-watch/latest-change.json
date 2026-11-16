@@ -1,86 +1,56 @@
 {
   "schema_version": "1.0",
-  "previous_observation_id": "PC-PADDLE-WATCH-20261110-204933Z",
-  "current_observation_id": "PC-PADDLE-WATCH-20261111-212543Z",
-  "detected_at_utc": "2026-11-11T21:25:43Z",
+  "previous_observation_id": "PC-PADDLE-WATCH-20261111-212543Z",
+  "current_observation_id": "PC-PADDLE-WATCH-20261116-232332Z",
+  "detected_at_utc": "2026-11-16T23:23:32Z",
   "has_substantive_change": true,
   "new_rows_in_recent_approval_window": [
     {
-      "manufacturer": "Tier 1 Pickleball",
-      "model": "Firepower",
-      "added_date": "2026-11-10"
+      "manufacturer": "VANWIN",
+      "model": "α Control",
+      "added_date": "2026-11-16"
     },
     {
-      "manufacturer": "SXY",
-      "model": "Crazy Horse",
-      "added_date": "2026-11-10"
+      "manufacturer": "Enhance Pickleball",
+      "model": "Echo Widebody",
+      "added_date": "2026-11-14"
     },
     {
-      "manufacturer": "SXY",
-      "model": "Carbonator",
-      "added_date": "2026-11-10"
+      "manufacturer": "Enhance Pickleball",
+      "model": "Echo Hybrid",
+      "added_date": "2026-11-14"
     },
     {
-      "manufacturer": "SXY",
-      "model": "Bamboo Pro",
-      "added_date": "2026-11-10"
-    },
-    {
-      "manufacturer": "SHREDD",
-      "model": "CHARGE PRO",
-      "added_date": "2026-11-10"
-    },
-    {
-      "manufacturer": "SEPOIQ",
-      "model": "PULSE SERIES",
-      "added_date": "2026-11-10"
-    },
-    {
-      "manufacturer": "HAMR",
-      "model": "Claw",
-      "added_date": "2026-11-10"
+      "manufacturer": "Enhance Pickleball",
+      "model": "Echo Elongated",
+      "added_date": "2026-11-14"
     }
   ],
   "rows_rolled_off_recent_approval_window": [
     {
-      "manufacturer": "Spartus",
-      "model": "Spitfire Hybrid",
-      "added_date": "2026-10-29"
+      "manufacturer": "VANTA",
+      "model": "VELOCITY",
+      "added_date": "2026-10-30"
+    },
+    {
+      "manufacturer": "VANTA",
+      "model": "STRIKE",
+      "added_date": "2026-10-30"
+    },
+    {
+      "manufacturer": "VANTA",
+      "model": "APEX",
+      "added_date": "2026-10-30"
     },
     {
       "manufacturer": "Paddletek",
-      "model": "Bantam Jolt Elongated",
+      "model": "Tempest Veyra Widebody",
       "added_date": "2026-10-29"
-    },
-    {
-      "manufacturer": "ZO",
-      "model": "Concept-01-ZO",
-      "added_date": "2026-10-25"
-    },
-    {
-      "manufacturer": "KDV",
-      "model": "D1",
-      "added_date": "2026-10-25"
-    },
-    {
-      "manufacturer": "Juciao",
-      "model": "BLACK MAMBA",
-      "added_date": "2026-10-25"
-    },
-    {
-      "manufacturer": "DPRADIX",
-      "model": "INVICTA V",
-      "added_date": "2026-10-25"
-    },
-    {
-      "manufacturer": "Arkon",
-      "model": "Enka",
-      "added_date": "2026-10-22"
     }
   ],
-  "approved_list_total_before": 5411,
-  "approved_list_total_after": 5418,
-  "approved_list_total_delta": 7,
+  "approved_list_total_before": 5418,
+  "approved_list_total_after": 5422,
+  "approved_list_total_delta": 4,
   "compliance_records_added": [],
   "compliance_records_no_longer_listed": [],
   "compliance_record_status_or_date_changes": [],

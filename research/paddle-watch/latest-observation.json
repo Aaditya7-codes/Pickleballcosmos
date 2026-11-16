@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "observation_id": "PC-PADDLE-WATCH-20261111-212543Z",
-  "observed_at_utc": "2026-11-11T21:25:43Z",
+  "observation_id": "PC-PADDLE-WATCH-20261116-232332Z",
+  "observed_at_utc": "2026-11-16T23:23:32Z",
   "publisher": "Pickleball Cosmos Editorial",
   "scope": "Newest visible USA Pickleball approval page plus the complete public Paddle Compliance Report; not a full database mirror.",
   "source_of_record": {
@@ -13,19 +13,39 @@
     "approved_paddle_list": {
       "url": "https://equipment.usapickleball.org/paddle-list/",
       "http_status": 200,
-      "sha256_html": "a4f0019a7aead5ddde4fe0b0a6cfc8e5efacd138ebf61c7b6354b65c1c532d3a"
+      "sha256_html": "048eacb5ed15133b77dccbc6a62568c5e727ab1d9c47a055f69d636823b883bf"
     },
     "compliance_report": {
       "url": "https://equipment.usapickleball.org/compliance/",
       "http_status": 200,
-      "sha256_html": "0525e6c387cdf7c4f96517a473c598be335ed16bf6041d8660d330ff67d8f6f4"
+      "sha256_html": "19da8826ab648f050d9c99b4bf7b2a9203f85422470a0e093871e73c5c4ff325"
     }
   },
   "approved_list": {
     "display_start": 1,
     "display_end": 25,
-    "approved_list_total": 5418,
+    "approved_list_total": 5422,
     "recent_approvals": [
+      {
+        "manufacturer": "VANWIN",
+        "model": "α Control",
+        "added_date": "2026-11-16"
+      },
+      {
+        "manufacturer": "Enhance Pickleball",
+        "model": "Echo Elongated",
+        "added_date": "2026-11-14"
+      },
+      {
+        "manufacturer": "Enhance Pickleball",
+        "model": "Echo Hybrid",
+        "added_date": "2026-11-14"
+      },
+      {
+        "manufacturer": "Enhance Pickleball",
+        "model": "Echo Widebody",
+        "added_date": "2026-11-14"
+      },
       {
         "manufacturer": "HAMR",
         "model": "Claw",
@@ -48,12 +68,12 @@
       },
       {
         "manufacturer": "SXY",
-        "model": "Crazy Horse",
+        "model": "Bamboo Pro",
         "added_date": "2026-11-10"
       },
       {
         "manufacturer": "SXY",
-        "model": "Bamboo Pro",
+        "model": "Crazy Horse",
         "added_date": "2026-11-10"
       },
       {
@@ -63,12 +83,12 @@
       },
       {
         "manufacturer": "Selectra",
-        "model": "Essence: Water",
+        "model": "Essence: Air",
         "added_date": "2026-11-09"
       },
       {
         "manufacturer": "Selectra",
-        "model": "Essence: Air",
+        "model": "Essence: Water",
         "added_date": "2026-11-09"
       },
       {
@@ -88,17 +108,7 @@
       },
       {
         "manufacturer": "DECATHLON",
-        "model": "HYBRID DYN",
-        "added_date": "2026-11-03"
-      },
-      {
-        "manufacturer": "DECATHLON",
         "model": "POWER DYN",
-        "added_date": "2026-11-03"
-      },
-      {
-        "manufacturer": "DECATHLON",
-        "model": "POWER PRO",
         "added_date": "2026-11-03"
       },
       {
@@ -108,12 +118,22 @@
       },
       {
         "manufacturer": "DECATHLON",
-        "model": "HYBRID PRO",
+        "model": "POWER PRO",
         "added_date": "2026-11-03"
       },
       {
         "manufacturer": "DECATHLON",
         "model": "CONTROL DYN",
+        "added_date": "2026-11-03"
+      },
+      {
+        "manufacturer": "DECATHLON",
+        "model": "HYBRID DYN",
+        "added_date": "2026-11-03"
+      },
+      {
+        "manufacturer": "DECATHLON",
+        "model": "HYBRID PRO",
         "added_date": "2026-11-03"
       },
       {
@@ -130,26 +150,6 @@
         "manufacturer": "Onix Sports",
         "model": "Aeris",
         "added_date": "2026-10-30"
-      },
-      {
-        "manufacturer": "VANTA",
-        "model": "VELOCITY",
-        "added_date": "2026-10-30"
-      },
-      {
-        "manufacturer": "VANTA",
-        "model": "APEX",
-        "added_date": "2026-10-30"
-      },
-      {
-        "manufacturer": "VANTA",
-        "model": "STRIKE",
-        "added_date": "2026-10-30"
-      },
-      {
-        "manufacturer": "Paddletek",
-        "model": "Tempest Veyra Widebody",
-        "added_date": "2026-10-29"
       }
     ]
   },

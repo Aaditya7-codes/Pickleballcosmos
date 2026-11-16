@@ -1,18 +1,15 @@
 # Paddle Approval Watch — detected source change
 
-- Previous observation: `PC-PADDLE-WATCH-20261110-204933Z`
-- Current observation: `PC-PADDLE-WATCH-20261111-212543Z`
-- Detected: `2026-11-11T21:25:43Z`
-- Approved-list total: `5411` → `5418` (+7)
+- Previous observation: `PC-PADDLE-WATCH-20261111-212543Z`
+- Current observation: `PC-PADDLE-WATCH-20261116-232332Z`
+- Detected: `2026-11-16T23:23:32Z`
+- Approved-list total: `5418` → `5422` (+4)
 
 ## New rows in monitored recent-approval window
-- 2026-11-10 — **Tier 1 Pickleball** — Firepower
-- 2026-11-10 — **SXY** — Crazy Horse
-- 2026-11-10 — **SXY** — Carbonator
-- 2026-11-10 — **SXY** — Bamboo Pro
-- 2026-11-10 — **SHREDD** — CHARGE PRO
-- 2026-11-10 — **SEPOIQ** — PULSE SERIES
-- 2026-11-10 — **HAMR** — Claw
+- 2026-11-16 — **VANWIN** — α Control
+- 2026-11-14 — **Enhance Pickleball** — Echo Widebody
+- 2026-11-14 — **Enhance Pickleball** — Echo Hybrid
+- 2026-11-14 — **Enhance Pickleball** — Echo Elongated
 
 ## Compliance records added
 - None
