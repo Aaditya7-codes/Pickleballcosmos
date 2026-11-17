@@ -1,15 +1,14 @@
 # Paddle Approval Watch — detected source change
 
-- Previous observation: `PC-PADDLE-WATCH-20261111-212543Z`
-- Current observation: `PC-PADDLE-WATCH-20261116-232332Z`
-- Detected: `2026-11-16T23:23:32Z`
-- Approved-list total: `5418` → `5422` (+4)
+- Previous observation: `PC-PADDLE-WATCH-20261116-232332Z`
+- Current observation: `PC-PADDLE-WATCH-20261117-222429Z`
+- Detected: `2026-11-17T22:24:29Z`
+- Approved-list total: `5422` → `5425` (+3)
 
 ## New rows in monitored recent-approval window
-- 2026-11-16 — **VANWIN** — α Control
-- 2026-11-14 — **Enhance Pickleball** — Echo Widebody
-- 2026-11-14 — **Enhance Pickleball** — Echo Hybrid
-- 2026-11-14 — **Enhance Pickleball** — Echo Elongated
+- 2026-11-17 — **NXTgen Sports Inc.** — Hydra2 Standard
+- 2026-11-17 — **LIQIUMEI** — 008 Strive
+- 2026-11-16 — **Trion** — V-5 POWERCOM 16MM
 
 ## Compliance records added
 - None

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "observation_id": "PC-PADDLE-WATCH-20261116-232332Z",
-  "observed_at_utc": "2026-11-16T23:23:32Z",
+  "observation_id": "PC-PADDLE-WATCH-20261117-222429Z",
+  "observed_at_utc": "2026-11-17T22:24:29Z",
   "publisher": "Pickleball Cosmos Editorial",
   "scope": "Newest visible USA Pickleball approval page plus the complete public Paddle Compliance Report; not a full database mirror.",
   "source_of_record": {
@@ -13,23 +13,43 @@
     "approved_paddle_list": {
       "url": "https://equipment.usapickleball.org/paddle-list/",
       "http_status": 200,
-      "sha256_html": "048eacb5ed15133b77dccbc6a62568c5e727ab1d9c47a055f69d636823b883bf"
+      "sha256_html": "bd4bcb20f508825df57b4486b361257788c5d4712e8c0c2af3c0f499e90f2776"
     },
     "compliance_report": {
       "url": "https://equipment.usapickleball.org/compliance/",
       "http_status": 200,
-      "sha256_html": "19da8826ab648f050d9c99b4bf7b2a9203f85422470a0e093871e73c5c4ff325"
+      "sha256_html": "50442d7099bf4a0dea6c7a17ad53b4a08d6602343a48c2175eeaf8d86fca9dc9"
     }
   },
   "approved_list": {
     "display_start": 1,
     "display_end": 25,
-    "approved_list_total": 5422,
+    "approved_list_total": 5425,
     "recent_approvals": [
+      {
+        "manufacturer": "LIQIUMEI",
+        "model": "008 Strive",
+        "added_date": "2026-11-17"
+      },
+      {
+        "manufacturer": "NXTgen Sports Inc.",
+        "model": "Hydra2 Standard",
+        "added_date": "2026-11-17"
+      },
+      {
+        "manufacturer": "Trion",
+        "model": "V-5 POWERCOM 16MM",
+        "added_date": "2026-11-16"
+      },
       {
         "manufacturer": "VANWIN",
         "model": "α Control",
         "added_date": "2026-11-16"
+      },
+      {
+        "manufacturer": "Enhance Pickleball",
+        "model": "Echo Widebody",
+        "added_date": "2026-11-14"
       },
       {
         "manufacturer": "Enhance Pickleball",
@@ -39,11 +59,6 @@
       {
         "manufacturer": "Enhance Pickleball",
         "model": "Echo Hybrid",
-        "added_date": "2026-11-14"
-      },
-      {
-        "manufacturer": "Enhance Pickleball",
-        "model": "Echo Widebody",
         "added_date": "2026-11-14"
       },
       {
@@ -93,7 +108,7 @@
       },
       {
         "manufacturer": "Six Zero",
-        "model": "Coral Pro RCD-E 16MM",
+        "model": "Coral Pro RCD-W 16mm",
         "added_date": "2026-11-06"
       },
       {
@@ -103,7 +118,7 @@
       },
       {
         "manufacturer": "Six Zero",
-        "model": "Coral Pro RCD-W 16mm",
+        "model": "Coral Pro RCD-E 16MM",
         "added_date": "2026-11-06"
       },
       {
@@ -113,12 +128,12 @@
       },
       {
         "manufacturer": "DECATHLON",
-        "model": "CONTROL PRO",
+        "model": "POWER PRO",
         "added_date": "2026-11-03"
       },
       {
         "manufacturer": "DECATHLON",
-        "model": "POWER PRO",
+        "model": "CONTROL PRO",
         "added_date": "2026-11-03"
       },
       {
@@ -128,28 +143,13 @@
       },
       {
         "manufacturer": "DECATHLON",
-        "model": "HYBRID DYN",
-        "added_date": "2026-11-03"
-      },
-      {
-        "manufacturer": "DECATHLON",
         "model": "HYBRID PRO",
         "added_date": "2026-11-03"
       },
       {
-        "manufacturer": "TENFESSO",
-        "model": "HZ2026-01",
-        "added_date": "2026-11-01"
-      },
-      {
-        "manufacturer": "Nord Paddle",
-        "model": "Nord",
-        "added_date": "2026-10-30"
-      },
-      {
-        "manufacturer": "Onix Sports",
-        "model": "Aeris",
-        "added_date": "2026-10-30"
+        "manufacturer": "DECATHLON",
+        "model": "HYBRID DYN",
+        "added_date": "2026-11-03"
       }
     ]
   },
