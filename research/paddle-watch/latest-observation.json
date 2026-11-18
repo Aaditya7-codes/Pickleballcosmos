@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "observation_id": "PC-PADDLE-WATCH-20261117-222429Z",
-  "observed_at_utc": "2026-11-17T22:24:29Z",
+  "observation_id": "PC-PADDLE-WATCH-20261118-215658Z",
+  "observed_at_utc": "2026-11-18T21:56:58Z",
   "publisher": "Pickleball Cosmos Editorial",
   "scope": "Newest visible USA Pickleball approval page plus the complete public Paddle Compliance Report; not a full database mirror.",
   "source_of_record": {
@@ -13,19 +13,34 @@
     "approved_paddle_list": {
       "url": "https://equipment.usapickleball.org/paddle-list/",
       "http_status": 200,
-      "sha256_html": "bd4bcb20f508825df57b4486b361257788c5d4712e8c0c2af3c0f499e90f2776"
+      "sha256_html": "bd36934abbe9e05c2ad8a4032999872081c343686b0edca91e8a4500ef0aa1a6"
     },
     "compliance_report": {
       "url": "https://equipment.usapickleball.org/compliance/",
       "http_status": 200,
-      "sha256_html": "50442d7099bf4a0dea6c7a17ad53b4a08d6602343a48c2175eeaf8d86fca9dc9"
+      "sha256_html": "3c616e101172fcdbc8c327051bbfe2ef4d2ccbaf1e7673d57713d51cc034d7e8"
     }
   },
   "approved_list": {
     "display_start": 1,
     "display_end": 25,
-    "approved_list_total": 5425,
+    "approved_list_total": 5428,
     "recent_approvals": [
+      {
+        "manufacturer": "Hudef Sports",
+        "model": "MAGE SXD1",
+        "added_date": "2026-11-18"
+      },
+      {
+        "manufacturer": "neonic",
+        "model": "Drift Elongated",
+        "added_date": "2026-11-18"
+      },
+      {
+        "manufacturer": "NSCPK",
+        "model": "professional",
+        "added_date": "2026-11-18"
+      },
       {
         "manufacturer": "LIQIUMEI",
         "model": "008 Strive",
@@ -48,17 +63,17 @@
       },
       {
         "manufacturer": "Enhance Pickleball",
-        "model": "Echo Widebody",
-        "added_date": "2026-11-14"
-      },
-      {
-        "manufacturer": "Enhance Pickleball",
         "model": "Echo Elongated",
         "added_date": "2026-11-14"
       },
       {
         "manufacturer": "Enhance Pickleball",
         "model": "Echo Hybrid",
+        "added_date": "2026-11-14"
+      },
+      {
+        "manufacturer": "Enhance Pickleball",
+        "model": "Echo Widebody",
         "added_date": "2026-11-14"
       },
       {
@@ -78,17 +93,17 @@
       },
       {
         "manufacturer": "SXY",
-        "model": "Carbonator",
-        "added_date": "2026-11-10"
-      },
-      {
-        "manufacturer": "SXY",
         "model": "Bamboo Pro",
         "added_date": "2026-11-10"
       },
       {
         "manufacturer": "SXY",
         "model": "Crazy Horse",
+        "added_date": "2026-11-10"
+      },
+      {
+        "manufacturer": "SXY",
+        "model": "Carbonator",
         "added_date": "2026-11-10"
       },
       {
@@ -113,33 +128,13 @@
       },
       {
         "manufacturer": "Six Zero",
-        "model": "Coral Pro RCD-EFT 16mm",
-        "added_date": "2026-11-06"
-      },
-      {
-        "manufacturer": "Six Zero",
         "model": "Coral Pro RCD-E 16MM",
         "added_date": "2026-11-06"
       },
       {
-        "manufacturer": "DECATHLON",
-        "model": "POWER DYN",
-        "added_date": "2026-11-03"
-      },
-      {
-        "manufacturer": "DECATHLON",
-        "model": "POWER PRO",
-        "added_date": "2026-11-03"
-      },
-      {
-        "manufacturer": "DECATHLON",
-        "model": "CONTROL PRO",
-        "added_date": "2026-11-03"
-      },
-      {
-        "manufacturer": "DECATHLON",
-        "model": "CONTROL DYN",
-        "added_date": "2026-11-03"
+        "manufacturer": "Six Zero",
+        "model": "Coral Pro RCD-EFT 16mm",
+        "added_date": "2026-11-06"
       },
       {
         "manufacturer": "DECATHLON",
@@ -148,7 +143,12 @@
       },
       {
         "manufacturer": "DECATHLON",
-        "model": "HYBRID DYN",
+        "model": "POWER DYN",
+        "added_date": "2026-11-03"
+      },
+      {
+        "manufacturer": "DECATHLON",
+        "model": "CONTROL PRO",
         "added_date": "2026-11-03"
       }
     ]
