@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "observation_id": "PC-PADDLE-WATCH-20261118-215658Z",
-  "observed_at_utc": "2026-11-18T21:56:58Z",
+  "observation_id": "PC-PADDLE-WATCH-20261120-214907Z",
+  "observed_at_utc": "2026-11-20T21:49:07Z",
   "publisher": "Pickleball Cosmos Editorial",
   "scope": "Newest visible USA Pickleball approval page plus the complete public Paddle Compliance Report; not a full database mirror.",
   "source_of_record": {
@@ -13,19 +13,24 @@
     "approved_paddle_list": {
       "url": "https://equipment.usapickleball.org/paddle-list/",
       "http_status": 200,
-      "sha256_html": "bd36934abbe9e05c2ad8a4032999872081c343686b0edca91e8a4500ef0aa1a6"
+      "sha256_html": "1bff773b3bcbce11bb62c742fbe102048c288cacf26adad7640327e03465d274"
     },
     "compliance_report": {
       "url": "https://equipment.usapickleball.org/compliance/",
       "http_status": 200,
-      "sha256_html": "3c616e101172fcdbc8c327051bbfe2ef4d2ccbaf1e7673d57713d51cc034d7e8"
+      "sha256_html": "ab2f22ac2d95dc9af3484cb617216a237bbc20a142cf377a0714cc234f7bddcc"
     }
   },
   "approved_list": {
     "display_start": 1,
     "display_end": 25,
-    "approved_list_total": 5428,
+    "approved_list_total": 5429,
     "recent_approvals": [
+      {
+        "manufacturer": "NXTgen Sports Inc.",
+        "model": "Hydra2 Hybrid",
+        "added_date": "2026-11-19"
+      },
       {
         "manufacturer": "Hudef Sports",
         "model": "MAGE SXD1",
@@ -113,12 +118,12 @@
       },
       {
         "manufacturer": "Selectra",
-        "model": "Essence: Air",
+        "model": "Essence: Water",
         "added_date": "2026-11-09"
       },
       {
         "manufacturer": "Selectra",
-        "model": "Essence: Water",
+        "model": "Essence: Air",
         "added_date": "2026-11-09"
       },
       {
@@ -138,17 +143,12 @@
       },
       {
         "manufacturer": "DECATHLON",
-        "model": "HYBRID PRO",
-        "added_date": "2026-11-03"
-      },
-      {
-        "manufacturer": "DECATHLON",
         "model": "POWER DYN",
         "added_date": "2026-11-03"
       },
       {
         "manufacturer": "DECATHLON",
-        "model": "CONTROL PRO",
+        "model": "HYBRID DYN",
         "added_date": "2026-11-03"
       }
     ]
