@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "observation_id": "PC-PADDLE-WATCH-20261124-014011Z",
-  "observed_at_utc": "2026-11-24T01:40:11Z",
+  "observation_id": "PC-PADDLE-WATCH-20261124-232846Z",
+  "observed_at_utc": "2026-11-24T23:28:46Z",
   "publisher": "Pickleball Cosmos Editorial",
   "scope": "Newest visible USA Pickleball approval page plus the complete public Paddle Compliance Report; not a full database mirror.",
   "source_of_record": {
@@ -13,19 +13,34 @@
     "approved_paddle_list": {
       "url": "https://equipment.usapickleball.org/paddle-list/",
       "http_status": 200,
-      "sha256_html": "a189066e9d1617a587628dbc1b3b6e3ea2ff361079bf0994ae2b0d9c75d19e52"
+      "sha256_html": "f552bf9c3729e3ab0cbb28fbd44ffcd9e161ba7e3c269979578b878ea8b2a4fb"
     },
     "compliance_report": {
       "url": "https://equipment.usapickleball.org/compliance/",
       "http_status": 200,
-      "sha256_html": "95769b8a842b19e20d15294122c8fc08cea4215c212d62d8f3683698b8295d65"
+      "sha256_html": "891a265cc23d549d9bf068d042e159c04f127c3f93e0c80040b384b56a094fe3"
     }
   },
   "approved_list": {
     "display_start": 1,
     "display_end": 25,
-    "approved_list_total": 5435,
+    "approved_list_total": 5441,
     "recent_approvals": [
+      {
+        "manufacturer": "X SPAK",
+        "model": "ExtraSpin-2.0",
+        "added_date": "2026-11-24"
+      },
+      {
+        "manufacturer": "RPM Pickleball",
+        "model": "Diesel112",
+        "added_date": "2026-11-23"
+      },
+      {
+        "manufacturer": "Wika",
+        "model": "Royal",
+        "added_date": "2026-11-23"
+      },
       {
         "manufacturer": "AEROKUN",
         "model": "ORYX",
@@ -98,12 +113,12 @@
       },
       {
         "manufacturer": "Enhance Pickleball",
-        "model": "Echo Elongated",
+        "model": "Echo Hybrid",
         "added_date": "2026-11-14"
       },
       {
         "manufacturer": "Enhance Pickleball",
-        "model": "Echo Hybrid",
+        "model": "Echo Elongated",
         "added_date": "2026-11-14"
       },
       {
@@ -123,11 +138,6 @@
       },
       {
         "manufacturer": "SXY",
-        "model": "Bamboo Pro",
-        "added_date": "2026-11-10"
-      },
-      {
-        "manufacturer": "SXY",
         "model": "Carbonator",
         "added_date": "2026-11-10"
       },
@@ -137,19 +147,9 @@
         "added_date": "2026-11-10"
       },
       {
-        "manufacturer": "Tier 1 Pickleball",
-        "model": "Firepower",
+        "manufacturer": "SXY",
+        "model": "Bamboo Pro",
         "added_date": "2026-11-10"
-      },
-      {
-        "manufacturer": "Selectra",
-        "model": "Essence: Water",
-        "added_date": "2026-11-09"
-      },
-      {
-        "manufacturer": "Selectra",
-        "model": "Essence: Air",
-        "added_date": "2026-11-09"
       }
     ]
   },

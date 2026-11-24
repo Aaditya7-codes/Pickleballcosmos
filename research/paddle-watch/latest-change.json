@@ -1,14 +1,46 @@
 {
   "schema_version": "1.0",
-  "previous_observation_id": "PC-PADDLE-WATCH-20261122-204328Z",
-  "current_observation_id": "PC-PADDLE-WATCH-20261124-014011Z",
-  "detected_at_utc": "2026-11-24T01:40:11Z",
+  "previous_observation_id": "PC-PADDLE-WATCH-20261124-014011Z",
+  "current_observation_id": "PC-PADDLE-WATCH-20261124-232846Z",
+  "detected_at_utc": "2026-11-24T23:28:46Z",
   "has_substantive_change": true,
-  "new_rows_in_recent_approval_window": [],
-  "rows_rolled_off_recent_approval_window": [],
-  "approved_list_total_before": 5434,
-  "approved_list_total_after": 5435,
-  "approved_list_total_delta": 1,
+  "new_rows_in_recent_approval_window": [
+    {
+      "manufacturer": "X SPAK",
+      "model": "ExtraSpin-2.0",
+      "added_date": "2026-11-24"
+    },
+    {
+      "manufacturer": "Wika",
+      "model": "Royal",
+      "added_date": "2026-11-23"
+    },
+    {
+      "manufacturer": "RPM Pickleball",
+      "model": "Diesel112",
+      "added_date": "2026-11-23"
+    }
+  ],
+  "rows_rolled_off_recent_approval_window": [
+    {
+      "manufacturer": "Tier 1 Pickleball",
+      "model": "Firepower",
+      "added_date": "2026-11-10"
+    },
+    {
+      "manufacturer": "Selectra",
+      "model": "Essence: Water",
+      "added_date": "2026-11-09"
+    },
+    {
+      "manufacturer": "Selectra",
+      "model": "Essence: Air",
+      "added_date": "2026-11-09"
+    }
+  ],
+  "approved_list_total_before": 5435,
+  "approved_list_total_after": 5441,
+  "approved_list_total_delta": 6,
   "compliance_records_added": [],
   "compliance_records_no_longer_listed": [],
   "compliance_record_status_or_date_changes": [],
