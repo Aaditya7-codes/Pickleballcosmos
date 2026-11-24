@@ -1,66 +1,14 @@
 {
   "schema_version": "1.0",
-  "previous_observation_id": "PC-PADDLE-WATCH-20261120-214907Z",
-  "current_observation_id": "PC-PADDLE-WATCH-20261122-204328Z",
-  "detected_at_utc": "2026-11-22T20:43:28Z",
+  "previous_observation_id": "PC-PADDLE-WATCH-20261122-204328Z",
+  "current_observation_id": "PC-PADDLE-WATCH-20261124-014011Z",
+  "detected_at_utc": "2026-11-24T01:40:11Z",
   "has_substantive_change": true,
-  "new_rows_in_recent_approval_window": [
-    {
-      "manufacturer": "ReAtoO",
-      "model": "999k",
-      "added_date": "2026-11-20"
-    },
-    {
-      "manufacturer": "Pantherspin",
-      "model": "LIGHTNING 007",
-      "added_date": "2026-11-20"
-    },
-    {
-      "manufacturer": "Luzz",
-      "model": "INFERNO2 M3",
-      "added_date": "2026-11-20"
-    },
-    {
-      "manufacturer": "ATHLETIQ",
-      "model": "Titan",
-      "added_date": "2026-11-20"
-    },
-    {
-      "manufacturer": "AEROKUN",
-      "model": "ORYX",
-      "added_date": "2026-11-20"
-    }
-  ],
-  "rows_rolled_off_recent_approval_window": [
-    {
-      "manufacturer": "Six Zero",
-      "model": "Coral Pro RCD-W 16mm",
-      "added_date": "2026-11-06"
-    },
-    {
-      "manufacturer": "Six Zero",
-      "model": "Coral Pro RCD-EFT 16mm",
-      "added_date": "2026-11-06"
-    },
-    {
-      "manufacturer": "Six Zero",
-      "model": "Coral Pro RCD-E 16MM",
-      "added_date": "2026-11-06"
-    },
-    {
-      "manufacturer": "DECATHLON",
-      "model": "POWER DYN",
-      "added_date": "2026-11-03"
-    },
-    {
-      "manufacturer": "DECATHLON",
-      "model": "HYBRID DYN",
-      "added_date": "2026-11-03"
-    }
-  ],
-  "approved_list_total_before": 5429,
-  "approved_list_total_after": 5434,
-  "approved_list_total_delta": 5,
+  "new_rows_in_recent_approval_window": [],
+  "rows_rolled_off_recent_approval_window": [],
+  "approved_list_total_before": 5434,
+  "approved_list_total_after": 5435,
+  "approved_list_total_delta": 1,
   "compliance_records_added": [],
   "compliance_records_no_longer_listed": [],
   "compliance_record_status_or_date_changes": [],

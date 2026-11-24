@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "observation_id": "PC-PADDLE-WATCH-20261122-204328Z",
-  "observed_at_utc": "2026-11-22T20:43:28Z",
+  "observation_id": "PC-PADDLE-WATCH-20261124-014011Z",
+  "observed_at_utc": "2026-11-24T01:40:11Z",
   "publisher": "Pickleball Cosmos Editorial",
   "scope": "Newest visible USA Pickleball approval page plus the complete public Paddle Compliance Report; not a full database mirror.",
   "source_of_record": {
@@ -13,18 +13,18 @@
     "approved_paddle_list": {
       "url": "https://equipment.usapickleball.org/paddle-list/",
       "http_status": 200,
-      "sha256_html": "a0192d139921170b642a194c405662d0779d55a6d071702c3849f1ef00238ac9"
+      "sha256_html": "a189066e9d1617a587628dbc1b3b6e3ea2ff361079bf0994ae2b0d9c75d19e52"
     },
     "compliance_report": {
       "url": "https://equipment.usapickleball.org/compliance/",
       "http_status": 200,
-      "sha256_html": "7d2d99f8d2c1cccdc72bd4a88c9c77b0e9036b17520d46c33b35bcd2ed9bd83f"
+      "sha256_html": "95769b8a842b19e20d15294122c8fc08cea4215c212d62d8f3683698b8295d65"
     }
   },
   "approved_list": {
     "display_start": 1,
     "display_end": 25,
-    "approved_list_total": 5434,
+    "approved_list_total": 5435,
     "recent_approvals": [
       {
         "manufacturer": "AEROKUN",
@@ -93,17 +93,17 @@
       },
       {
         "manufacturer": "Enhance Pickleball",
+        "model": "Echo Widebody",
+        "added_date": "2026-11-14"
+      },
+      {
+        "manufacturer": "Enhance Pickleball",
         "model": "Echo Elongated",
         "added_date": "2026-11-14"
       },
       {
         "manufacturer": "Enhance Pickleball",
         "model": "Echo Hybrid",
-        "added_date": "2026-11-14"
-      },
-      {
-        "manufacturer": "Enhance Pickleball",
-        "model": "Echo Widebody",
         "added_date": "2026-11-14"
       },
       {
