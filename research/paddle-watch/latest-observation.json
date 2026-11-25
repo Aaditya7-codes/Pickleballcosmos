@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "observation_id": "PC-PADDLE-WATCH-20261124-232846Z",
-  "observed_at_utc": "2026-11-24T23:28:46Z",
+  "observation_id": "PC-PADDLE-WATCH-20261125-230533Z",
+  "observed_at_utc": "2026-11-25T23:05:33Z",
   "publisher": "Pickleball Cosmos Editorial",
   "scope": "Newest visible USA Pickleball approval page plus the complete public Paddle Compliance Report; not a full database mirror.",
   "source_of_record": {
@@ -13,19 +13,24 @@
     "approved_paddle_list": {
       "url": "https://equipment.usapickleball.org/paddle-list/",
       "http_status": 200,
-      "sha256_html": "f552bf9c3729e3ab0cbb28fbd44ffcd9e161ba7e3c269979578b878ea8b2a4fb"
+      "sha256_html": "3ac203851f58b33b55e0657422a42ace32018e90dd01bbd3d525083e8fbad5ff"
     },
     "compliance_report": {
       "url": "https://equipment.usapickleball.org/compliance/",
       "http_status": 200,
-      "sha256_html": "891a265cc23d549d9bf068d042e159c04f127c3f93e0c80040b384b56a094fe3"
+      "sha256_html": "84616df503b09679206e40f934ee978a8aef18473ff2057e5c0682baab6d44d8"
     }
   },
   "approved_list": {
     "display_start": 1,
     "display_end": 25,
-    "approved_list_total": 5441,
+    "approved_list_total": 5442,
     "recent_approvals": [
+      {
+        "manufacturer": "RPM Pickleball",
+        "model": "Diesel216",
+        "added_date": "2026-11-24"
+      },
       {
         "manufacturer": "X SPAK",
         "model": "ExtraSpin-2.0",
@@ -108,12 +113,12 @@
       },
       {
         "manufacturer": "Enhance Pickleball",
-        "model": "Echo Widebody",
+        "model": "Echo Hybrid",
         "added_date": "2026-11-14"
       },
       {
         "manufacturer": "Enhance Pickleball",
-        "model": "Echo Hybrid",
+        "model": "Echo Widebody",
         "added_date": "2026-11-14"
       },
       {
@@ -144,11 +149,6 @@
       {
         "manufacturer": "SXY",
         "model": "Crazy Horse",
-        "added_date": "2026-11-10"
-      },
-      {
-        "manufacturer": "SXY",
-        "model": "Bamboo Pro",
         "added_date": "2026-11-10"
       }
     ]

@@ -1,14 +1,12 @@
 # Paddle Approval Watch — detected source change
 
-- Previous observation: `PC-PADDLE-WATCH-20261124-014011Z`
-- Current observation: `PC-PADDLE-WATCH-20261124-232846Z`
-- Detected: `2026-11-24T23:28:46Z`
-- Approved-list total: `5435` → `5441` (+6)
+- Previous observation: `PC-PADDLE-WATCH-20261124-232846Z`
+- Current observation: `PC-PADDLE-WATCH-20261125-230533Z`
+- Detected: `2026-11-25T23:05:33Z`
+- Approved-list total: `5441` → `5442` (+1)
 
 ## New rows in monitored recent-approval window
-- 2026-11-24 — **X SPAK** — ExtraSpin-2.0
-- 2026-11-23 — **Wika** — Royal
-- 2026-11-23 — **RPM Pickleball** — Diesel112
+- 2026-11-24 — **RPM Pickleball** — Diesel216
 
 ## Compliance records added
 - None
